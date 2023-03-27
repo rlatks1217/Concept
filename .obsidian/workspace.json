@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48b3db2b46441662",
+        "id": "00d8e4166ea9e1b3",
         "type": "tabs",
         "children": [
           {
-            "id": "2afbec91d0ec5e14",
+            "id": "29b0dda1784f4015",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python 기본개념1(03.27).md",
+                "file": "미니 프로젝트 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python 기본개념1(03.27).md",
+                "file": "미니 프로젝트 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python 기본개념1(03.27).md",
+                "file": "미니 프로젝트 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python 기본개념1(03.27).md"
+                "file": "미니 프로젝트 정리.md"
               }
             }
           }
@@ -148,20 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2afbec91d0ec5e14",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
-    "Pasted image 20230327122559.png",
-    "Pasted image 20230327122138.png",
-    "Pasted image 20230327121354.png",
-    "Pasted image 20230327121128.png",
-    "Pasted image 20230327113915.png",
-    "Pasted image 20230327113051.png",
-    "Pasted image 20230327112813.png",
-    "Pasted image 20230327112530.png",
-    "Pasted image 20230327112216.png",
-    "Pasted image 20230327112117.png",
-    "Pasted image 20230327111221.png",
     "Python/Python 기본개념1(03.27).md",
+    "Pasted image 20230327164748.png",
+    "Pasted image 20230327163905.png",
+    "Pasted image 20230327162918.png",
+    "Pasted image 20230327161543.png",
+    "Pasted image 20230327154151.png",
+    "Pasted image 20230327153137.png",
+    "Pasted image 20230327153022.png.md",
+    "Pasted image 20230327153022.png",
+    "Pasted image 20230327152616.png",
+    "Pasted image 20230327151542.png",
+    "Pasted image 20230327122559.png",
     "미니 프로젝트 정리.md",
     "Python",
     "Web Socket.md",

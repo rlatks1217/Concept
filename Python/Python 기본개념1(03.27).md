@@ -18,6 +18,31 @@
 
 ### Ananconda(IDE) 설치
 1. google에 anaconda 검색 후 설치
+2. Anaconda는 내부에 가상환경이 이미 하나 있고(base) 그 외에도 작업을 할 수 있는 환경을 여러 개 만들 수 있음
+
+이렇게 설정하는 이유
+- 각각 환경마다 dependency설정이나 파이썬 버전이 제각각일 수 있음 그렇기 때문에 할려는 목적에 맞춰서 환경을 따로 잡아주는 것이 좋음
+
+가상공간 생성하는 코드
+1. Anaconda prompt에서 conda create -n 환경의 이름 python=3.8 openssl
+=> 가상공간을 만들면서 3.8버전의 python과 openssl을 설치하겠다는 코드
+2. 이 코드를 작성하게 되면 이 특정 라이브러리를 사용하기 위한 여러 dependency도 설치해야 해서 여러가지 많은 설치해야 dependency들도 설치해야 한다고 나옴 (물론 yes 눌러서 설치해야 함)
+3. conda activate data_env => 해당 가상 공간에 접속
+4. conda install numpy => 다차원 배열을 사용하기 위한 numpy 모듈 설치
+5. conda install pandas => datafreme으로 만들기 위한 모듈 설치
+6. conda install matplotlib => 시각화를 위한 모듈 설치
+기본적으로 이 3가지 모듈을 설치해야 함
+
+##### 개발환경 설정
+1. conda install nb_conda =>여기에 이 모듈까지 설치(개발환경 세팅)
+2. jupyter notebook --generate-config => 설정 파일 만들어주는 코드
+3. 설정 파일 열어서 notebook_dir 찾은 다음 ''안에다가 우리가 python 파일을 저장할 폴더경로를 주면 됨
+
+##### 실행
+1. conda activate data_env(방에 일단 들어감)
+2. jupyter notebook로 jupyter notebook 실행! (창이 뜰 것임)
+
+###### 여기서 이 파일을 실행하는 주체는 가상환경의 Kernel임 우리가 설정해준 환경의 Kernal로 실행을 할 것이기 때문에 Kernal을 바꿔줘야 함
 
 ### Colaboratory 설정
 1. 내 구글 드라이브에 접속
@@ -93,3 +118,52 @@ ex) append
 ![[Pasted image 20230327122559.png]]
 - list형태로 만들어서 return하는 메소드들인 것 같지만 사실 진짜 list는 아님 단지, 유사한 자료구조일 뿐임
 - 그래서 list 타입일 때 사용할 수 있는 method를 사용할 수 없음
+
+### Set
+- 우리가 알고 있는 Set임
+- 순서가 없음
+- 중복된 데이터는 들어가지 않음
+- literal로 Set은 => {}를 이용
+![[Pasted image 20230327151542.png]]
+
+### Control statement(제어문)
+
+### if
+- 원래는 4칸 띄워쓰기/tap으로 띄우기 하지 않을 경우 에러임
+![[Pasted image 20230327152616.png]]
+- else 가 있는 경우 if 블럭 안에는 수행되는 특정 로직이 무조건 있어야 함 
+- 아무것도 실행시키고 싶지 않다면 pass를 사용함
+
+### for
+- for문은 2가지 형태로 많이 사용됨
+-  for ~ in range() : =>반복횟수를 정해주고 싶을 경우
+-  for ~ in list or dict :
+![[Pasted image 20230327153137.png]]
+
+### 함수의 선언
+![[Pasted image 20230327154151.png]]
+
+## LIST vs 배열
+선형 자료구조 : 하나의 자료 뒤에 하나의 자료가 존재하는 형태의 자료구조
+비선형 자료구조 : 하나의 자료 뒤에 여러 개의 자료가 존재할 수 있는 형태의 자료구조
+
+
+
+# Numpy
+
+- 파이썬은 기본적으로 배열이 없기 때문에 다차원 배열을 눈에 보이게 나타낼 수 없음, 또한 중첩list를 사용하기에는 빅데이터를 다루기에 효율적이지 않음
+- 그래서 numpy라는 것을 import해서 배열을 사용해야 함
+- 데이터 분석, 머신러닝, 딥러닝과 같은 분야를 할 때 가장 시간이 많이 걸리고 잘 해야 되는 것이 데이터 수집과 정제임
+- pandas(데이터 분석 module)와 matplotlib(시각화를 위한 module)의 base가 되는 자료구조 
+
+numpy는 딱 한 개의 자료구조를 우리에게 제공함 => ndarray라고 부르는 자료구조를 제공
+- n-dimensional array
+- 이것을 사용하면 보다 적은 메모리를 가지고 빠른 처리를 할 수 있음
+
+외부 module을 사용하기 위해서는 import 구문을 사용해야 함 + 모듈명이 길기 때문에 as np와 같이 alias를 잡아서 사용함
+![[Pasted image 20230327161543.png]]
+![[Pasted image 20230327162918.png]]
+![[Pasted image 20230327163905.png]]
+![[Pasted image 20230327164748.png]]
+
+
