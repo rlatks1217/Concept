@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b16494fc1c268fd",
+        "id": "48b3db2b46441662",
         "type": "tabs",
         "children": [
           {
-            "id": "18eb43a5bf5de420",
+            "id": "2afbec91d0ec5e14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Socket.md",
+                "file": "Python/Python 기본개념1(03.27).md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Socket.md",
+                "file": "Python/Python 기본개념1(03.27).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Socket.md",
+                "file": "Python/Python 기본개념1(03.27).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Socket.md"
+                "file": "Python/Python 기본개념1(03.27).md"
               }
             }
           }
@@ -139,17 +140,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "18eb43a5bf5de420",
+  "active": "2afbec91d0ec5e14",
   "lastOpenFiles": [
-    "채팅 구현하기",
-    "Web Socket.md"
+    "Pasted image 20230327122559.png",
+    "Pasted image 20230327122138.png",
+    "Pasted image 20230327121354.png",
+    "Pasted image 20230327121128.png",
+    "Pasted image 20230327113915.png",
+    "Pasted image 20230327113051.png",
+    "Pasted image 20230327112813.png",
+    "Pasted image 20230327112530.png",
+    "Pasted image 20230327112216.png",
+    "Pasted image 20230327112117.png",
+    "Pasted image 20230327111221.png",
+    "Python/Python 기본개념1(03.27).md",
+    "미니 프로젝트 정리.md",
+    "Python",
+    "Web Socket.md",
+    "채팅 구현하기"
   ]
 }
