@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "00d8e4166ea9e1b3",
+        "id": "eb12f46f4919d795",
         "type": "tabs",
         "children": [
           {
-            "id": "29b0dda1784f4015",
+            "id": "7cd2da20d4b1bcf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "미니 프로젝트 정리.md",
+                "file": "Python/Numpy기본(03.28).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "미니 프로젝트 정리.md",
+                "file": "Python/Numpy기본(03.28).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "미니 프로젝트 정리.md",
+                "file": "Python/Numpy기본(03.28).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "미니 프로젝트 정리.md"
+                "file": "Python/Numpy기본(03.28).md"
               }
             }
           }
@@ -147,21 +147,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "7cd2da20d4b1bcf7",
   "lastOpenFiles": [
+    "images/Pasted image 20230328101316.png",
+    "images/Pasted image 20230328100612.png",
+    "images/Pasted image 20230328095909.png",
     "Python/Python 기본개념1(03.27).md",
-    "Pasted image 20230327164748.png",
-    "Pasted image 20230327163905.png",
-    "Pasted image 20230327162918.png",
-    "Pasted image 20230327161543.png",
-    "Pasted image 20230327154151.png",
-    "Pasted image 20230327153137.png",
-    "Pasted image 20230327153022.png.md",
-    "Pasted image 20230327153022.png",
-    "Pasted image 20230327152616.png",
-    "Pasted image 20230327151542.png",
-    "Pasted image 20230327122559.png",
+    "Pasted image 20230328095044.png.md",
+    "Python/Numpy기본(03.28).md",
+    "images/Pasted image 20230328095044.png",
+    "images/Pasted image 20230328094938.png",
+    "images/Pasted image 20230328093114.png",
+    "기본 사용법/옵시디언 사용법.md",
+    "images/Pasted image 20230328092500.png",
+    "images/Pasted image 20230328092613.png",
+    "images/Pasted image 20230328090902.png",
+    "images/Pasted image 20230328090906.png",
+    "2023-03-28.md",
+    "Untitled.canvas",
+    "images/Pasted image 20230327102902.png",
+    "images",
     "미니 프로젝트 정리.md",
+    "images/Pasted image 20230327153022.png.md",
     "Python",
     "Web Socket.md",
     "채팅 구현하기"
