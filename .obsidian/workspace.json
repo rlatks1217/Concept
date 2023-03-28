@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20230328123149.png"
+                "file": "README_resources/Pasted image 20230328123149.png"
               }
             }
           },
@@ -23,7 +23,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20230328123213.png"
+                "file": "README_resources/Pasted image 20230328123213.png"
               }
             }
           },
@@ -167,31 +167,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1174f83c0a9836a",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
     "Python/Python 기본개념1(03.27).md",
-    "images/Pasted image 20230328123245.png",
-    "images/Pasted image 20230328123213.png",
-    "images/Pasted image 20230328123149.png",
+    "README_resources/Pasted image 20230328123245.png",
+    "README_resources/Pasted image 20230328123213.png",
+    "README_resources/Pasted image 20230328123149.png",
     "Python/Numpy기본(03.28).md",
     "Pasted.md",
     "(Pasted image 20230328105225.png.md",
     "_Images",
     "(Pasted.md",
     "미니 프로젝트 정리.md",
-    "images/Pasted image 20230328114402.png",
+    "README_resources/Pasted image 20230328114402.png",
     "images/Pasted image 20230328113500.png",
-    "images/Pasted image 20230328105225.png",
-    "images/Pasted image 20230328101316.png",
-    "images/Pasted image 20230328100612.png",
-    "images/Pasted image 20230328095909.png",
+    "README_resources/Pasted image 20230328105225.png",
+    "README_resources/Pasted image 20230328101316.png",
+    "README_resources/Pasted image 20230328100612.png",
+    "README_resources/Pasted image 20230328095909.png",
     "Pasted image 20230328095044.png.md",
     "images/Pasted image 20230328095044.png",
     "기본 사용법/옵시디언 사용법.md",
     "2023-03-28.md",
     "Untitled.canvas",
-    "images",
-    "images/Pasted image 20230327153022.png.md",
+    "README_resources",
+    "README_resources/Pasted image 20230327153022.png.md",
     "Python",
     "Web Socket.md",
     "채팅 구현하기"
