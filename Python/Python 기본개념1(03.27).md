@@ -48,8 +48,7 @@
 2. google workspace market place(새로 만들기 -> 파일 -> 더보기)에서 Colaboratory 설치
 
 ### Colab 기본 사용법
-![[Pasted image 20230327094452.png]]
-
+![](Pasted%20image%2020230327094452.png)
 ### 기본적인 내용
 - python의 built-in dataType => built-in (이미 파이썬에 있는)
 1. Numeric(숫자)
@@ -60,40 +59,39 @@
 6. Bool
 
 ### Numeric(숫자)
-- 파이썬은 primitive 타입이 없음 모두 다 객체임(숫자 역시 객체임)
-- 
-![[Pasted image 20230327102902.png]]
+- 파이썬은 primitive 타입이 없음 모두 다 객체임(숫자 역시 객체임) 
+![](Pasted%20image%2020230327102902.png)
 - 파이썬은 자연수를 썼더라도 연산을 할 때는 무조건 실수로 처리함
 
 #### List
-![[Pasted image 20230327103748.png]]
+![](Pasted%20image%2020230327103748.png)
 - 당연히 list안에 list를 넣는 것도 가능함 하지만 배열의 개념이 아니기 때문에  list는 차원의 개념이 없음 
-![[Pasted image 20230327104033.png]]
-![[Pasted image 20230327111007.png]]
-![[Pasted image 20230327111023.png]]
+![](Pasted%20image%2020230327104033.png)
+![](Pasted%20image%2020230327111007.png)
+![](Pasted%20image%2020230327111023.png)
 - list 역시 객체이기 때문에 여러가지 method가 있음
 ex) append
-![[Pasted image 20230327111221.png]]
+![](Pasted%20image%2020230327111221.png)
 
 #### tuple
 - 기본적으로 list와 동일함 하지만 tuple은 readOnly(수정, 삭제 불가)
 - tuple은 literal로 (소괄호)를 이용
-![[Pasted image 20230327112117.png]]
+![](Pasted%20image%2020230327112117.png)
 - 연산자 우선순위를 두기 위한 소괄호와 구분하기 위해 요소가 1개짜리인 튜플은 값 +,(컴마) 로 표기하도록 설계함.
- ![[Pasted image 20230327112216.png]]
+ ![](Pasted%20image%2020230327112216.png)
 - 튜플 역시 [대괄호]를 사용하여 indexing을 한다.
-![[Pasted image 20230327112530.png]]
+![](Pasted%20image%2020230327112530.png)
 - tuple에서 말하는 readonly라는 특성은 각 요소값 즉, 실제로 각 index에 있는 객체의 주소값이 변하지 않는 것을 말함
 - 그래서 tuple은 readonly이지만 그 안의 list가 있을 때 list의 내용물은 바뀔 수 있는 것 => list 안의 내용이 변한다고 해도 해당 list의 주소값이 변하지는 않기 때문에 가능한 것임 
-![[Pasted image 20230327112813.png]] 
+![](Pasted%20image%2020230327112813.png) 
 - 튜플은 기호를 생략할 수 있음(1개짜리 튜플은 제외)
-![[Pasted image 20230327113051.png]]
+![](Pasted%20image%2020230327113051.png)
 
 ### range
 - range는 숫자 범위를 말함(실제로 데이터가 있는 상태가 아님)
 - range는 literal로 사용하지 않음(생성자 함수인 range()를 사용함)
 - range(0, 10) 에서는 앞의 0을 생략해도 됨(그래도 맨 앞 index라는 의미로 통함)
-![[Pasted image 20230327113915.png]]
+![](Pasted%20image%2020230327113915.png)
 - indexing은 마찬가지로 [대괄호]로 한다.
 
 ### Text Sequence
@@ -101,20 +99,20 @@ ex) append
 - literal은 '', "" 둘 다 사용할 수 있음(default는 ''임)
 -  Text Sequence는 실제로 list임
 -  그래서 list의 성질을 그대로 이어 받음
-![[Pasted image 20230327121128.png]]
+![](Pasted%20image%2020230327121128.png)
 - 문자열은 결국 str class의 객체임 그러다 보니 굉장히 많은 method를 가지고 있음
 - format이라는 method를 이용하여 {중괄호} 순서대로 특정 문자열들을 삽입할 수 있음
-![[Pasted image 20230327121354.png]]
+![](Pasted%20image%2020230327121354.png)
 
 ### Mapping
 - 우리가 흔히 알고 있는 Map 구조(key와 value로 데이터를 저장하는 구조)를 말함
 - 파이썬에서는 이런 자료구조를 별도로 dictionary라고 부름
 - 당연히 사용하는 클래스는 dict라는 클래스를 사용함
 - literal로 표현할 수 있음 어떻게 ? {중괄호} 이용
-![[Pasted image 20230327122138.png]]
+![](Pasted%20image%2020230327122138.png)
 
 - 자바와는 다르게 python의 dictionary는 동적으로 데이터를 추가할 수 있음
-![[Pasted image 20230327122559.png]]
+![](Pasted%20image%2020230327122559.png)
 - list형태로 만들어서 return하는 메소드들인 것 같지만 사실 진짜 list는 아님 단지, 유사한 자료구조일 뿐임
 - 그래서 list 타입일 때 사용할 수 있는 method를 사용할 수 없음
 
@@ -123,13 +121,13 @@ ex) append
 - 순서가 없음
 - 중복된 데이터는 들어가지 않음
 - literal로 Set은 => {}를 이용
-![[Pasted image 20230327151542.png]]
+![](Pasted%20image%2020230327151542.png)
 
 ### Control statement(제어문)
 
 ### if
 - 원래는 4칸 띄워쓰기/tap으로 띄우기 하지 않을 경우 에러임
-![[Pasted image 20230327152616.png]]
+![](Pasted%20image%2020230327152616.png)
 - else 가 있는 경우 if 블럭 안에는 수행되는 특정 로직이 무조건 있어야 함 
 - 아무것도 실행시키고 싶지 않다면 pass를 사용함
 
@@ -137,10 +135,10 @@ ex) append
 - for문은 2가지 형태로 많이 사용됨
 -  for ~ in range() : =>반복횟수를 정해주고 싶을 경우
 -  for ~ in list or dict :
-![[Pasted image 20230327153137.png]]
+![](Pasted%20image%2020230327153137.png)
 
 ### 함수의 선언
-![[Pasted image 20230327154151.png]]
+![](Pasted%20image%2020230327154151.png)
 
 ## LIST vs 배열
 선형 자료구조 : 하나의 자료 뒤에 하나의 자료가 존재하는 형태의 자료구조
@@ -160,9 +158,9 @@ numpy는 딱 한 개의 자료구조를 우리에게 제공함 => ndarray라고 
 - 이것을 사용하면 보다 적은 메모리를 가지고 빠른 처리를 할 수 있음
 
 외부 module을 사용하기 위해서는 import 구문을 사용해야 함 + 모듈명이 길기 때문에 as np와 같이 alias를 잡아서 사용함
-![[Pasted image 20230327161543.png]]
-![[Pasted image 20230327162918.png]]
-![[Pasted image 20230327163905.png]]
-![[Pasted image 20230327164748.png]]
+![](Pasted%20image%2020230327161543.png)
+![](Pasted%20image%2020230327162918.png)
+![](Pasted%20image%2020230327163905.png)
+![](Pasted%20image%2020230327164748.png)
 
 
