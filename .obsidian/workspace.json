@@ -8,26 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6ca1cc84828f4b7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "README_resources/Pasted image 20230328123149.png"
-              }
-            }
-          },
-          {
-            "id": "18baf36bd5423f1d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "README_resources/Pasted image 20230328123213.png"
-              }
-            }
-          },
-          {
             "id": "d1174f83c0a9836a",
             "type": "leaf",
             "state": {
@@ -39,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "d1174f83c0a9836a",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20230328123149.png",
+    "README_resources/Pasted image 20230328123213.png",
+    "Python/Numpy기본(03.28).md",
     "Python/Python 기본개념1(03.27).md",
     "README_resources/Pasted image 20230328123245.png",
-    "README_resources/Pasted image 20230328123213.png",
-    "README_resources/Pasted image 20230328123149.png",
-    "Python/Numpy기본(03.28).md",
     "Pasted.md",
     "(Pasted image 20230328105225.png.md",
     "_Images",
