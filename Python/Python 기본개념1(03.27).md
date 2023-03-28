@@ -62,7 +62,7 @@
 
 ### Numeric(숫자)
 - 파이썬은 primitive 타입이 없음 모두 다 객체임(숫자 역시 객체임)
-<img width="237" alt="image" src="https://user-images.githubusercontent.com/110887880/228093297-8ac8877c-a1c0-4a21-a353-7e82fe53e556.png">
+- 
 ![[Pasted image 20230327102902.png]]
 - 파이썬은 자연수를 썼더라도 연산을 할 때는 무조건 실수로 처리함
 
