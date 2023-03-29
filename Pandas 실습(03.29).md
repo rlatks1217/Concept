@@ -175,5 +175,219 @@ print(df.sum())
 #numpy에서는 2차원 배열 안에 있는 데이터를 모두 더했었음
 #df안의 값을 모두 더하는 게 아님
 #sum 안에 인자가 없으면 default로 axis =0(행방향)으로 설정되어 있음
+
+
+
+# print(df.sum(axis=1)) # 결과가 4개로 나올 것
+# print(df.mean()) 
+#이 역시 axis의 default는 행방향(0)이고 nan이 있을 경우 그건 빼고 연산하는 것이 default
+
+# print(df.mean(axis=0, skipna=False)) 
+#skipna=False라고 하면 nan을 무시하지 않음
+#그런데 nan을 무시하지 않으면 숫자랑 nan은 연산할 수 없으므로 결과가 nan으로 떨어진다.
+
+
+
+#NaN 처리 방법
+#1. 삭제 => 가장 좋은 방법임
+# 근데 만약 애초에 데이터가 충분치 않을 경우 거기서 삭제까지 하면 데이터가 더 적어지게 됨
+# 데이터분석에서 데이터는 많은 게 좋다고 함
+# 일반적으로는 10만건 정도 있으면 충분한 데이터라고 함(하지만 사실은 그때그때 다름)
+
+#2. NaN을 적절하게 수정해서 사용해야 함(Interpolation - 보간이라고 함)
+#일반적으로 NaN은 데이터들의 평균값으로 수정해서 사용하는 경우가 있음
+#주변 값이랑 비슷한 값을 NaN자리에 넣어서 사용하는 경우도 있음
+#이런 여러 방법을 이용해서 값을 수정함
+
+mean_one = df['one'].mean()
+mean_two = df['two'].mean()
+
+#함수를 이용하여 NaN을 다른 값으로 수정할 수 있음
+# df['one'] = df['one'].fillna(value=mean_one) #원본 열에 변화된 열 넣음
+df['one'].fillna(value=mean_one, inplace=True) 
+#여기서도 inplace=True 사용가능
+print(df['one'])
+#NaN을 찾아서 mean_one의 값을 넣어라
+#mean_one이 실수라면 나머지 데이터의 형태도 실수형태로 바뀜
+
+
+
+#DataFrame 연결 혹은 겳합
+#그룹핑
+df1 = pd.DataFrame({
+    'a' : ['a0','a1','a2','a3'],
+    'b' : [1,2,3,4],
+    'c' : ['c0','c1','c2','c3']
+})
+
+display(df1)
+
+
+df2 = pd.DataFrame({
+    'b' : ['b0','b1','b2','b3'],
+    'c' : ['c0','c1','c2','c3'],
+    'd' : ['d0','d1','d2','d3'],
+    'e' : ['e0','e1','e2','e3']
+},index=[2,3,4,5])
+
+display(df1)
+
+#1. 위, 아래 방향으로 이어 붙여요
+result1 = pd.concat([df1, df2], axis = 0) #연결할 DataFrame들을 list로 묶어서 인자로 넣음, 붙을 방향(위아래(행방향) or 양옆(열방향))
+display(result1) #보면서 이해
+#각 DataFrame에 있던 행 인덱스 역시 고대로 붙게 됨(인덱스가 중복됨)
+
+result2 = pd.concat([df1, df2], axis = 0, ignore_index=True)
+#ignore_index=True하면 각 DataFrame에 있던 인덱스를 무시하고 
+#새로 합쳐진 DataFrame에 대한 새로운 인덱스를 생성함
+display(result2)
+
+#DataFrame을 가로로 붙여요
+#붙을 때 행 인덱스가 같은 것끼리 붙음
+result2 = pd.concat([df1, df2], axis = 1, ignore_index=True)
+
+
+
+import numpy as np
+import pandas as pd
+
+data1 = { "학번" : [1,2,3,4],
+          "이름" : ["홍길동","신사임당","강감찬","이순신"],
+          "학년" : [2,4,1,3]}
+
+data2 = { "학번" : [1,2,4,5],
+          "학과" : ["CS","MATH","MATH","CS"],
+          "학점" : [3.4,2.9,4.5,1.2]}
+
+
+
+df1 = pd.DataFrame(data1)
+df2 = pd.DataFrame(data2)
+
+display(df1, df2)
+
+#inner join 해보기 merge() 사용
+pd.merge(df1, df2, on='학번', how='inner') #on : 기준 컬럼 / join 기준
+
+pd.merge(df1, df2, on='학번', how='outer') #on : 기준 컬럼 / join 기준
+
+
+
+data1 = { "학번" : [1,2,3,4],
+          "이름" : ["홍길동","신사임당","강감찬","이순신"],
+          "학년" : [2,4,1,3]}
+
+data2 = { "학생학번" : [1,2,4,5],
+          "학과" : ["CS","MATH","MATH","CS"],
+          "학점" : [3.4,2.9,4.5,1.2]}
+
+df1 = pd.DataFrame(data1)
+df2 = pd.DataFrame(data2)
+
+#하지만 두 DataFrame이 동일한 종류의 데이터를 가지고 있더라도 컬럼이름은 다를 수 있음
+#그래서 아래처럼 처리한다.
+pd.merge(df1, df2, left_on='학번',right_on='학생학번', how='outer')
+
+
+
+#Grouping
+#Group을 하기 전에.. 함수매핑부터 알아보아요
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+# seaborn이 가지고 있는 data-set을 사용하기 위해 설치한 것임
+# seaborn이 가지고 있는 data-set 중 titanic이라는 이름의 데이터를 사용해 볼 것
+titanic = sns.load_dataset('titanic') #데이터를 pandas의 DataFrame 형태로 바로 바꿔줌
+display(titanic)
+
+
+
+# df = titanic[['age','fare']]
+
+#위처럼도 되지만 행과 열을 추출하기 위해서는 일단 loc를 써야 한다고 알자
+df = titanic.loc[:,['age','fare']]
+display(df)
+
+#사용자 정의 함수
+def add_10(n) :
+    return n +10
+
+def myFunc(a,b) :
+    return a + b
+
+# age열의 모든 행에 대해서 함수를 적용하고 싶어요!
+# 즉, Series에 대해서 함수를 적용하려고 하는 것임 => 함수매핑!
+# apply()라는 함수를 쓰면 됨 => 결과값은 처리가된 Series가 바로 리턴됨
+# Series의 각 요소마다 함수를 적용시키는 역할을 함
+
+#기본적으로 Series의 각 요소들이 해당 함수의 인자로 들어가게 될 것임
+result1 = df['age'].apply(add_10)
+print(result1)
+
+#위와는 다르게 함수의 인자가 2개다 기본적으로 Series의 각 요소가 첫째 인자로 들어갈 것이고 
+#나머지 하나를 더 집어넣어줘야 하므로 이런식으로 임의로 하나를 더 넣어준다
+result2 = df['age'].apply(myFunc, b=20)
+print(result1)
+
+#람다로 처리
+result3 = df['age'].apply(lambda x: x+30)
+print(result3)
+
+
+
+# 위에서 설명한 건 Series에 대해서 apply()함수를 적용할 수 있다는 내용이었음
+# 그렇다면 DataFrame에 함수를 적용하려면 어떻게 해야 할까?
+# applymap()을 이용하면 됨
+
+df = titanic.loc[:,['age','fare']]
+display(df)
+
+def add_10(n) :
+    return n + 10
+
+result4 = df.applymap(add_10)
+display(result4.head(4))
+
+
+
+#진짜 group by
+
+df = titanic.loc[:, ['age','sex','class','fare','survived']]
+display(df.head())
+
+# 그룹으로 묶어보자
+grouped = df.groupby(['class']) #[컬럼명]을 인자를 넣어서 묶음
+print(grouped) # 묶은 데이터라는 정보만 나오고 어떻게 묶였는지 눈으로 확인할 수 없음
+
+# 총 981개의 데이터가 class를 기준으로 'First', 'Second','Third'
+# 3개의 그룹으로 묶여요! 확인하려면 for문을 이용하면 됨
+
+#key : 몇번째 그룹인지 / group : 실제 한 그룹으로 묶인 데이터들의 DataFrame형태
+for key, group in grouped : # (key, group)는 튜플이기 때문에 key, group으로 괄호를 생략한 형태로 쓸 수 있음
+    print('key : {}'.format(key))
+    print('key : {}'.format(len(group)))
+    display(group.head())
+    
+avg = grouped.mean()
+display(avg)
+
+#한 그룹만 뽑아보자
+group3 = grouped.get_group('Third')
+display(group3)
+
+
+
+#사실 [컬럼명]라는 list형태로 인자를 주고 있음 
+#이것은 [컬럼명1, 컬럼명2]처럼 여러 개로 grouping을 할 수도 있단 얘기임 
+grouped = df.groupby(['class','sex'])
+avg2 = grouped.mean()
+display(avg)
+
+
+
+#그룹 안에 그룹을 뽑고 싶은 경우 튜플을 인자로 주면 됨
+group4 = grouped.get_group(('Third','female'))
+display(group4)
 ```
 
