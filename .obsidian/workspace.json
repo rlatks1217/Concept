@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5b3d986a9fa928f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pandas 실습(03.29).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Numpy기본(03.28).md",
+                "file": "Pandas 실습(03.29).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Numpy기본(03.28).md",
+                "file": "Pandas 실습(03.29).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Numpy기본(03.28).md"
+                "file": "Pandas 실습(03.29).md"
               }
             }
           }
@@ -146,12 +160,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1174f83c0a9836a",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
+    "Python/Numpy기본(03.28).md",
+    "Pandas 실습(03.29).md",
+    "Python/Python 기본개념1(03.27).md",
+    "Python/res/Pasted image 20230328135328.png",
+    "Python/res",
+    "README_resources/Pasted image 20230328135148.png",
     "README_resources/Pasted image 20230328123149.png",
     "README_resources/Pasted image 20230328123213.png",
-    "Python/Numpy기본(03.28).md",
-    "Python/Python 기본개념1(03.27).md",
     "README_resources/Pasted image 20230328123245.png",
     "Pasted.md",
     "(Pasted image 20230328105225.png.md",
@@ -163,9 +181,7 @@
     "README_resources/Pasted image 20230328105225.png",
     "README_resources/Pasted image 20230328101316.png",
     "README_resources/Pasted image 20230328100612.png",
-    "README_resources/Pasted image 20230328095909.png",
     "Pasted image 20230328095044.png.md",
-    "images/Pasted image 20230328095044.png",
     "기본 사용법/옵시디언 사용법.md",
     "2023-03-28.md",
     "Untitled.canvas",

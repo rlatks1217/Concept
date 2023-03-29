@@ -158,9 +158,83 @@ numpy는 딱 한 개의 자료구조를 우리에게 제공함 => ndarray라고 
 - 이것을 사용하면 보다 적은 메모리를 가지고 빠른 처리를 할 수 있음
 
 외부 module을 사용하기 위해서는 import 구문을 사용해야 함 + 모듈명이 길기 때문에 as np와 같이 alias를 잡아서 사용함
-![](Pasted%20image%2020230327161543.png)
-![](Pasted%20image%2020230327162918.png)
-![](Pasted%20image%2020230327163905.png)
-![](Pasted%20image%2020230327164748.png)
+```
+import numpy as np
+
+
+
+# pandas : 데이터 처리를 하기 위해서 우리가 사용하는 실제적인 module
+# 기본적인 자료구조는 2개가 존재
+
+
+
+# 1.Series : 1차원 ndarray를 기반으로 만든 자료구조
+# 2.DataFrame : Series를 세로로 이어붙여 만든 2차원 자료구조
+
+
+
+# pandas를 설치해야 사용할 수 있음(conda install pandas)
+
+
+
+#1차원 = 백터라고 함
+#백터 배열을 한번 만들어보자
+b = np.array(a)
+print(b) #요소 사이에 컴마가 없음
+print(type(b))
+
+#list 안에는 아무거나 막 들어갈 수 있음(type 상관없이)
+c = [1, 3.14, '홍길동', True]
+d = np.array(c)
+# numpy 배열은 같은 데이터 타입만 존재할 수 있음
+# 그래서 다른 data Type이 있는 list를 numpy 배열로 만들려고 할 때 
+# 자동으로 list 안의 요소들을 다 같은 data Type으로 만듬
+print(d.dtype) #numpy 배열의 type을 알고 싶다면 dtype을 사용해야 함
+
+
+
+# ndarray가 list와 가장 크게 차이가 나는 건
+# 차원을 표현할 수 있다는 것임
+myList = [[1,2,3],[4,5,6]] # 중첩리스트라고 표현함
+arr = np.array(myList)
+print(arr) # 중첩 리스트를 2차원 배열로 만들 수 있음
+print(arr[0,1]) # 0번째 행의 1번째 열의 값을 출력한다는 의미로 이렇게 쓸 수 있음(이게 정석임)
+print(arr[0][1]) # 물론 이렇게도 됨
+print(arr[0]) # 0번째 행을 지칭함 [1,2,3]
+
+
+
+#1차원 = 백터라고 함
+#백터 배열을 한번 만들어보자
+b = np.array(a)
+print(b) #요소 사이에 컴마가 없음
+print(type(b))
+
+
+
+#list 안에는 아무거나 막 들어갈 수 있음(type 상관없이)
+c = [1, 3.14, '홍길동', True]
+d = np.array(c)
+# numpy 배열은 같은 데이터 타입만 존재할 수 있음
+# 그래서 다른 data Type이 있는 list를 numpy 배열로 만들려고 할 때 
+# 자동으로 list 안의 요소들을 다 같은 data Type으로 만듬
+print(d.dtype) #numpy 배열의 data type을 알고 싶다면 dtype을 사용해야 함
+
+
+
+# 중요한 속성이 있음
+
+# 1차원 ndarray를 하나 만들어보자
+arr = np.array([1,2,3,4])
+print(arr.dtype) #ndarray의 요소값들의 dataType 
+print(arr.ndim) #ndarray의 차원수 
+print(arr.shape) #ndarray 차원의 수(출력되는 숫자의 갯수)와 요소의 갯수를 같이 tuple로 표현함
+#결과 tuple 안에서 원소의 갯수는 차원의 갯수를 의미함/ 각 차원의 숫자는 해당 차원의 요소 수
+
+b = [[[1],[2]],[[3],[4]],[[5],[6]]]
+arr = np.array(b)
+print(arr.shape) #(3, 2, 1)
+```
+
 
 
