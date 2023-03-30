@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas 실습(03.29).md",
+                "file": "Python/Pandas 실습(03.29).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d25f234e2da775b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "머신러닝 개념(03.30).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pandas 실습(03.29).md",
+                "file": "머신러닝 개념(03.30).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pandas 실습(03.29).md",
+                "file": "머신러닝 개념(03.30).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pandas 실습(03.29).md"
+                "file": "머신러닝 개념(03.30).md"
               }
             }
           }
@@ -160,11 +172,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5b3d986a9fa928f",
+  "active": "0d25f234e2da775b",
   "lastOpenFiles": [
-    "README.md",
+    "Python/Pandas 실습(03.29).md",
+    "머신러닝 개념(03.30).md",
+    "미니 프로젝트 정리.md",
     "Python/Numpy기본(03.28).md",
-    "Pandas 실습(03.29).md",
+    "README.md",
     "Python/Python 기본개념1(03.27).md",
     "Python/res/Pasted image 20230328135328.png",
     "Python/res",
@@ -176,7 +190,6 @@
     "(Pasted image 20230328105225.png.md",
     "_Images",
     "(Pasted.md",
-    "미니 프로젝트 정리.md",
     "README_resources/Pasted image 20230328114402.png",
     "images/Pasted image 20230328113500.png",
     "README_resources/Pasted image 20230328105225.png",
