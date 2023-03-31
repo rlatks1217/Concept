@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/머신러닝(03.31).md",
+                "file": "Python/머신러닝 개념(03.30).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/머신러닝(03.31).md",
+                "file": "Python/머신러닝 개념(03.30).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/머신러닝(03.31).md",
+                "file": "Python/머신러닝 개념(03.30).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/머신러닝(03.31).md"
+                "file": "Python/머신러닝 개념(03.30).md"
               }
             }
           }
@@ -146,15 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cee998d877d68ac3",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
-    "Python/Numpy기본(03.28).md",
     "Python/머신러닝(03.31).md",
+    "Python/머신러닝 개념(03.30).md",
+    "README_resources/Pasted image 20230331095603.png",
+    "README_resources/Pasted image 20230331095545.png",
+    "README_resources/Pasted image 20230331095525.png",
+    "README_resources/Pasted image 20230331095457.png",
+    "Python/Numpy기본(03.28).md",
     "Python/Pandas 실습(03.29).md",
-    "머신러닝 개념(03.30).md",
+    "Python/Python 기본개념1(03.27).md",
     "미니 프로젝트 정리.md",
     "README.md",
-    "Python/Python 기본개념1(03.27).md",
     "Python/res/Pasted image 20230328135328.png",
     "Python/res",
     "README_resources/Pasted image 20230328135148.png",
@@ -166,10 +170,6 @@
     "_Images",
     "(Pasted.md",
     "README_resources/Pasted image 20230328114402.png",
-    "images/Pasted image 20230328113500.png",
-    "README_resources/Pasted image 20230328105225.png",
-    "README_resources/Pasted image 20230328101316.png",
-    "README_resources/Pasted image 20230328100612.png",
     "Pasted image 20230328095044.png.md",
     "기본 사용법/옵시디언 사용법.md",
     "2023-03-28.md",
