@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4b16494fc1c268fd",
+        "id": "747399c63e22e9da",
         "type": "tabs",
         "children": [
           {
-            "id": "18eb43a5bf5de420",
+            "id": "9a52624c8c84dd83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기본 사용법/옵시디언 사용법.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -86,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기본 사용법/옵시디언 사용법.md",
+                "file": "혼공/Web Socket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기본 사용법/옵시디언 사용법.md",
+                "file": "혼공/Web Socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기본 사용법/옵시디언 사용법.md"
+                "file": "혼공/Web Socket.md"
               }
             }
           }
@@ -147,11 +142,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "18eb43a5bf5de420",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
+    "혼공/미니 프로젝트 정리.md",
+    "혼공/Web Socket.md",
+    "Python/머신러닝3일차 주말정리(04.02).md",
+    "혼공",
+    "Python/머신러닝1일차(03.30).md",
+    "Python/머신러닝2일차(03.31).md",
+    "기본 사용법/옵시디언 사용법.md",
     "파이썬 기초(생소한 것만 간단히 정리).md",
     "Python/파이썬 기초(생소한 것만 간단히 정리).md",
-    "미니 프로젝트 정리.md",
     "README_resources/Pasted image 20230328092613.png",
     "README_resources/Pasted image 20230331095603.png",
     "README_resources/Pasted image 20230331095545.png",
@@ -165,16 +166,12 @@
     "README_resources/Pasted image 20230327153022.png.md",
     "README_resources",
     "README.md",
-    "Python/머신러닝(03.31).md",
-    "Python/머신러닝 개념(03.30).md",
     "Python/Python 기본개념1(03.27).md",
     "Python/Pandas 실습(03.29).md",
     "Python/Numpy기본(03.28).md",
     "Pasted.md",
-    "기본 사용법/옵시디언 사용법.md",
     "Python",
     "기본 사용법/마크다운 사용법.md",
-    "Web Socket.md",
     "채팅 구현하기/Web Socket.md",
     "채팅 구현하기"
   ]
