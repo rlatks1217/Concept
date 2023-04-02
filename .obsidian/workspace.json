@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Socket.md",
+                "file": "기본 사용법/옵시디언 사용법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be6c220bc80b1dcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "파이썬 기초(생소한 것만 간단히 정리).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Socket.md",
+                "file": "파이썬 기초(생소한 것만 간단히 정리).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Socket.md",
+                "file": "파이썬 기초(생소한 것만 간단히 정리).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Socket.md"
+                "file": "파이썬 기초(생소한 것만 간단히 정리).md"
               }
             }
           }
@@ -147,9 +160,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "18eb43a5bf5de420",
+  "active": "be6c220bc80b1dcf",
   "lastOpenFiles": [
-    "채팅 구현하기",
-    "Web Socket.md"
+    "기본 사용법/옵시디언 사용법.md",
+    "파이썬 기초(생소한 것만 간단히 정리).md",
+    "Python",
+    "기본 사용법/마크다운 사용법.md",
+    "Web Socket.md",
+    "채팅 구현하기/Web Socket.md",
+    "채팅 구현하기"
   ]
 }
