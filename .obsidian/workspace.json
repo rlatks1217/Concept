@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/Web Socket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d380a5e19e42265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "혼공/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md"
+                "file": "혼공/알고리즘.md"
               }
             }
           }
@@ -147,10 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35908f050787a924",
+  "active": "0d380a5e19e42265",
   "lastOpenFiles": [
-    "혼공/VS CODE Web Socket 실습.md",
+    "README_resources/Pasted image 20230502184215.png",
+    "혼공/Web Socket.md",
+    "혼공/알고리즘.md",
     "혼공/최종 프로젝트 정리.md",
+    "혼공/VS CODE Web Socket 실습.md",
     "README_resources/Pasted image 20230427103824.png",
     "README_resources/Pasted image 20230427103800.png",
     "혼공/미니 프로젝트 정리.md",
@@ -170,7 +185,6 @@
     "Python/머신러닝1일차(03.30).md",
     "README_resources/Pasted image 20230403181717.png",
     "Python/머신러닝 개념(03.30).md",
-    "혼공/Web Socket.md",
     "혼공",
     "Python/파이썬 기초(생소한 것만 간단히 정리).md",
     "Python/머신러닝(03.31).md",
@@ -186,10 +200,8 @@
     "(Pasted.md",
     "Pasted image 20230328095044.png.md",
     "기본 사용법/옵시디언 사용법.md",
-    "2023-03-28.md",
     "Untitled.canvas",
     "README_resources",
-    "README_resources/Pasted image 20230327153022.png.md",
     "Python",
     "채팅 구현하기"
   ]
