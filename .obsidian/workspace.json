@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/코딩 테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/코딩 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md",
+                "file": "혼공/코딩 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/최종 프로젝트 정리.md"
+                "file": "혼공/코딩 테스트.md"
               }
             }
           }
@@ -148,9 +149,9 @@
   },
   "active": "d25d1b487c4b7fec",
   "lastOpenFiles": [
+    "혼공/최종 프로젝트 정리.md",
     "README_resources/Pasted image 20230516195052.png",
     "혼공/음성처리.md",
-    "혼공/최종 프로젝트 정리.md",
     "README_resources/Pasted image 20230516112958.png",
     "README_resources/Pasted image 20230516112631.png",
     "혼공/코딩 테스트.md",
@@ -162,7 +163,6 @@
     "README_resources/Pasted image 20230508121154.png",
     "README_resources/Pasted image 20230508104246.png",
     "README_resources/Pasted image 20230508104026.png",
-    "README_resources/Pasted image 20230508103903.png",
     "Pasted image 20230508093533.png.md",
     "혼공/Web Socket.md",
     "혼공/VS CODE Web Socket 실습.md",
