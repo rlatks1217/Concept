@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8159aca6319ea11e",
+        "id": "e36de5c835b01ca3",
         "type": "tabs",
         "children": [
           {
-            "id": "9b4879c66ce0bfb6",
+            "id": "d25d1b487c4b7fec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/코딩 테스트.md",
+                "file": "혼공/최종 프로젝트 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/코딩 테스트.md",
+                "file": "혼공/최종 프로젝트 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/코딩 테스트.md",
+                "file": "혼공/최종 프로젝트 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/코딩 테스트.md"
+                "file": "혼공/최종 프로젝트 정리.md"
               }
             }
           }
@@ -147,11 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b4879c66ce0bfb6",
+  "active": "d25d1b487c4b7fec",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20230516195052.png",
+    "혼공/음성처리.md",
+    "혼공/최종 프로젝트 정리.md",
+    "README_resources/Pasted image 20230516112958.png",
+    "README_resources/Pasted image 20230516112631.png",
+    "혼공/코딩 테스트.md",
     "README_resources/Pasted image 20230508161839.png",
     "Pasted image 20230508120851.png.md",
-    "혼공/코딩 테스트.md",
     "README_resources/Pasted image 20230508123145.png",
     "README_resources/Pasted image 20230508121426.png",
     "README_resources/Pasted image 20230508120851.png",
@@ -160,11 +164,7 @@
     "README_resources/Pasted image 20230508104026.png",
     "README_resources/Pasted image 20230508103903.png",
     "Pasted image 20230508093533.png.md",
-    "README_resources/Pasted image 20230508102527.png",
-    "README_resources/Pasted image 20230508102033.png",
-    "README_resources/Pasted image 20230508093533.png",
     "혼공/Web Socket.md",
-    "혼공/최종 프로젝트 정리.md",
     "혼공/VS CODE Web Socket 실습.md",
     "혼공/미니 프로젝트 정리.md",
     "2023-04-05.md",
@@ -187,7 +187,6 @@
     "Pasted.md",
     "(Pasted image 20230328105225.png.md",
     "_Images",
-    "(Pasted.md",
     "Untitled.canvas",
     "README_resources",
     "Python",
