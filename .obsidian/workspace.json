@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "67d6210987f37ea2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -149,6 +157,8 @@
   },
   "active": "d25d1b487c4b7fec",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20230524151401.png",
+    "README_resources/Pasted image 20230524151213.png",
     "혼공/최종 프로젝트 정리.md",
     "README_resources/Pasted image 20230516195052.png",
     "혼공/음성처리.md",
@@ -162,7 +172,6 @@
     "README_resources/Pasted image 20230508120851.png",
     "README_resources/Pasted image 20230508121154.png",
     "README_resources/Pasted image 20230508104246.png",
-    "README_resources/Pasted image 20230508104026.png",
     "Pasted image 20230508093533.png.md",
     "혼공/Web Socket.md",
     "혼공/VS CODE Web Socket 실습.md",
