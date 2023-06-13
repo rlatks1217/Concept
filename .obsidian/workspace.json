@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3a15b5d058795684",
+        "id": "a4f8ba58d5cfeebc",
         "type": "tabs",
         "children": [
           {
-            "id": "35908f050787a924",
+            "id": "f1f998c28a99960e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/알고리즘.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75859a869de9ab90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring_0220 기반 지식.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring_0220 기반 지식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring_0220 기반 지식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/알고리즘.md"
+                "file": "Spring/Spring_0220 기반 지식.md"
               }
             }
           }
@@ -166,23 +155,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "35908f050787a924",
+  "active": "f1f998c28a99960e",
   "lastOpenFiles": [
     "혼공/Web Socket.md",
+    "Spring/Spring_0220 기반 지식.md",
+    "Spring",
+    "Pasted image 20230508120851.png.md",
+    "혼공/코딩 테스트.md",
     "혼공/알고리즘.md",
+    "README_resources/Pasted image 20230508161839.png",
+    "README_resources/Pasted image 20230508123145.png",
+    "README_resources/Pasted image 20230508121426.png",
+    "README_resources/Pasted image 20230508104246.png",
+    "README_resources/Pasted image 20230508104026.png",
+    "README_resources/Pasted image 20230508102527.png",
+    "README_resources/Pasted image 20230508102033.png",
     "README_resources/Pasted image 20230502184215.png",
     "혼공/최종 프로젝트 정리.md",
     "혼공/VS CODE Web Socket 실습.md",
     "README_resources/Pasted image 20230427103824.png",
     "README_resources/Pasted image 20230427103800.png",
     "혼공/미니 프로젝트 정리.md",
-    "README_resources/Pasted image 20230425092249.png",
-    "README_resources/Pasted image 20230425092155.png",
-    "README_resources/Pasted image 20230424202315.png",
-    "README_resources/Pasted image 20230424202025.png",
-    "README_resources/Pasted image 20230424202005.png",
-    "README_resources/Pasted image 20230424200204.png",
-    "README_resources/Pasted image 20230424200138.png",
     "2023-04-05.md",
     "Python/머신러닝6일차(04.05).md",
     "Python/머신러닝5일차(04.04).md",
@@ -204,8 +197,6 @@
     "(Pasted image 20230328105225.png.md",
     "_Images",
     "(Pasted.md",
-    "Pasted image 20230328095044.png.md",
-    "기본 사용법/옵시디언 사용법.md",
     "Untitled.canvas",
     "README_resources",
     "Python",
