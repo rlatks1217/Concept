@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/인공신경망.md",
+                "file": "Python/머신러닝1일차(03.30).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망.md",
+                "file": "Python/머신러닝1일차(03.30).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망.md",
+                "file": "Python/머신러닝1일차(03.30).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망.md"
+                "file": "Python/머신러닝1일차(03.30).md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "fc9b7069f028538d",
   "lastOpenFiles": [
-    "Python/머신러닝1일차(03.30).md",
     "혼공/인공신경망.md",
+    "Python/머신러닝1일차(03.30).md",
     "혼공/지도 학습.md",
     "혼공/Prompt Engineering.md",
     "혼공/알고리즘.md",
