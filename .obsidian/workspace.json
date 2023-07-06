@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Spring 기반 지식.md",
+                "file": "혼공/인공신경망 기초_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Spring 기반 지식.md",
+                "file": "혼공/인공신경망 기초_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Spring 기반 지식.md",
+                "file": "혼공/인공신경망 기초_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Spring 기반 지식.md"
+                "file": "혼공/인공신경망 기초_2.md"
               }
             }
           }
@@ -155,28 +154,33 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "97582fce56e06c10",
   "lastOpenFiles": [
-    "README_resources/Pasted image 20230704074354.png",
     "Spring/Spring 기반 지식.md",
+    "혼공/지도 학습.md",
+    "혼공/인공신경망.md",
+    "혼공/인공신경망 기초_2.md",
+    "혼공/인공신경망 기초_1.md",
+    "혼공/비지도 학습.md",
+    "혼공/Prompt Engineering.md",
+    "README_resources/Pasted image 20230706184519.png",
+    "README_resources/Pasted image 20230706184404.png",
+    "README_resources/Pasted image 20230706180201.png",
+    "README_resources/Pasted image 20230706180124.png",
+    "README_resources/Pasted image 20230706105047.png",
+    "README_resources/Pasted image 20230706103659.png",
+    "README_resources/Pasted image 20230706102053.png",
+    "README_resources/Pasted image 20230703203010.png",
+    "README_resources/Pasted image 20230628205341.png",
+    "README_resources/Pasted image 20230704074354.png",
     "Spring",
     "혼공/코딩 테스트.md",
     "Spring/Spring_0220 기반 지식.md",
     "혼공/음성처리.md",
-    "README_resources/Pasted image 20230524151401.png",
-    "README_resources/Pasted image 20230524151213.png",
-    "README_resources/Pasted image 20230516195052.png",
-    "README_resources/Pasted image 20230516112958.png",
-    "README_resources/Pasted image 20230516112631.png",
     "혼공/Web Socket.md",
     "Spring",
     "Pasted image 20230508120851.png.md",
     "혼공/알고리즘.md",
-    "README_resources/Pasted image 20230508161839.png",
-    "README_resources/Pasted image 20230508123145.png",
-    "README_resources/Pasted image 20230508121426.png",
-    "README_resources/Pasted image 20230508104246.png",
-    "README_resources/Pasted image 20230508104026.png",
     "혼공/최종 프로젝트 정리.md",
     "혼공/VS CODE Web Socket 실습.md",
     "혼공/미니 프로젝트 정리.md",
@@ -191,11 +195,6 @@
     "혼공",
     "Python/파이썬 기초(생소한 것만 간단히 정리).md",
     "Python/머신러닝(03.31).md",
-    "Python/Numpy기본(03.28).md",
-    "Python/Pandas 실습(03.29).md",
-    "Python/Python 기본개념1(03.27).md",
-    "미니 프로젝트 정리.md",
-    "README.md",
     "Python/res",
     "_Images",
     "Untitled.canvas",
