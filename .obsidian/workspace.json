@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망 기초_2.md",
+                "file": "혼공/인공신경망 기초_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망 기초_2.md",
+                "file": "혼공/인공신경망 기초_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망 기초_2.md"
+                "file": "혼공/인공신경망 기초_1.md"
               }
             }
           }
@@ -168,10 +167,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "efbfa2b056b13e6b",
+  "active": "fb9cdd4dfc9ee3c6",
   "lastOpenFiles": [
-    "혼공/인공신경망 기초_1.md",
     "혼공/인공신경망 기초_2.md",
+    "혼공/인공신경망 기초_1.md",
+    "Spring/Spring 기반 지식.md",
+    "Spring",
+    "README_resources/Pasted image 20230704074354.png",
     "README_resources/Pasted image 20230706184519.png",
     "README_resources/Pasted image 20230706184404.png",
     "혼공/비지도 학습.md",
@@ -194,8 +196,6 @@
     "혼공/Web Socket.md",
     "Spring/Spring_0220 기반 지식.md",
     "혼공/음성처리.md",
-    "README_resources/Pasted image 20230524151401.png",
-    "Spring",
     "Pasted image 20230508120851.png.md",
     "혼공/코딩 테스트.md",
     "혼공/VS CODE Web Socket 실습.md",
