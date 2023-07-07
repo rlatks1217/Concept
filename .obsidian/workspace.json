@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망 기초_1.md",
+                "file": "혼공/인공신경망 기초_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망 기초_1.md",
+                "file": "혼공/인공신경망 기초_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망 기초_1.md"
+                "file": "혼공/인공신경망 기초_2.md"
               }
             }
           }
@@ -167,10 +168,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fb9cdd4dfc9ee3c6",
+  "active": "efbfa2b056b13e6b",
   "lastOpenFiles": [
-    "혼공/인공신경망 기초_2.md",
     "혼공/인공신경망 기초_1.md",
+    "혼공/인공신경망 기초_2.md",
     "Spring/Spring 기반 지식.md",
     "Spring",
     "README_resources/Pasted image 20230704074354.png",
