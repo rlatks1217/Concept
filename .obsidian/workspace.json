@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/인공신경망 기초_3.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/인공신경망 기초_3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/인공신경망 기초_3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md"
+                "file": "혼공/인공신경망 기초_3.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "6a43373b7b5b8cff",
   "lastOpenFiles": [
+    "Spring/Spring 기반 지식 2.md",
     "혼공/인공신경망 기초_1.md",
     "혼공/인공신경망 기초_2.md",
     "혼공/인공신경망 기초_3.md",
@@ -172,7 +173,6 @@
     "Python/머신러닝1일차(03.30).md",
     "혼공/인공신경망.md",
     "README_resources/README.md",
-    "Spring/Spring 기반 지식 2.md",
     "Spring/Spring 기반 지식.md",
     "README_resources/Pasted image 20230706184519.png",
     "README_resources/Pasted image 20230706184404.png",
