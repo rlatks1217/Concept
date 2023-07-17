@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6dcc95640c73e3e1",
+        "id": "47adf0e4fb3ceb84",
         "type": "tabs",
         "children": [
           {
-            "id": "28f6791f969fa1d3",
+            "id": "6ff49ff23e6435b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md"
+                "file": "혼공/인공신경망 기초_0(논리합).md"
               }
             }
           }
@@ -154,21 +154,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "28f6791f969fa1d3",
+  "active": "6ff49ff23e6435b6",
   "lastOpenFiles": [
+    "혼공/인공신경망 기초_1.md",
+    "혼공/인공신경망 기초_0(논리합).md",
+    "README_resources/Pasted image 20230717191218.png",
+    "README_resources/Pasted image 20230717185322.png",
+    "README_resources/Pasted image 20230717185235.png",
+    "README_resources/Pasted image 20230717185201.png",
+    "README_resources/Pasted image 20230717185140.png",
+    "README_resources/Pasted image 20230717185127.png",
     "혼공/인공신경망 기초_2.md",
     "혼공/인공신경망 기초_3.md",
-    "혼공/인공신경망 기초_1.md",
+    "Python/머신러닝5일차(04.04).md",
+    "Python/머신러닝4일차(04.03).md",
+    "Python/머신러닝6일차(04.05).md",
+    "Python/머신러닝2일차(03.31).md",
+    "Python/머신러닝3일차 주말정리(04.02).md",
     "Python/인공신경망 기초_1.md",
     "Python/인공신경망 기초_2.md",
     "혼공/Prompt Engineering.md",
-    "Python/머신러닝4일차(04.03).md",
     "Python/tensorflow.md",
     "머신러닝/tensorflow.md",
     "머신러닝",
     "Python/머신러닝1일차(03.30).md",
-    "Python/머신러닝3일차 주말정리(04.02).md",
-    "Python/머신러닝2일차(03.31).md",
     "Python/Python 기본개념1(03.27).md",
     "Python/파이썬 기초(생소한 것만 간단히 정리).md",
     "Spring/Spring 기반 지식 2.md",
@@ -180,20 +189,10 @@
     "README_resources/Pasted image 20230706184404.png",
     "혼공/비지도 학습.md",
     "README_resources/Pasted image 20230706180201.png",
-    "README_resources/Pasted image 20230706180124.png",
-    "README_resources/Pasted image 20230706105047.png",
     "혼공/지도 학습.md",
-    "README_resources/Pasted image 20230706103659.png",
-    "README_resources/Pasted image 20230706102053.png",
     "혼공/인공신경망.md",
-    "README_resources/Pasted image 20230703203010.png",
     "혼공/알고리즘.md",
     "기본 사용법/마크다운 사용법.md",
-    "혼공/미니 프로젝트 정리.md",
-    "혼공/최종 프로젝트 정리.md",
-    "README_resources/Pasted image 20230628205341.png",
-    "혼공/Web Socket.md",
-    "Spring/Spring_0220 기반 지식.md",
     "혼공",
     "Python/res",
     "_Images",
