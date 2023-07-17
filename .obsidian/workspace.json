@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -157,6 +156,13 @@
   },
   "active": "6a43373b7b5b8cff",
   "lastOpenFiles": [
+    "혼공/인공신경망 기초_0(논리합).md",
+    "README_resources/Pasted image 20230717191218.png",
+    "README_resources/Pasted image 20230717185322.png",
+    "README_resources/Pasted image 20230717185235.png",
+    "README_resources/Pasted image 20230717185201.png",
+    "README_resources/Pasted image 20230717185140.png",
+    "README_resources/Pasted image 20230717185127.png",
     "Spring/Spring 기반 지식 2.md",
     "혼공/인공신경망 기초_1.md",
     "혼공/인공신경망 기초_2.md",
@@ -178,12 +184,6 @@
     "README_resources/Pasted image 20230706184404.png",
     "README_resources/Pasted image 20230706180201.png",
     "README_resources/Pasted image 20230706180124.png",
-    "README_resources/Pasted image 20230706105047.png",
-    "README_resources/Pasted image 20230706103659.png",
-    "README_resources/Pasted image 20230706102053.png",
-    "README_resources/Pasted image 20230703203010.png",
-    "README_resources/Pasted image 20230628205341.png",
-    "README_resources/Pasted image 20230704074354.png",
     "Spring",
     "Spring/Spring_0220 기반 지식.md",
     "혼공/음성처리.md",
