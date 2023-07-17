@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md",
+                "file": "혼공/인공신경망 기초_0(논리합).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망 기초_3.md"
+                "file": "혼공/인공신경망 기초_0(논리합).md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "6a43373b7b5b8cff",
   "lastOpenFiles": [
+    "혼공/인공신경망 기초_3.md",
+    "혼공/인공신경망 기초_2.md",
+    "혼공/인공신경망 기초_1.md",
     "혼공/인공신경망 기초_0(논리합).md",
     "README_resources/Pasted image 20230717191218.png",
     "README_resources/Pasted image 20230717185322.png",
@@ -164,9 +167,6 @@
     "README_resources/Pasted image 20230717185140.png",
     "README_resources/Pasted image 20230717185127.png",
     "Spring/Spring 기반 지식 2.md",
-    "혼공/인공신경망 기초_1.md",
-    "혼공/인공신경망 기초_2.md",
-    "혼공/인공신경망 기초_3.md",
     "혼공/Prompt Engineering.md",
     "혼공/Web Socket.md",
     "혼공/코딩 테스트.md",
