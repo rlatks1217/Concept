@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/인공신경망 기초_4.md",
+                "file": "혼공/자연어처리_기본.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/인공신경망 기초_4.md",
+                "file": "혼공/자연어처리_기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/인공신경망 기초_4.md",
+                "file": "혼공/자연어처리_기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/인공신경망 기초_4.md"
+                "file": "혼공/자연어처리_기본.md"
               }
             }
           }
@@ -157,8 +156,9 @@
   },
   "active": "6ff49ff23e6435b6",
   "lastOpenFiles": [
-    "혼공/인공신경망 기초_3.md",
     "혼공/인공신경망 기초_4.md",
+    "혼공/자연어처리_기본.md",
+    "혼공/인공신경망 기초_3.md",
     "혼공/인공신경망 기초_2.md",
     "혼공/인공신경망 기초_1.md",
     "README_resources/Pasted image 20230718213019.png",
@@ -178,7 +178,6 @@
     "Python/머신러닝3일차 주말정리(04.02).md",
     "Python/인공신경망 기초_1.md",
     "Python/인공신경망 기초_2.md",
-    "혼공/Prompt Engineering.md",
     "Python/tensorflow.md",
     "머신러닝/tensorflow.md",
     "머신러닝",
