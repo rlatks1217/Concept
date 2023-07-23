@@ -18,5 +18,70 @@ Bean의 scope이 prototype일 경우 프로그램 실행 시 설정정보는 읽
 
 
 
+--- 여기부터 SpringWeb임 ---
+
+### 웹 프로젝트 만들기
+- 프로젝트 생성 시 MVC project 클릭(뭔가 설치해야 되는데 설치할 거니? 를 물어보는 창이 뜰 거임 -> yes 클릭) -> next -> 패키지 이름 정해줌(domain의 역순 + 프로젝트명)
+- tomcat server 추가(new server -> Apache -> tomcat 9.0 -> 실제로 설치했던 톰캣을 선택)
+- Servlet에서 dopost와 같이 적어줬던 인코딩처리를 특정 클래스가 필터로서의 역할을 하도록 web.xml에 등록함
+- 이 필터의 역할 : 인코딩 역할
+
+**Spring에 의해 기본적으로 제공되는 Application Context**
+1. Servlet-Context.xml : Service, Dao를 관리하는 컨테이너의 설정파일
+2. Root-Context.xml : Controller를 관리하는 컨테이너의 설정파일
 
 
+### Spring Web MVC
+![](Pasted%20image%2020230723205431.png)
+- Root Application Context라는 그림에 나와 잇는 놈은 Spring Container 안에 있음 -> 이 Spring Container가 Servlet Container 안에 존재하는 놈임
+- 요청이 들어오면 웬만한 건 DispatcherServlet이 받기 때문에 이 놈을 front-Controller라고 함
+**동작과정**
+1. web Client가 요청을 보내면 Tomcat 안의 Web Server가 요청을 받고 동적 리소스 요청의 경우 Server가 처리를 해줄 수 없기 때문에 Servlet Container로 요청을 넘기게 됨
+2. ServletContainer안에 있는 DispatcherServlet이라는 놈이 요청을 받게 됨
+3. DispatcherServlet이 Spring Container 안의 Handler Mapping이라는 컴포넌트에게 요청에 해당하는 handler가 누구인지 물어봄
+4. handler Mapping이 요청에 따른(요청이 들어온 url에 해당하는) handler의 이름(Controller의 메소드 이름)을 알려주고 DispatcherServlet에게 전달
+5. handler의 이름을 전달받은 DispatcherSerlvet이 이 이름을 Handler Adapter에게 전달함
+6. 이름을 전달 받은 Handler Adapter(이 객체 내부에 호출하는 메소드가 있음)가 실제로 해당 이름을 가진 handler를 호출함
+7. 호출된 메소드는 작성된 코드대로 일처리를 한 뒤 Model 객체에 담거나 문자열을 Adapter에게 return함
+8. 이 return 받은 문자열을 Adapter가 DispatcherServlet에 반환
+9. 그렇게 되면 DispatcherServlet이 view Resolver한테 요청을 하게 되고 view Resolver는 이 문자열을 받아 문자열에 해당하는 파일명(jsp)를 views폴더에서 찾아 view객체로(화면을 그림을 어떻게 그릴지 로직을 담고 있는 애) 만들어서 DispatcherServlet에 반환
+10. DispatcherServlet은 view객체를 이용하여 클라이언트에게 보여줄 화면을 rendering함(= 클라이언트의 응답한다 라고 할 수 있는 부분)
+Dispatcher Servlet이 view객체를 가지고 rendering을 수행하기 때문에 Server-Side-Rendering이라고 할 수 있음
+
+
+**handler Mapping** 
+- 스프링에서 제공하는 Handler Mapping은 굉장히 여러 종류임(정확히는 Handler Mapping이라는 인터페이스를 구현한 구현체가 여러 개임)
+1. BeanNameUrlHandlerMapping : 빈 이름을 기반으로 핸들러는 매핑함(특정 이름의 Bean 안의 요청 url이 매핑된 메소드를 호출하게 됨)
+2.  RequestMappingHandlerMapping: @RequestMapping 어노테이션을 기반으로 핸들러를 매핑함(일반적으로 가장 많이 쓰고 위에서 설명한 Handler Mapping은 얘임)
+3.  SimpleUrlHandlerMapping: 정적으로 URL과 핸들러를 매핑함
+
+뭘 사용할지는 설정에 따라 달라짐(RequestMappingHandlerMapping는 설정 따로 필요없음)
+
+**handler Adapter**
+- 스프링에서 제공하는 Handler Adapter 굉장히 여러 종류임(정확히는 Handler Mapping이라는 인터페이스를 구현한 구현체가 여러 개임)
+1. HttpRequestHandlerAdapter: HttpRequestHandler(또 다른 종류의 handler)를 실행하는데 사용됨
+2. SimpleControllerHandlerAdapter: Controller 인터페이스를 구현한 핸들러를 실행하는데 사용됨
+3. RequestMappingHandlerAdapter: @RequestMapping 어노테이션을 기반으로 핸들러를 실행하는데 사용됨(얘가 제일 많이 사용되는 Adapter임)
+
+**View 객체**
+- View Interface를 구현한 객체를 지칭함(View view = InternalResourceView("파일명.jsp") 이런 식으로 만듬)
+- Model객체가 가지고 있는 정보를 어떻게 표현해야 하는지에 대한 로직을 가지고 있는 Component임
+
+`종류`
+- InternalResourceView : JSP에 대한 정보를 어떻게 표현해야 하는지에 대한 로직 가지고 있는 Component
+- MarshallingView : XML에 대한 정보를 어떻게 표현해야 하는지에 대한 로직 가지고 있는 Component
+- MappingJacksonJsonView : JSON에 대한 정보를 어떻게 표현해야 하는지에 대한 로직 가지고 있는 Component
+
+- 각각은 클래스인 것이고 이 클래스들로 해당 인터페이스를 구현해서 view 객체로 사용하는 식임
+- 만일 View Resolver에 의해서가 아니라 View 객체를 직접 만들게 되면 당연히 View Resolver는 거치지 않음
+
+
+### log4j 출력방식
+ConsoleAppender 클래스는 출력 위치를 console로 지정할 때 사용
+FileAppender 클래스는 출력 위치를 파일로 지정할 때 사용
+RollingFileAppender 클래스는 출력 위치는 파일인데 일정량의 파일 크기를 넘어가면 새로운 파일을 생성하게끔 지정할 때 사용
+DailyRollingAppender 클래스는 출력 위치는 파일인데 날짜별로 새로운 파일을 생성하도록 지정할 때 사용
+
+
+
+**기본적인 코드 외의 log4j.xml, Servlet-Context.xml, root-Context.xml, web.xml, pom.xml 도 확인**
