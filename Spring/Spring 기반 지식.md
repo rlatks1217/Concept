@@ -31,6 +31,7 @@ step2 에서 step3로 Refactoring(코드 참고)
 - 객체간의 관계를 맺어준다 = 한 객체에서 다른 객체의 쓰임이 필요할 경우 서로 연결해준다.
 - 이 IoC Container(편하게 Application context나 Spring container라고도 부름)를 객체간의 관계를 맺어준다고 하여 설계도라고 부름
 - Component : 나머지 비즈니스로직을 수행하는 부분을 말함
+- 사실 IoC Container는 Application Context라는 인터페이스의 구현체임
 
 - (step7) 코드에서 봤을 때 기존에는 main 메소드 안을 내가 직접 정의해서 실행했던 것처럼 제어의 흐름을 내가 주도했음
 - 하지만 main에서 일일이 어떤 객체를 만들어서 주입할지 정해주는 것이 아니라 DaoFactory라는 Class에서 작성했던 것과 같이 특정  Object에 의해 알아서 설정 객체(설정정보를 담는 놈도 객체로 자동으로 만들어줌)가 선택되고 알아서 객체가 만들어져 반환되는 것과 같은 현상을 제어의 역전(IoC)이라고 함
@@ -46,7 +47,6 @@ Annotation : 정해져 있는 키워드들이 있지만 개발자가 직접 만�
 ### Spring의 대표적인 기능
 - Spring은 상당히 방대한 기능을 가지고 있음
 - 핵심적인 기능 -> Bean factory 기능 : Bean이라는 객체를 계속 만들어주는 기능
-- 이 기능을 Application Context라고 부름 / 그래서 앞서 IoC Container를 이렇게 부르기도 한다고 설명했는데 사실은 기능의 이름인 것임 다만, 그 기능이 핵심적인 기능이기 때문에 그냥 뭉뚱그려서 IoC Container를 Application Context라고 부르기도 하는 것임
 - Bean : Spring이 제어권을 가지고 직접 만들고 관계를 부여하는(= 주입 따위를 하는) 객체를 Bean이라고 함 -> 만들어진 Bean은 Application Context가 Singleton으로 생성해서 관리하게 된다.(단, default가 singleton인 것이지 다르게 관리되도록 설정해줄 수도 있다 ex - protoType)
 
 - 그런데 Application Context가 Bean을 만들기 위해서는 해당 Bean에 대한 설정정보가 필요함(어떤 클래스에 의해 만들어지고 언떤 객체와 연결될지에 대한 설정정보)
@@ -71,3 +71,8 @@ Bean을 등록하기 위한 방법(Application Context에 인식시키는 방법
 - 이런 식으로 정의해주고 나면 Spring Container(=Application Context)는 @Configuration이라는 어노테이션이 붙은 class를 Bean으로 등록시킴
 - 그리고 해당 클래스를 해석해서 @Bean이 붙은 메소드가 new 클래스명()해서 return하게 써준 구문에서 나온 클래스를 Bean으로 만듬
 - 결국 해당 클래스와 그 클래스 안에 있는 메소드들이 return하는 놈들을 모두 Bean으로 만든다는 얘기인 것이지.
+
+metadata : 메타데이터는 데이터의 대한 정보라고 할 수 있음(메타정보라고도 부름)
+Ex) 사진 파일일 경우 파일 자체는 이미지라는 데이터 뿐만 아니라 메타데이터라고 불리는 사진이름, 촬영날짜, 사진크기 등의 정보도 가지고 있음
+
+API : 일반적으로 프로그램을 사용할 수 있도록 하는 규약을 말함(흔히 url처럼 생긴 API도 해당 url이나 key 이런 걸 다 작성해주고 거기로 요청을 보내야 한다는 규약이 있는 것이라고 볼 수 있음) 또한, 메소드 같은 것을 API라고 부르기도 함
