@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "Spring/Spring 기반 지식.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "Spring/Spring 기반 지식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "Spring/Spring 기반 지식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md"
+                "file": "Spring/Spring 기반 지식.md"
               }
             }
           }
@@ -158,6 +158,7 @@
   },
   "active": "94165099386d7b9e",
   "lastOpenFiles": [
+    "Spring/Spring 기반 지식 2.md",
     "README_resources/Pasted image 20230822182243.png",
     "ERP.md",
     "혼공/알고리즘.md",
@@ -167,7 +168,6 @@
     "Python/머신러닝6일차(04.05).md",
     "혼공/인공신경망 기초_0(논리합).md",
     "Spring/무제파일.md",
-    "Spring/Spring 기반 지식 2.md",
     "Spring/Spring 기반 지식.md",
     "혼공/자연어처리_기본.md",
     "README_resources/Pasted image 20230723205431.png",
@@ -181,7 +181,6 @@
     "README_resources/Pasted image 20230717185235.png",
     "README_resources/Pasted image 20230717185201.png",
     "README_resources/Pasted image 20230717185140.png",
-    "README_resources/Pasted image 20230717185127.png",
     "Python/머신러닝4일차(04.03).md",
     "Python/머신러닝2일차(03.31).md",
     "Python/머신러닝3일차 주말정리(04.02).md",
