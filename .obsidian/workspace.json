@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c851155b6e7cda4d",
+        "id": "592f69f31a10ca37",
         "type": "tabs",
         "children": [
           {
-            "id": "8620d579d7bdea9e",
+            "id": "94165099386d7b9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring 기반 지식 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring 기반 지식 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/알고리즘.md",
+                "file": "Spring/Spring 기반 지식 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/알고리즘.md"
+                "file": "Spring/Spring 기반 지식 2.md"
               }
             }
           }
@@ -155,14 +156,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8620d579d7bdea9e",
+  "active": "94165099386d7b9e",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20230822182243.png",
+    "ERP.md",
+    "혼공/알고리즘.md",
     "혼공/인공신경망 기초_2.md",
     "혼공/인공신경망 기초_1.md",
     "Python/머신러닝5일차(04.04).md",
     "Python/머신러닝6일차(04.05).md",
     "혼공/인공신경망 기초_0(논리합).md",
-    "혼공/알고리즘.md",
     "Spring/무제파일.md",
     "Spring/Spring 기반 지식 2.md",
     "Spring/Spring 기반 지식.md",
@@ -193,8 +196,6 @@
     "README_resources/README.md",
     "Spring",
     "혼공/비지도 학습.md",
-    "혼공/지도 학습.md",
-    "혼공/인공신경망.md",
     "혼공",
     "Python/res",
     "_Images",

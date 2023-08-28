@@ -85,3 +85,10 @@ DailyRollingAppender 클래스는 출력 위치는 파일인데 날짜별로 새
 
 
 **기본적인 코드 외의 log4j.xml, Servlet-Context.xml, root-Context.xml, web.xml, pom.xml 도 확인**
+
+### Message Converter
+
+- 데이터를 하나의 형식에서 다른 형식으로 변환하는 역할을 하는 기능(Spring에서는 그러한 기능을 하는 객체)을 말함
+- @RequestBody : 클라이언트로부터 받은 RequestBody에 들어있는 데이터를 Java 객체로 바꿔주는 역할을 수행함
+- @ResponseBody : 데이터를 기존에 알고 있듯이 view Resolver가 jsp파일을 찾도록 하는 view의 이름(문자열)을 반환하는 것이 아니라 그 문자열이나 객체 자체를 json형태의 문자열로 만들어서 클라이언트에 반환하는 역할을 수행함(@ResponseBody를 사용하지 않을 경우에는 view Resolver를 통해 찾을 jsp파일을 랜더링한 결과가 Response에 담겨서 클라이언트에게 반환됨)
+- Response Entity는 우리가 Response를 줄 때 사용되는 클래스임 -> repsonse에는 Response Body 뿐만 아니라 header, http 상태코드도 포함됨
