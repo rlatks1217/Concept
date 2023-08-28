@@ -86,8 +86,6 @@ DailyRollingAppender 클래스는 출력 위치는 파일인데 날짜별로 새
 
 **기본적인 코드 외의 log4j.xml, Servlet-Context.xml, root-Context.xml, web.xml, pom.xml 도 확인**
 
-
-
 - **DL(Dependency Lookup)** : 원하는 객체를 직접 찾아오는 방식(Application Context 만들어서 getBean으로 가져오는 방식이 DL 방식임)
 
 - **프록시 스코프(proxy scope)** : 만일 사용자가 여러명이라고 치고 똑같은 Login이라는 이름의 Bean를 사용한다고 했을 때 `사용자마다 해당 Bean를 스프링 컨테이너에 보관하며 관리`하는 역할
@@ -95,3 +93,9 @@ DailyRollingAppender 클래스는 출력 위치는 파일인데 날짜별로 새
 --> 처음에 스프링 컨테이너가 해당 Bean을 등록할 때는 프로토타입으로 등록을 하고 생성까지 하는데 관리는 프록시 스코프라는 객체가 싱글톤으로 관리하게 됨
 
 - 자바스크립트의 스코프와 스프링의 스코프는 다른 개념임 / 스프링의 스코프는 객체의 생명주기를 나타내고 자바스크립트의 경우 변수의 유효범위를 말함
+### Message Converter
+
+- 데이터를 하나의 형식에서 다른 형식으로 변환하는 역할을 하는 기능(Spring에서는 그러한 기능을 하는 객체)을 말함
+- @RequestBody : 클라이언트로부터 받은 RequestBody에 들어있는 데이터를 Java 객체로 바꿔주는 역할을 수행함
+- @ResponseBody : 데이터를 기존에 알고 있듯이 view Resolver가 jsp파일을 찾도록 하는 view의 이름(문자열)을 반환하는 것이 아니라 그 문자열이나 객체 자체를 json형태의 문자열로 만들어서 클라이언트에 반환하는 역할을 수행함(@ResponseBody를 사용하지 않을 경우에는 view Resolver를 통해 찾을 jsp파일을 랜더링한 결과가 Response에 담겨서 클라이언트에게 반환됨)
+- Response Entity는 우리가 Response를 줄 때 사용되는 클래스임 -> repsonse에는 Response Body 뿐만 아니라 header, http 상태코드도 포함됨
