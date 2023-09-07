@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc206ef533e2525b",
+        "id": "77429170aeba3b96",
         "type": "tabs",
         "children": [
           {
-            "id": "20a16c9552ee075d",
+            "id": "2fba282b6e9ab6d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md",
+                "file": "혼공/알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Spring 기반 지식 2.md"
+                "file": "혼공/알고리즘.md"
               }
             }
           }
@@ -155,13 +155,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "20a16c9552ee075d",
+  "active": "2fba282b6e9ab6d2",
   "lastOpenFiles": [
     "Spring/Spring 인프런 1.md",
     "Spring/Spring 기반 지식 2.md",
+    "Spring/Spring 기반 지식 1.md",
     "README_resources/Pasted image 20230822182243.png",
     "혼공/코딩 테스트.md",
-    "Spring/Spring 기반 지식 1.md",
     "README_resources/Pasted image 20230723205431.png",
     "Spring/Spring 기반 지식 3.md",
     "혼공/인공신경망 기초_4.md",
