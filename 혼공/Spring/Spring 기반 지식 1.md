@@ -45,6 +45,7 @@ Annotation : 정해져 있는 키워드들이 있지만 개발자가 직접 만�
 
 
 ### Spring의 대표적인 기능
+- 스프링 사용하는 이유 : 기존에 클라이언트마다 개별적으로 다뤘던 Servlet의 공통 로직을  Servlet Container가 가지고 있는 Dispatcher Servlet을 사용하게 됨으로써 한 곳에서 처리하도록 해줌(Front Controller Pattern) ->공통 로직의 중복을 없애게 됨
 - Spring은 상당히 방대한 기능을 가지고 있음
 - 핵심적인 기능 -> Bean factory 기능 : Bean이라는 객체를 계속 만들어주는 기능
 - Bean : Spring이 제어권을 가지고 직접 만들고 관계를 부여하는(= 주입 따위를 하는) 객체를 Bean이라고 함 -> 만들어진 Bean은 Application Context가 Singleton으로 생성해서 관리하게 된다.(단, default가 singleton인 것이지 다르게 관리되도록 설정해줄 수도 있다 ex - protoType)

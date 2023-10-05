@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1faa0c414609c95e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/정보처리기사/인터페이스 구현/객체지향 분석 및 설계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "01a57b09b3d7a261",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/정보처리기사/인터페이스 구현/디자인 패턴.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee0054545fc9dd46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/정보처리기사/포인터.md",
+                "file": "혼공/Spring/Spring 기반 지식 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -119,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/정보처리기사/포인터.md",
+                "file": "혼공/Spring/Spring 기반 지식 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/정보처리기사/포인터.md",
+                "file": "혼공/Spring/Spring 기반 지식 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/정보처리기사/포인터.md"
+                "file": "혼공/Spring/Spring 기반 지식 2.md"
               }
             }
           }
@@ -181,9 +155,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ee0054545fc9dd46",
+  "active": "01a57b09b3d7a261",
   "lastOpenFiles": [
-    "혼공/정보처리기사/인터페이스 구현/객체지향 분석 및 설계.md",
+    "README_resources/Pasted image 20231006004907.png",
+    "혼공/Spring/Spring 기반 지식 1.md",
+    "혼공/정보처리기사/디자인 패턴.md",
+    "README_resources/Pasted image 20230628205341.png",
+    "README_resources/Pasted image 20230723205431.png",
+    "혼공/Spring/Spring 기반 지식 2.md",
+    "혼공/정보처리기사/운영체제.md",
+    "혼공/정보처리기사/객체지향 분석 및 설계.md",
+    "혼공/정보처리기사/운영체제/무제 파일.md",
+    "혼공/알고리즘.md",
     "혼공/정보처리기사/포인터.md",
     "혼공/Java.md",
     "혼공/Java/2 Inheritance.md",
@@ -191,30 +174,22 @@
     "혼공/Java/3 Class ~ Inheritance 복습.md",
     "혼공/Java",
     "혼공/정보처리기사/운영체제",
-    "혼공/정보처리기사/인터페이스 구현/모듈.md",
-    "혼공/정보처리기사/인터페이스 구현/디자인 패턴.md",
+    "혼공/정보처리기사/모듈.md",
     "혼공/정보처리기사/인터페이스 구현",
-    "혼공/정보처리기사/인터페이스 구현/인터페이스 보안.md",
-    "혼공/정보처리기사/인터페이스 구현/미들웨어 & 인터페이스 기능 식별.md",
-    "혼공/Spring/Spring 기반 지식 2.md",
-    "혼공/Spring/Spring 기반 지식 1.md",
-    "혼공/정보처리기사/인터페이스 구현/코드.md",
-    "혼공/정보처리기사/인터페이스 구현/소프트웨어 아키텍처.md",
+    "혼공/정보처리기사/인터페이스 보안.md",
+    "혼공/정보처리기사/미들웨어 & 인터페이스 기능 식별.md",
+    "혼공/정보처리기사/코드.md",
+    "혼공/정보처리기사/소프트웨어 아키텍처.md",
     "혼공/모행여행 프로젝트 정리.md",
     "혼공/신발이슈 프로젝트 정리.md",
     "혼공/정보처리기사",
     "혼공/Web Socket.md",
     "혼공/Spring/Spring 인프런 1.md",
     "Python/비지도 학습.md",
-    "혼공/알고리즘.md",
     "Python/지도 학습.md",
     "README_resources/Pasted image 20230822182243.png",
     "혼공/코딩 테스트.md",
-    "README_resources/Pasted image 20230723205431.png",
     "Spring/Spring 기반 지식 3.md",
-    "Python/인공신경망 기초_4.md",
-    "Python/자연어처리_기본.md",
-    "Python/인공신경망 기초_1.md",
     "README_resources/Pasted image 20230718213019.png",
     "README_resources/Pasted image 20230718155132.png",
     "README_resources/Pasted image 20230718154857.png",
@@ -222,7 +197,6 @@
     "README_resources/Pasted image 20230717185322.png",
     "README_resources/Pasted image 20230717185235.png",
     "README_resources/Pasted image 20230717185201.png",
-    "README_resources/Pasted image 20230717185140.png",
     "머신러닝",
     "혼공/Spring",
     "혼공",

@@ -1,8 +1,8 @@
 ### Spring Container
 - 내가 정의하지는 않았지만 자기 나름대로의 로직을 가지고 동작하는 컨테이너
-- Application Context라고 함
+- Application Context라고 함(정확히는 아닌데 같은 의미로 많이들 사용함)
 - 가장 주요 기능인 Bean을 만들어 내고 관리하는 역할을 한다고 해서 Bean Factory라고도 함
-- 해당 객체 안에 주머니처럼 내부에 객체를 퐇마한 여러가지를 가지고 있기 때문에 Spring Container라고도 함
+- 해당 객체 안에 주머니처럼 내부에 객체를 포함한 여러가지를 가지고 있기 때문에 Spring Container라고도 함
 - 객체의 주입도 알아서 해주기 때문에 DI Container라고도 함
 
 ### XML을 통해 설정정보를 작성하는 방법
@@ -32,8 +32,7 @@ Bean의 scope이 prototype일 경우 프로그램 실행 시 설정정보는 읽
 
 
 ### Spring Web MVC
-![](Pasted%20image%2020230723205431.png)
-- Root Application Context라는 그림에 나와 잇는 놈은 Spring Container 안에 있음 -> 이 Spring Container가 Servlet Container 안에 존재하는 놈임
+![](Pasted%20image%2020231006004907.png)
 - 요청이 들어오면 웬만한 건 DispatcherServlet이 받기 때문에 이 놈을 front-Controller라고 함
 **동작과정**
 1. web Client가 요청을 보내면 Tomcat 안의 Web Server가 요청을 받고 동적 리소스 요청의 경우 Server가 처리를 해줄 수 없기 때문에 Servlet Container로 요청을 넘기게 됨
@@ -44,7 +43,7 @@ Bean의 scope이 prototype일 경우 프로그램 실행 시 설정정보는 읽
 6. 이름을 전달 받은 Handler Adapter(이 객체 내부에 호출하는 메소드가 있음)가 실제로 해당 이름을 가진 handler를 호출함
 7. 호출된 메소드는 작성된 코드대로 일처리를 한 뒤 Model 객체에 담거나 문자열을 Adapter에게 return함
 8. 이 return 받은 문자열을 Adapter가 DispatcherServlet에 반환
-9. 그렇게 되면 DispatcherServlet이 view Resolver한테 요청을 하게 되고 view Resolver는 이 문자열을 받아 문자열에 해당하는 파일명(jsp)를 views폴더에서 찾아 view객체로(화면을 그림을 어떻게 그릴지 로직을 담고 있는 애) 만들어서 DispatcherServlet에 반환
+9. 그렇게 되면 DispatcherServlet이 view Resolver(Spring Container안에 있음)한테 요청을 하게 되고 view Resolver는 이 문자열을 받아 문자열에 해당하는 파일명(jsp)를 views폴더에서 찾아 view객체로(화면을 그림을 어떻게 그릴지 로직을 담고 있는 애) 만들어서 DispatcherServlet에 반환
 10. DispatcherServlet은 view객체를 이용하여 클라이언트에게 보여줄 화면을 rendering함(= 클라이언트의 응답한다 라고 할 수 있는 부분)
 Dispatcher Servlet이 view객체를 가지고 rendering을 수행하기 때문에 Server-Side-Rendering이라고 할 수 있음
 
