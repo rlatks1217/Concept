@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 2.md",
+                "file": "혼공/Spring/Spring 기반 지식 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 2.md",
+                "file": "혼공/Spring/Spring 기반 지식 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 2.md",
+                "file": "혼공/Spring/Spring 기반 지식 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 2.md"
+                "file": "혼공/Spring/Spring 기반 지식 1.md"
               }
             }
           }
@@ -157,12 +157,12 @@
   },
   "active": "01a57b09b3d7a261",
   "lastOpenFiles": [
+    "혼공/Spring/Spring 기반 지식 2.md",
     "README_resources/Pasted image 20231006004907.png",
     "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/정보처리기사/디자인 패턴.md",
     "README_resources/Pasted image 20230628205341.png",
     "README_resources/Pasted image 20230723205431.png",
-    "혼공/Spring/Spring 기반 지식 2.md",
     "혼공/정보처리기사/운영체제.md",
     "혼공/정보처리기사/객체지향 분석 및 설계.md",
     "혼공/정보처리기사/운영체제/무제 파일.md",
@@ -196,7 +196,6 @@
     "README_resources/Pasted image 20230717191218.png",
     "README_resources/Pasted image 20230717185322.png",
     "README_resources/Pasted image 20230717185235.png",
-    "README_resources/Pasted image 20230717185201.png",
     "머신러닝",
     "혼공/Spring",
     "혼공",
