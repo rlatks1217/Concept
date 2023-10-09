@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 1.md",
+                "file": "혼공/정보처리기사/포인터.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 1.md",
+                "file": "혼공/정보처리기사/포인터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 1.md",
+                "file": "혼공/정보처리기사/포인터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/Spring 기반 지식 1.md"
+                "file": "혼공/정보처리기사/포인터.md"
               }
             }
           }
@@ -157,9 +157,9 @@
   },
   "active": "01a57b09b3d7a261",
   "lastOpenFiles": [
+    "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/Spring/Spring 기반 지식 2.md",
     "README_resources/Pasted image 20231006004907.png",
-    "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/정보처리기사/디자인 패턴.md",
     "README_resources/Pasted image 20230628205341.png",
     "README_resources/Pasted image 20230723205431.png",
