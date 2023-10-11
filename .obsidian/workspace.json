@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/@Test.md",
+                "file": "우아한 테크코스/프리코스_대비(야구 게임).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/@Test.md",
+                "file": "우아한 테크코스/프리코스_대비(야구 게임).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/@Test.md",
+                "file": "우아한 테크코스/프리코스_대비(야구 게임).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/@Test.md"
+                "file": "우아한 테크코스/프리코스_대비(야구 게임).md"
               }
             }
           }
@@ -158,9 +157,9 @@
   },
   "active": "bdaa52e9fa19bb90",
   "lastOpenFiles": [
+    "혼공/Spring/@Test.md",
     "혼공/코딩테스트/알고리즘.md",
     "혼공/코딩테스트/코딩 테스트.md",
-    "혼공/Spring/@Test.md",
     "혼공/코딩테스트",
     "혼공/무제 파일.md",
     "혼공/프로젝트 정리",
