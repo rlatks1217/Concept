@@ -3,8 +3,7 @@ VO(Value Object) : 데이터를 저장하는 객체 --> 보통 한 레코드의 
 
 --module-path "C:\Program Files\Java\jdk-11.0.17\javafx-sdk-11\lib" --add-modules javafx.controls,javafx.fxml
 
------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------
 데이터베이스에 연결할 수 있는 connection 수는 제한되어 있음(일반적으로 메모리에 따라 64, 128, 256 등으로 제한되어 있음) --> 쓰지도 않는데 계속 연결되어 있으면 낭비임
 
 그래서 필요할 때마다 생성해서 쓰고 다 쓰면 연결이 끊어지게끔 해줘야 함
@@ -21,7 +20,6 @@ Thread pool : Thread가 start()하기 전에 모여있는 곳(new 쓰는 건 실
 
 지금 connection pool을 설명하기 위해 JavaFx를 사용하고는 있지만 실제로 connection Pool은 WAS와 같은 multi Thread 환경에서 사용한다.
 
-(그림2 참고)
 작업할 때마다 DB에 연결하고 끊음(바꾸기 전)
 프로그램 시작 시 connection Pool 만들고 미리 여러개의 connection객체을 만들어 놓고(얘네는 DB와 연결되어 있는 상태임) 이 안에 넣어둠(처음에는 여러개의 객체를 만들고 다 연결시켜야 하므로 오래 걸림 --> 이후에 더 효율적이므로 결과적으로 효율적인 방식인 거임)
 필요할 때 이 안에서 connection 객체를 꺼내서 사용하고 다 쓰면 다시 넣어둠(넣는 과정에서 다시 재활용이 가능한지 체크 및 객체를 청소해주는 과정도 있음)
@@ -42,9 +40,10 @@ commons - logging
 
 어떻게 하면 효율적으로 코드를 짤 수 있을까? Layered Architecture로 코드를 작성하자
 
-Layered Architecture(계층 구조) : 일반적인 software를 구현할 때 가장 널리 사용되는 프로그램 구조
-N -tier Architecture(일반적으로 사용되는 계층 수는 4)
+### Layered Architecture(계층 구조) : 일반적인 software를 구현할 때 가장 널리 사용되는 프로그램 구조
 
+N -tier Architecture(일반적으로 사용되는 계층 수는 4)
+![](Pasted%20image%2020231014205852.png)
 각 layer(계층)를 나누는 기준
 Presentation Layer(가장 상위 계층) : 클라이언트와 직접 대면하는 역할을 하는 부분(클라이언트로부터 입력같은 것을 받고 결과를 보여주는 부분 --> 클라이언트의 이벤트(클릭, 엔터입력 등)를 처리)
 Business Logic Layer(3층) : 실제로 로직처리를 하는 계층
@@ -55,7 +54,7 @@ Database Layer(1층) : 실제 DBMS(데이터들이 저장되는 계층)
 
 이런 계층구조로 프로그래밍하는 패턴을 MVC 패턴 이름 붙임
 
-
+![](Pasted%20image%2020231014205941.png)
 MVC 패턴 : SE에서 사용되는 대표적인 software 디자인 패턴
 이것을 적용하는 것이 적절하지 않아 다른 패턴을 적용하는 경우도 있음(MVT, MVVM, MVD 등등)
 Model + View + Controller (+ DAO(Persistence Layer에 해당하는 컴포넌트)가 추가되야 함)
@@ -71,7 +70,7 @@ Presentation Layer계층에 해당하는 컴포넌트
 Controller
 View와 Model을 연결시켜줌(Controller를 통해서 View와 Service이 입력 및 결과를 주고 받게 됨)
 
-이 패턴을 사용하는 이유
+### 이 패턴을 사용하는 이유
 장점
 - 유지보수가 편리하기 때문!!
 - 각각의 기능(Model View Controller DAO)간의 결합도를 낮춤 -> 높으면 유지보수가 힘들어요
