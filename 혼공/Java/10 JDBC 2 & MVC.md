@@ -60,14 +60,14 @@ MVC 패턴 : SE에서 사용되는 대표적인 software 디자인 패턴
 Model + View + Controller (+ DAO(Persistence Layer에 해당하는 컴포넌트)가 추가되야 함)
 DAO(Data Access) : 데이터처리를 전담하는 컴포넌트
 
-Model 
+### Model 
 Domain Model: 비즈니스 로직처리에서 사용하는 데이터를 의미(VO는 Domain Model이라고 할 수 있음)
 Service Model : 로직처리를 담당하는 컴포넌트(Business Logic Layer 안의 코드들을 말함)
 
-View
+### View
 Presentation Layer계층에 해당하는 컴포넌트
 
-Controller
+### Controller
 View와 Model을 연결시켜줌(Controller를 통해서 View와 Service이 입력 및 결과를 주고 받게 됨)
 
 ### 이 패턴을 사용하는 이유
