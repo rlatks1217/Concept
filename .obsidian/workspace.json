@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16c144e449b341a6",
+            "id": "cd9d1afaf6814b58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/3 Class ~ Inheritance 복습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2a74c3416e14a9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/Java/Stream.md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream.md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream.md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream.md"
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md"
               }
             }
           }
@@ -168,15 +156,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2a74c3416e14a9c",
+  "active": "cd9d1afaf6814b58",
   "lastOpenFiles": [
-    "혼공/Java/Stream.md",
-    "혼공/Java/Stream.md",
+    "README_resources/Pasted image 20231023143846.png",
     "혼공/Java/3 Class ~ Inheritance 복습.md",
+    "혼공/Java/Stream.md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "혼공/Java/8 Thread 3&Java IO.md",
+    "README_resources/Pasted image 20231021155532.png",
+    "README_resources/Pasted image 20231021155520.png",
     "혼공/Java/10 JDBC 2 & MVC.md",
     "혼공/Java/9 JDBC.md",
-    "혼공/Java/8 Thread 3&Java IO.md",
     "혼공/Java/7 Thread 2.md",
     "혼공/Java/6 Thread 1.md",
     "혼공/Java/5 List, Map, Set.md",
@@ -199,15 +189,12 @@
     "README_resources/Pasted image 20231014204754.png",
     "README_resources/Pasted image 20231014203937.png",
     "README_resources/Pasted image 20231014203721.png",
-    "README_resources/Pasted image 20231014203530.png",
-    "README_resources/Pasted image 20231014203456.png",
     "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/Web Program 변화 과정.md",
     "혼공/코딩테스트",
     "혼공/무제 파일.md",
     "혼공/프로젝트 정리",
     "혼공/프로젝트 정리/모행여행 프로젝트 정리.md",
-    "혼공/정보처리기사/운영체제.md",
     "우아한 테크코스",
     "혼공/Java",
     "혼공/정보처리기사/운영체제",
