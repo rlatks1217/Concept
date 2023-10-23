@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a066bb28e5daff53",
+        "id": "6600d1033982f6e1",
         "type": "tabs",
         "children": [
           {
-            "id": "cd9d1afaf6814b58",
+            "id": "800a94187de4220b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "혼공/Java/Stream 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "혼공/Java/Stream 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "혼공/Java/Stream 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md"
+                "file": "혼공/Java/Stream 2.md"
               }
             }
           }
@@ -156,12 +155,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd9d1afaf6814b58",
+  "active": "800a94187de4220b",
   "lastOpenFiles": [
-    "README_resources/Pasted image 20231023143846.png",
     "혼공/Java/3 Class ~ Inheritance 복습.md",
-    "혼공/Java/Stream.md",
+    "혼공/Java/4 String&Array.md",
+    "혼공/Java/Stream 2.md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "혼공/Spring/테스트.md",
+    "README_resources/Pasted image 20231024010032.png",
+    "README_resources/Pasted image 20231024005311.png",
+    "혼공/Java/Stream 1.md",
+    "README_resources/Pasted image 20231023143846.png",
     "혼공/Java/8 Thread 3&Java IO.md",
     "README_resources/Pasted image 20231021155532.png",
     "README_resources/Pasted image 20231021155520.png",
@@ -170,12 +174,10 @@
     "혼공/Java/7 Thread 2.md",
     "혼공/Java/6 Thread 1.md",
     "혼공/Java/5 List, Map, Set.md",
-    "혼공/Java/4 String&Array.md",
     "README_resources/Pasted image 20231020094548.png",
     "혼공/Java/2 Inheritance.md",
     "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
     "README_resources/Pasted image 20231018172051.png",
-    "혼공/Spring/테스트.md",
     "혼공/코딩테스트/알고리즘.md",
     "혼공/Java/9 네트워크.md",
     "혼공/Java/1 Class.md",
@@ -186,9 +188,6 @@
     "README_resources/Pasted image 20231014210024.png",
     "README_resources/Pasted image 20231014205941.png",
     "README_resources/Pasted image 20231014205852.png",
-    "README_resources/Pasted image 20231014204754.png",
-    "README_resources/Pasted image 20231014203937.png",
-    "README_resources/Pasted image 20231014203721.png",
     "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/Web Program 변화 과정.md",
     "혼공/코딩테스트",
