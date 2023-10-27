@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "377be831746ab435",
+        "id": "4c256f1589527fb7",
         "type": "tabs",
         "children": [
           {
-            "id": "b82aa6404262b208",
+            "id": "9a9107eecd8a9c70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Generic/Generic 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5b4cf6b0d85adc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "우아한 테크코스/Merge & Cherry-pick.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "우아한 테크코스/Merge & Cherry-pick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "우아한 테크코스/Merge & Cherry-pick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md"
+                "file": "우아한 테크코스/Merge & Cherry-pick.md"
               }
             }
           }
@@ -168,11 +156,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5b4cf6b0d85adc7",
+  "active": "9a9107eecd8a9c70",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20231028033856.png",
+    "README_resources/Pasted image 20231028033200.png",
+    "README_resources/Pasted image 20231028033038.png",
+    "README_resources/Pasted image 20231028024425.png",
+    "README_resources/Pasted image 20231028023812.png",
+    "README_resources/Pasted image 20231028022654.png",
+    "README_resources/Pasted image 20231028022628.png",
+    "우아한 테크코스/Merge & Cherry-pick.md",
     "혼공/Java/Generic/Generic 1.md",
-    "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/Generic/Generic 2.md",
+    "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/4 String&Array.md",
     "혼공/Java/3 Class ~ Inheritance 복습.md",
     "혼공/Java/2 Inheritance.md",
@@ -189,13 +185,7 @@
     "README_resources/Pasted image 20231027001837.png",
     "README_resources/Pasted image 20231027001416.png",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "README_resources/Pasted image 20231025144629.png",
-    "README_resources/Pasted image 20231025010619.png",
-    "README_resources/Pasted image 20231025144459.png",
     "혼공/Java/Stream",
-    "README_resources/Pasted image 20231025005643.png",
-    "README_resources/Pasted image 20231025003259.png",
-    "README_resources/Pasted image 20231025000545.png",
     "README_resources/README.md",
     "기본 사용법/옵시디언 사용법.md",
     "기본 사용법/마크다운 사용법.md",
@@ -206,7 +196,6 @@
     "혼공/Java/6 Thread 1.md",
     "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
     "혼공/코딩테스트/알고리즘.md",
-    "혼공/Java/9 네트워크.md",
     "혼공/코딩테스트",
     "혼공/프로젝트 정리",
     "우아한 테크코스",
