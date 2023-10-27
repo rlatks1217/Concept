@@ -8,38 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d998b702f2de531b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/Java/Enum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbb0c252cafcc1c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/Java/Stream/Stream 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b82aa6404262b208",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "혼공/Java/Generic/Generic 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5b4cf6b0d85adc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "혼공/Java/Generic/Generic 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "혼공/Java/Generic/Generic 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "혼공/Java/Generic/Generic 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Enum.md"
+                "file": "혼공/Java/Generic/Generic 2.md"
               }
             }
           }
@@ -175,44 +168,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d998b702f2de531b",
+  "active": "a5b4cf6b0d85adc7",
   "lastOpenFiles": [
+    "혼공/Java/Generic/Generic 1.md",
+    "혼공/Java/Stream/Stream 1.md",
+    "혼공/Java/Generic/Generic 2.md",
+    "혼공/Java/4 String&Array.md",
+    "혼공/Java/3 Class ~ Inheritance 복습.md",
+    "혼공/Java/2 Inheritance.md",
+    "혼공/Java/1 Class.md",
+    "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Enum.md",
+    "README_resources/Pasted image 20231028004631.png",
+    "Pasted image 20231025144459.png.md",
+    "README_resources/Pasted image 20231028004629.png",
+    "혼공/Java/7 Thread 2.md",
+    "혼공/Java/5 List, Map, Set.md",
+    "혼공/Java/Generic",
     "README_resources/Pasted image 20231027001837.png",
     "README_resources/Pasted image 20231027001416.png",
-    "혼공/Java/1 Class.md",
-    "혼공/Java/2 Inheritance.md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "README_resources/Pasted image 20231025144629.png",
-    "Pasted image 20231025144459.png.md",
     "README_resources/Pasted image 20231025010619.png",
     "README_resources/Pasted image 20231025144459.png",
-    "혼공/Java/Stream/Stream 1.md",
-    "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Stream",
     "README_resources/Pasted image 20231025005643.png",
     "README_resources/Pasted image 20231025003259.png",
     "README_resources/Pasted image 20231025000545.png",
-    "README_resources/Pasted image 20231024160558.png",
-    "README_resources/Pasted image 20231024160520.png",
     "README_resources/README.md",
     "기본 사용법/옵시디언 사용법.md",
     "기본 사용법/마크다운 사용법.md",
     "혼공/Java/9 JDBC.md",
     "혼공/Java/10 JDBC 2 & MVC.md",
-    "혼공/Java/3 Class ~ Inheritance 복습.md",
-    "혼공/Java/4 String&Array.md",
     "혼공/Spring/테스트.md",
     "혼공/Java/8 Thread 3&Java IO.md",
-    "혼공/Java/7 Thread 2.md",
     "혼공/Java/6 Thread 1.md",
-    "혼공/Java/5 List, Map, Set.md",
     "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
     "혼공/코딩테스트/알고리즘.md",
     "혼공/Java/9 네트워크.md",
-    "혼공/Java/10 Database 1.md",
-    "혼공/Java/11 Database 2.md",
     "혼공/코딩테스트",
     "혼공/프로젝트 정리",
     "우아한 테크코스",
@@ -221,7 +215,6 @@
     "혼공/정보처리기사/인터페이스 구현",
     "혼공/정보처리기사",
     "머신러닝",
-    "혼공/Spring",
     "Untitled.canvas"
   ]
 }

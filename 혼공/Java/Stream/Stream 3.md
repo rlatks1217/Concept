@@ -19,8 +19,8 @@ IntStream stream = IntStream.range(1, 10);
 Path path = Paths.get(Test.class.getResource("data.txt").toURI());
 //Test.class.getResource("파일명.확장자"): Test클래스가 있는 경로(상대경로) 상에서 해당 파일명을 가진 파일의 절대 경로를 알아냄
 //-> 찾은 결과로 URL 객체를 반환받게 됨(해당 URL 객체는 파일에 대한 다양한 정보를 가지고 있음)
-//Paths.get(): URI객체를 Path 객체로 만들어주는 메소드
 //.toURI(): Paths.get()의 인자로는 URI 타입의 객체만 들어갈 수 있기 때문에 이 메소드를 이용하여 URL객체를 URI 객체로 바꿔줌
+//Paths.get(): URI객체를 Path 객체로 만들어주는 메소드
 //Path 객체를 만드는 이유: Files.lines()의 인자로는 Path 객체만 들어갈 수 있기 때문
 
 Stream<String> stream = Files.lines(path, Charset.defaultCharset());
