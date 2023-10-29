@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md",
+                "file": "혼공/Java/Enum.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -181,11 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3629e6b075371914",
+  "active": "5d15f4985de6c4fd",
   "lastOpenFiles": [
-    "혼공/Java/Generic/Generic 1.md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "혼공/Java/Enum.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주).md",
+    "혼공/Java/Generic/Generic 1.md",
     "혼공/git/Merge & Cherry-pick.md",
     "혼공/git",
     "README_resources/Pasted image 20231028033856.png",
@@ -203,7 +203,6 @@
     "혼공/Java/1 Class.md",
     "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Stream/Stream 3.md",
-    "혼공/Java/Enum.md",
     "README_resources/Pasted image 20231028004631.png",
     "Pasted image 20231025144459.png.md",
     "README_resources/Pasted image 20231028004629.png",
