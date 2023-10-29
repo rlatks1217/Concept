@@ -26,6 +26,7 @@ public class Box<T> {
 ```
 - 생성
 ```
-Box<String> box = new Box<String>();
+Box<String> box = new Box<String>(); 
+// new 키워드 뒤의 Generic은 생략이 가능하다 <String> -> <>
 box.content = "하하";
 ```

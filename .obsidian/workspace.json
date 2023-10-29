@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/Merge & Cherry-pick.md",
+                "file": "혼공/Java/Generic/Generic 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d15f4985de6c4fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3629e6b075371914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우아한 테크코스/Merge & Cherry-pick.md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우아한 테크코스/Merge & Cherry-pick.md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우아한 테크코스/Merge & Cherry-pick.md"
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주).md"
               }
             }
           }
@@ -156,8 +181,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a9107eecd8a9c70",
+  "active": "3629e6b075371914",
   "lastOpenFiles": [
+    "혼공/Java/Generic/Generic 1.md",
+    "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "우아한 테크코스/프리코스 2주차(자동차 경주).md",
+    "혼공/git/Merge & Cherry-pick.md",
+    "혼공/git",
     "README_resources/Pasted image 20231028033856.png",
     "README_resources/Pasted image 20231028033200.png",
     "README_resources/Pasted image 20231028033038.png",
@@ -165,8 +195,6 @@
     "README_resources/Pasted image 20231028023812.png",
     "README_resources/Pasted image 20231028022654.png",
     "README_resources/Pasted image 20231028022628.png",
-    "우아한 테크코스/Merge & Cherry-pick.md",
-    "혼공/Java/Generic/Generic 1.md",
     "혼공/Java/Generic/Generic 2.md",
     "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/4 String&Array.md",
@@ -183,8 +211,6 @@
     "혼공/Java/5 List, Map, Set.md",
     "혼공/Java/Generic",
     "README_resources/Pasted image 20231027001837.png",
-    "README_resources/Pasted image 20231027001416.png",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "혼공/Java/Stream",
     "README_resources/README.md",
     "기본 사용법/옵시디언 사용법.md",
@@ -203,7 +229,6 @@
     "혼공/정보처리기사/운영체제",
     "혼공/정보처리기사/인터페이스 구현",
     "혼공/정보처리기사",
-    "머신러닝",
     "Untitled.canvas"
   ]
 }
