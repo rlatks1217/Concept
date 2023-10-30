@@ -16,7 +16,7 @@ Box box = new Box(); // 아무런 구체적인 타입도 지정하지 않음
 Box.content = "String"; // String 객체를 내부 필드에 할당
 
 // Object클래스를 상속하고 있는 String클래스는 Object의 equals()를 오버라이딩함
-// 그래서 equals() 호출 시 String 클래스의 equals() 즉, 오버라이딩한 equals()가 호출될 것임 
+// 그래서 box.equals() 호출 시 String 클래스의 equals() 즉, 오버라이딩한 equals()가 호출될 것임 
 ```
 
 - 매개변수 타입이나 return타입에 <super T> 와 같은 제네릭이 올 경우  그 부모 타입도 올 수 있다는 의미
