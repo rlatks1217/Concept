@@ -42,7 +42,7 @@ public static <T extends Number> boolean compare(T t1, T t2) {
 	//메소드 내용
 }
 //return타입만 타입 파라미터의 영향을 받음
-public static <T extends Number> boolean compare(T t1, T t2) {
+public static <T extends Number> T compare(boolean t1, int t2) {
 	//메소드 내용
 }
 ```
