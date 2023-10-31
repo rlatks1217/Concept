@@ -23,3 +23,26 @@ Box<String> box2 = boxing("ㅎㅇㅎㅇ");
 ```
 - 예제
 ![](Pasted%20image%2020231031015219.png)
+### 제한된 타입 파라미터
+- 지정할 수 있는 구체적인 타입을 특정 범주로 제한하는 타입 파라미터를 말함
+Ex) `<T extends Number>`라고 지정한 경우 대체할 수 있는(=지정할 수 있는) 타입은 Number 또는 해당 클래스의 자식 클래스(Byte, Short, Integer, Long, Double)임
+```
+//사용 사례
+public <T extends Number> boolean compare(T t1, T t2) {
+	double v1 = t1.doubleValue(); //Number 클래스의 doubleValue() Method 사용
+	double v2 = t2.doubleValue(); //Number 클래스의 doubleValue() Method 사용
+}
+//메소드의 return과 매개변수 타입은 Number타입과 Number클래스의 자식 타입만 가능함
+//타입이 될 수 있는 애들은 모두 Number클래스를 상속하기 때문에 당연히 Number클래스의 메소드를 사용할 수 있음 
+```
+- 사실 Number 클래스는 추상 클래스임 즉, 해당 클래스의 자식클래스에 의해 객체로 만들어진다는 얘기지
+```
+//매개변수만 타입 파라미터의 영향을 받음
+public static <T extends Number> boolean compare(T t1, T t2) {
+	//메소드 내용
+}
+//return타입만 타입 파라미터의 영향을 받음
+public static <T extends Number> boolean compare(T t1, T t2) {
+	//메소드 내용
+}
+```

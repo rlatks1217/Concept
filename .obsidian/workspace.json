@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4c256f1589527fb7",
+        "id": "169bb2635838b96c",
         "type": "tabs",
         "children": [
           {
-            "id": "5d15f4985de6c4fd",
+            "id": "7f85cdf83075d372",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "혼공/Java/Generic/Generic 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "혼공/Java/Generic/Generic 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "혼공/Java/Generic/Generic 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Enum.md"
+                "file": "혼공/Java/Generic/Generic 3.md"
               }
             }
           }
@@ -155,15 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d15f4985de6c4fd",
+  "active": "7f85cdf83075d372",
   "lastOpenFiles": [
-    "혼공/Java/Stream/Stream 1.md",
-    "혼공/Java/Generic/Generic 3.md",
-    "혼공/Java/Enum.md",
-    "README_resources/Pasted image 20231031015219.png",
-    "혼공/Java/Generic/Generic 2.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주).md",
+    "혼공/Java/Generic/Generic 3.md",
+    "혼공/Java/Generic/Generic 2.md",
     "혼공/Java/Generic/Generic 1.md",
+    "혼공/Java/Enum.md",
+    "혼공/Java/Stream/Stream 1.md",
+    "README_resources/Pasted image 20231031015219.png",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "혼공/git/Merge & Cherry-pick.md",
     "혼공/git",
