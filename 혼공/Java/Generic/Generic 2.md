@@ -19,7 +19,7 @@ Box.content = "String"; // String 객체를 내부 필드에 할당
 // 그래서 box.equals() 호출 시 String 클래스의 equals() 즉, 오버라이딩한 equals()가 호출될 것임 
 ```
 
-- 매개변수 타입이나 return타입에 <super T> 와 같은 제네릭이 올 경우  그 부모 타입도 올 수 있다는 의미
+- 매개변수 타입이나 return타입에 <super T> 와 같은 제네릭이 올 경우 T자리의 오는 클래스의 부모 타입도 올 수 있다는 의미
 
 ### Generic의 또다른 기능
 ![](Pasted%20image%2020231018172051.png)
