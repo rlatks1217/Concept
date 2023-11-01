@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0b2acc8a8ff993a",
+        "id": "260094da17fd4374",
         "type": "tabs",
         "children": [
           {
-            "id": "aaf2faddd36514ce",
+            "id": "94f405493ee26f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Generic/Generic 4.md",
+                "file": "혼공/Java/1 Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Generic/Generic 4.md",
+                "file": "혼공/Java/1 Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Generic/Generic 4.md",
+                "file": "혼공/Java/1 Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Generic/Generic 4.md"
+                "file": "혼공/Java/1 Class.md"
               }
             }
           }
@@ -155,11 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aaf2faddd36514ce",
+  "active": "94f405493ee26f77",
   "lastOpenFiles": [
+    "혼공/Java/2 Inheritance.md",
+    "혼공/Java/3 Class ~ Inheritance 복습.md",
+    "혼공/Java/1 Class.md",
+    "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
-    "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Stream/Stream 3.md",
@@ -178,9 +181,6 @@
     "README_resources/Pasted image 20231028022654.png",
     "README_resources/Pasted image 20231028022628.png",
     "혼공/Java/4 String&Array.md",
-    "혼공/Java/3 Class ~ Inheritance 복습.md",
-    "혼공/Java/2 Inheritance.md",
-    "혼공/Java/1 Class.md",
     "README_resources/Pasted image 20231028004631.png",
     "Pasted image 20231025144459.png.md",
     "README_resources/Pasted image 20231028004629.png",
