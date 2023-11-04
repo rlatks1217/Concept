@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "13f07bad835d44eb",
+        "id": "9aa2674fa399709e",
         "type": "tabs",
         "children": [
           {
-            "id": "47ec49f929c645fe",
+            "id": "d6f5fff8c0362247",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Interface/interface 1.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Interface/interface 1.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Interface/interface 1.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Interface/interface 1.md"
+                "file": "혼공/Java/Interface/interface 2.md"
               }
             }
           }
@@ -155,18 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "d6f5fff8c0362247",
   "lastOpenFiles": [
+    "혼공/Java/Interface/interface 1.md",
+    "우아한 테크코스/프리코스 2주차(자동차 경주).md",
+    "혼공/Java/일급 컬렉션(First Class Collection).md",
     "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Interface",
-    "혼공/Java/Interface/interface 1.md",
     "혼공/Java/3 Class ~ Inheritance 복습.md",
     "혼공/Java/2 Inheritance.md",
     "혼공/Spring/테스트.md",
     "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Stream/Stream 1.md",
-    "우아한 테크코스/프리코스 2주차(자동차 경주).md",
     "혼공/Java/1 Class.md",
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
