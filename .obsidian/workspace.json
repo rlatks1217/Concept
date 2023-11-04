@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/1 Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/1 Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/1 Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md"
+                "file": "혼공/Java/1 Class.md"
               }
             }
           }
@@ -157,21 +158,26 @@
   },
   "active": "d6f5fff8c0362247",
   "lastOpenFiles": [
+    "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
+    "혼공/Java/Stream/Stream 4.md",
+    "혼공/코딩테스트/자료구조",
+    "README_resources/Pasted image 20231104211453.png",
+    "README_resources/Pasted image 20231104210951.png",
+    "혼공/Java/일급 컬렉션(First Class Collection).md",
+    "혼공/Java/Stream/Stream 3.md",
+    "혼공/Java/Stream/Stream 2.md",
+    "혼공/Java/Stream/Stream 1.md",
+    "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Interface/interface 1.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주).md",
-    "혼공/Java/일급 컬렉션(First Class Collection).md",
-    "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Interface",
     "혼공/Java/3 Class ~ Inheritance 복습.md",
     "혼공/Java/2 Inheritance.md",
     "혼공/Spring/테스트.md",
     "혼공/Java/Generic/Generic 4.md",
-    "혼공/Java/Stream/Stream 3.md",
-    "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/1 Class.md",
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
-    "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Generic/Generic 1.md",
     "혼공/Java/Enum.md",
     "README_resources/Pasted image 20231031015219.png",
@@ -186,23 +192,18 @@
     "README_resources/Pasted image 20231028022654.png",
     "README_resources/Pasted image 20231028022628.png",
     "혼공/Java/4 String&Array.md",
-    "README_resources/Pasted image 20231028004631.png",
     "Pasted image 20231025144459.png.md",
-    "README_resources/Pasted image 20231028004629.png",
     "혼공/Java/7 Thread 2.md",
     "혼공/Java/5 List, Map, Set.md",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
     "README_resources/README.md",
     "기본 사용법/옵시디언 사용법.md",
-    "기본 사용법/마크다운 사용법.md",
-    "혼공/Java/9 JDBC.md",
     "혼공/코딩테스트",
     "혼공/프로젝트 정리",
     "우아한 테크코스",
     "혼공/Java",
     "혼공/정보처리기사/운영체제",
-    "혼공/정보처리기사/인터페이스 구현",
     "Untitled.canvas"
   ]
 }
