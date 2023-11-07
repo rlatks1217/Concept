@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "우아한 테크코스/프리코스 3주차(로또 게임).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "우아한 테크코스/프리코스 3주차(로또 게임).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Enum.md",
+                "file": "우아한 테크코스/프리코스 3주차(로또 게임).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Enum.md"
+                "file": "우아한 테크코스/프리코스 3주차(로또 게임).md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "d6f5fff8c0362247",
   "lastOpenFiles": [
+    "혼공/Java/Enum.md",
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
     "혼공/Java/Stream/Stream 4.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주).md",
@@ -183,7 +184,6 @@
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
     "혼공/Java/Generic/Generic 1.md",
-    "혼공/Java/Enum.md",
     "README_resources/Pasted image 20231031015219.png",
     "혼공/git",
     "README_resources/Pasted image 20231028033856.png",
