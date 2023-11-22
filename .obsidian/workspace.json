@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md"
+                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md"
               }
             }
           }
@@ -156,11 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6f5fff8c0362247",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
-    "README_resources/Pasted image 20231113204138.png",
-    "우아한 테크코스/프리코스 3주차(로또 게임).md",
+    "혼공/git/Merge & Cherry-pick.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
+    "우아한 테크코스/프리코스 3주차(로또 게임).md",
+    "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+    "README_resources/Pasted image 20231113204138.png",
     "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Stream/Stream 4.md",
     "README_resources/Pasted image 20231110214626.png",
@@ -170,14 +172,11 @@
     "README_resources/Pasted image 20231110201010.png",
     "README_resources/Pasted image 20231110200747.png",
     "README_resources/Pasted image 20231110200554.png",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "혼공/Spring/테스트.md",
     "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Enum.md",
     "README_resources/Pasted image 20231106154628.png",
     "README_resources/Pasted image 20231105225601.png",
-    "혼공/git/Merge & Cherry-pick.md",
     "혼공/Java/1 Class.md",
     "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/코딩테스트/자료구조",
@@ -192,7 +191,6 @@
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
     "혼공/Java/Generic/Generic 1.md",
-    "README_resources/Pasted image 20231031015219.png",
     "혼공/git",
     "혼공/Java/4 String&Array.md",
     "Pasted image 20231025144459.png.md",
