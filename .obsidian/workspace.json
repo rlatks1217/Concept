@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md",
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "우아한 테크코스/프리코스 1주차(야구 게임).md"
+                "file": "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md"
               }
             }
           }
@@ -157,11 +157,11 @@
   },
   "active": "d6f5fff8c0362247",
   "lastOpenFiles": [
+    "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "README_resources/Pasted image 20231122202801.png",
     "혼공/git/Merge & Cherry-pick.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "README_resources/Pasted image 20231113204138.png",
     "혼공/Java/Interface/interface 2.md",
@@ -182,7 +182,6 @@
     "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/코딩테스트/자료구조",
     "README_resources/Pasted image 20231104211453.png",
-    "README_resources/Pasted image 20231104210951.png",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
     "혼공/Java/Interface/interface 1.md",
     "혼공/Java/Interface",
