@@ -1,6 +1,10 @@
 # Merge
 
 ### fast-forward merge
+```bash
+git checkout master // git checkout --ff master에서 --ff가 생략되어 있는 형태임
+git merge
+```
 - master(종합본이 될 branch)이 가리키고 있던 commit(참조 개체 = 동그라미)에서 merge할 branch(dev1)가 가리키고 있던 commit(참조 개체)으로 가리키는 대상을 옮기는 것
 - 새로운 commit이 생기는 것이 아님(단순히 master branch가 가리키고 있던 commit에서 옮긴 것이기 때문)
 실행 전
@@ -9,8 +13,18 @@
 ![](Pasted%20image%2020231028022654.png)
 
 ### 3-way-merge
+```bash
+// 위와 코드는 같음, 동작방식이 다를 뿐임
+git checkout master
+git merge
+```
 - 그림처럼 master와 dev1이 각자 commit을 진행한 상태라고 했을 때 사용
-- Base와 같은 위치의 commit 즉, 최적 공통조상을 찾고 base로부터 변경사항이 있는 파일들을 merge commit(새로 생기는 commit을 의미함)에 반영함
+- Base와 같은 위치의 commit 즉, 최적 공통조상(base)을 찾고 base로부터 변경사항이 있는 파일들의 내용을 합쳐 새로 생기는 commit(merge commit)에 반영함
+- 이 과정에서 두 브랜치의 commit과 공통 조상의 commit, 총 3개의 commit이 관여하기 때문에 3-way라 불림
+
+**동작방식**
+Base(공통조상)을 기준으로 변화가 발생했다면 이를 merge할 내용으로 인정하여 merge함 하지만 master와 dev1이 동일한 부분을 수정했다면 이는 충돌로 인식하여 충돌을 해결한 후 merge해야 함
+
 실행 전
 ![](Pasted%20image%2020231028023812.png)
 실행 후
@@ -21,11 +35,11 @@
 
 github의 pull request는 merge 방법 3가지를 제공
 ### Create merge commit
-- fast-forward가 이뤄지는 상황과 같은 데에도 불구하고 새로운 merge commit을 생성하는 방법
+- fast-forward가 이뤄지는 상황임에도 불구하고 새로운 merge commit을 생성하는 방법
 - 이런 식으로 merge를 할 경우 merge라는 것도 commit에 남기 때문에 어떤 기능들을 만든 다음 merge했는지 확인이 용이해져 가독성이 좋아진다고 할 수 있음
 
-실행 코드
-```
+**실행 코드**
+```bash
 git checkout master
 git merge --no-ff dev1
 ```
@@ -34,8 +48,8 @@ git merge --no-ff dev1
 - 여러 명이 작업하는 환경에서 하나의 브랜치에 각자가 구현한 여러 기능을 merge할 경우 commit log가 난잡해짐 -> 이것을 사용하면 단순화하여 merge할 수 있기 때문에 가독성이 좋아짐
 ![](Pasted%20image%2020231028033856.png)
 
-실행 코드
-```
+**실행 코드**
+```bash
 git checkout master
 git merge squash dev1
 git commit -m "squash merge message"
@@ -49,8 +63,8 @@ rebase 실행 후
 - 이렇게 issue2의 base를 issue1으로 옮겨 하나의 줄기로 만들었음
 - rebase 실행 시 base를 바꿀 branch(issue2)에서 실행해야 함
 
-실행 코드
-```
+**실행 코드**
+```bash
 git checkout issue2
 git rebase issue1
 
@@ -65,7 +79,7 @@ git merge issue2
 
 다른 브랜치에 있는 commit을 선택적으로 내 브랜치에 적용시키는 것
 - 완성되지 않은 기능과 완성된 기능이 하나의 브랜치에 있을 때 완성된 기능 부분만 쏙 가져와야 하는 상황에서 쓰임
-```
+```bash
 git checkout -b cherry // 새로운 branch 생성
 git cherry-pick 가져오고 싶은 commit의 ID //여러 개를 가져오고 싶은 경우 공백을 경계로 커밋 아이디를 작성해주면 됨
 git push origin 반영할 원격저장소branch
