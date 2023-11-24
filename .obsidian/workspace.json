@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9aa2674fa399709e",
+        "id": "a2f335709dd0d3db",
         "type": "tabs",
         "children": [
           {
-            "id": "d6f5fff8c0362247",
+            "id": "ea5645111222cdc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Reflection.md",
+                "file": "혼공/Java/Generic/Generic 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Reflection.md",
+                "file": "혼공/Java/Generic/Generic 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Reflection.md",
+                "file": "혼공/Java/Generic/Generic 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Reflection.md"
+                "file": "혼공/Java/Generic/Generic 2.md"
               }
             }
           }
@@ -156,10 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "ea5645111222cdc9",
   "lastOpenFiles": [
-    "혼공/Java/Reflection/Reflection 2.md",
+    "혼공/Java/Generic/Generic 1.md",
     "혼공/Java/Reflection.md",
+    "혼공/Java/Reflection/Reflection 2.md",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
     "혼공/Java/Enum.md",
@@ -198,7 +198,6 @@
     "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 2.md",
-    "혼공/Java/Generic/Generic 1.md",
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
