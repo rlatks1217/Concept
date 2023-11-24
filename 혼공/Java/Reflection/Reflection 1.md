@@ -117,7 +117,7 @@ Object result1 = method1.invoke(car, "안녕", 123);
 System.out.println(result1); // 1 반환
 // 무조건 Object Type으로 반환되므로 사용하고자 하는 형태에 맞춰 형변환해서 사용하면 됨
 
-// 호출되는 메소드가 static일 경우 해당 메소드가 호출 시 사용되는 객체는 null로 작성해도 됨
+// 호출되는 메소드가 static일 경우 해당 메소드가 소속된 객체는 null로 작성해도 됨
 Method method2 = clazz.getMethod("staticMethod");
 Object result2 = method2.invoke(null);
 // Object result2 = method2.invoke(car);
@@ -131,6 +131,7 @@ Field model = clazz.getDeclaredField("model");
 model.setAccessible(true);
 
 //value 가져오기
-Object value = model.get(car);
+Object value = model.get(car); //get(해당 Fleid가 소속된 객체(참조변수))
 System.out.println(value);
 ```
+- int나 Char, boolean 등의 경우 getInt(), getChar(), getboolean() 등을 사용하면 Object Type이 아니라 자동으로 해당 Type에 맞게 return함
