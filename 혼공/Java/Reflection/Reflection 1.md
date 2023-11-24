@@ -67,6 +67,7 @@ Object car = constructors[1].newInstance("포르쉐"); //object Type으로 반�
 // 1. 메소드 이름으로 가져오기
 Method getModel = clazz.getMethod("getModel");
 System.out.println("메소드 이름:" + getModel.getName());
+// public을 제외한 접근 제어자의 메소드를 가져오고 싶은 경우 getDeclaredMethod()를 써야 함
 
 // 이때, 다음과 같이 첫 번째 인자 뒤에 메소드의 파라미터 타입을 지정해 주면 지정된 타입의 파라미터들을 가진 메소드들 반환함
 Method setModel = clazz.getMethod("mulParameters", String.class, int.class);
@@ -77,6 +78,7 @@ System.out.println("메소드 이름:" + mulParameters.getName());
 // 메소드 이름:getModel
 // 메소드 이름:mulParameters
 ```
+
 ```java
 //2. 메소드 배열 가져오기
 Method[] allMethods = clazz.getMethods();
@@ -93,6 +95,7 @@ for (Method method : userDeclaredMethods) {
 }
 // 상속받은 클래스의 메소드는 포함하지 않고 선언된 메소드들을 반환함(어떤 접근 제어자를 가진 메소드든 상관없이 다 반환)
 ```
+
 ```java
 // 3. 메소드 실행
 
@@ -118,4 +121,16 @@ System.out.println(result1); // 1 반환
 Method method2 = clazz.getMethod("staticMethod");
 Object result2 = method2.invoke(null);
 // Object result2 = method2.invoke(car);
+```
+5. field 가져오기
+```java
+//Field 가져오기
+Field model = clazz.getDeclaredField("model");
+
+// private Field일 경우 접근을 허용해야 함
+model.setAccessible(true);
+
+//value 가져오기
+Object value = model.get(car);
+System.out.println(value);
 ```
