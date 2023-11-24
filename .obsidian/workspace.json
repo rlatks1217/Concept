@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Reflection/Reflection 1.md",
+                "file": "혼공/Java/Reflection.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Reflection/Reflection 1.md",
+                "file": "혼공/Java/Reflection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Reflection/Reflection 1.md",
+                "file": "혼공/Java/Reflection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Reflection/Reflection 1.md"
+                "file": "혼공/Java/Reflection.md"
               }
             }
           }
@@ -155,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6f5fff8c0362247",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
     "혼공/Java/Reflection/Reflection 2.md",
-    "혼공/Java/Reflection/Reflection 1.md",
+    "혼공/Java/Reflection.md",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
     "혼공/Java/Enum.md",

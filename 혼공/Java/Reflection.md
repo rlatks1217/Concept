@@ -135,3 +135,19 @@ Object value = model.get(car); //get(해당 Fleid가 소속된 객체(참조변�
 System.out.println(value);
 ```
 - int나 Char, boolean 등의 경우 getInt(), getChar(), getboolean() 등을 사용하면 Object Type이 아니라 자동으로 해당 Type에 맞게 return함
+### Resource 경로 얻기
+- Class 객체는 byteCode 파일(~ .class)은 경로 정보를 가지고 잇기 때문에 이 경로를 기준으로 같은 경로에 있는 다른 resource 파일을(이미지, XML, Property 파일)의 정보를 얻을 수 있음
+
+### Method
+```java
+Car car = new Car("포르쉐");
+Class<?> clazz = car.getClass();
+
+// 인자로 들어간 이름을 가진 파일의 경로를 가지고 있는 url 객체를 얻음
+URL url = clazz.getResource("data.txt");
+
+// 절대 경로를 String 형태로 얻음
+String path = url.getPath();
+
+System.out.println(path);
+```
