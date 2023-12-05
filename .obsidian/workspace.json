@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md",
+                "file": "혼공/Java/Interface/interface 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Generic/Generic 2.md"
+                "file": "혼공/Java/Interface/interface 2.md"
               }
             }
           }
@@ -157,6 +157,9 @@
   },
   "active": "ea5645111222cdc9",
   "lastOpenFiles": [
+    "혼공/Java/Interface/interface 1.md",
+    "혼공/Java/Generic/Generic 4.md",
+    "혼공/Java/Generic/Generic 3.md",
     "혼공/Java/Generic/Generic 1.md",
     "혼공/Java/Generic/Generic 2.md",
     "혼공/Java/Reflection.md",
@@ -192,12 +195,9 @@
     "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/코딩테스트/자료구조",
     "README_resources/Pasted image 20231104211453.png",
-    "혼공/Java/Interface/interface 1.md",
     "혼공/Java/Interface",
     "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
     "혼공/Java/_KOSA수업/2 Inheritance.md",
-    "혼공/Java/Generic/Generic 4.md",
-    "혼공/Java/Generic/Generic 3.md",
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
