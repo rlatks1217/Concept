@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -157,6 +158,7 @@
   },
   "active": "ea5645111222cdc9",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20231206054518.png",
     "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Interface/interface 1.md",
     "혼공/Java/Generic/Generic 4.md",
@@ -197,7 +199,6 @@
     "README_resources/Pasted image 20231104211453.png",
     "혼공/Java/Interface",
     "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
-    "혼공/Java/_KOSA수업/2 Inheritance.md",
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",

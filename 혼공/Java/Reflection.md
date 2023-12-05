@@ -1,7 +1,8 @@
 ### 의미
 프로그램 실행 시 어떤 멤버들(메소드, 필드, 생성자)이 있는지에 대한 정보를 조사하여 저장함(이때 멤버들에 대한 정보를 메타 데이터, 메타 정보라고도 함) 
 이 정보들을 활용하는 기능을 자바에서 제공하는데 이걸 리플렉션이라고 함
-
+##### JVM 동작방식
+![](Pasted%20image%2020231206054518.png)
 기본적으로 Method Area에 올라가야 Runtime(Compile이 아닌 실제 프로그램을 실행하는 시점) 시 해당 클래스나 인터페이스를 사용할 수 있음
 이때, Method Area에는 `Class`라는 Type의 Instance(Class라는 클래스가 있다는 것을 알 수 있음)로 올라가게 됨 즉, 이 시점부터 해당 클래스에 대한 정보를 `Class`라는 Type으로 저장하고 있는 것임
 ### 프로그램에서 Class Type의 객체를 얻는 방법
@@ -53,6 +54,7 @@ Constructor<Car> constructor = clazz.getDeclaredConstructor();
 // 해당 클래스에 선언된 모든 생성자 반환(여러 개일 수 있으므로 배열 형태로 반환함)
 // 선언된 순서로 배열에 담겨서 반환됨
 Constructor[] constructors = clazz.getDeclaredConstructors();
+//기본 생성자가 명시적으로 선언되어 있지 않은 경우 기본 생성자를 제외하고 나머지 생성자들을 배열에 담아 반환함
 
 // 생성자 이름 반환
 constructor.getName();
@@ -115,9 +117,9 @@ Class<?> clazz = car.getClass();
 Method method1 = clazz.getMethod("mulParameters", String.class, int.class);
 Object result1 = method1.invoke(car, "안녕", 123);
 System.out.println(result1); // 1 반환
-// 무조건 Object Type으로 반환되므로 사용하고자 하는 형태에 맞춰 형변환해서 사용하면 됨
+// 결과는 무조건 Object Type으로 반환되므로 사용하고자 하는 형태에 맞춰 형변환해서 사용하면 됨
 
-// 호출되는 메소드가 static일 경우 해당 메소드가 소속된 객체는 null로 작성해도 됨
+// 호출되는 메소드가 static일 경우 해당 메소드가 소속된 객체는 null로 작성해도 됨(static 메소드는 특정 객체에 소속되어 있는 것이 아니기 때문에 어떤 객체에 소속된 메소드인지 인자로 넣어줄 필요가 없는 것임)
 Method method2 = clazz.getMethod("staticMethod");
 Object result2 = method2.invoke(null);
 // Object result2 = method2.invoke(car);
@@ -136,7 +138,7 @@ System.out.println(value);
 ```
 - int나 Char, boolean 등의 경우 getInt(), getChar(), getboolean() 등을 사용하면 Object Type이 아니라 자동으로 해당 Type에 맞게 return함
 ### Resource 경로 얻기
-- Class 객체는 byteCode 파일(~ .class)은 경로 정보를 가지고 잇기 때문에 이 경로를 기준으로 같은 경로에 있는 다른 resource 파일을(이미지, XML, Property 파일)의 정보를 얻을 수 있음
+- Class 객체는 byteCode 파일(~ .class)의 경로 정보를 가지고 잇기 때문에 이 경로를 기준으로 같은 경로에 있는 다른 resource 파일을(이미지, XML, Property 파일)의 정보를 얻을 수 있음
 
 ### Method
 ```java
