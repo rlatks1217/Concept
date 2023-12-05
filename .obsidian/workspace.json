@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/Reflection.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/Reflection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md",
+                "file": "혼공/Java/Reflection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Interface/interface 2.md"
+                "file": "혼공/Java/Reflection.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "ea5645111222cdc9",
   "lastOpenFiles": [
+    "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Interface/interface 1.md",
     "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Generic/Generic 3.md",
@@ -179,7 +180,6 @@
     "혼공/git/Merge & Cherry-pick.md",
     "README_resources/Pasted image 20231122202801.png",
     "README_resources/Pasted image 20231113204138.png",
-    "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Stream/Stream 4.md",
     "README_resources/Pasted image 20231110214626.png",
     "README_resources/Pasted image 20231110211658.png",

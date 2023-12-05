@@ -69,9 +69,9 @@ Method getModel = clazz.getMethod("getModel");
 System.out.println("메소드 이름:" + getModel.getName());
 // public을 제외한 접근 제어자의 메소드를 가져오고 싶은 경우 getDeclaredMethod()를 써야 함
 
-// 이때, 다음과 같이 첫 번째 인자 뒤에 메소드의 파라미터 타입을 지정해 주면 지정된 타입의 파라미터들을 가진 메소드들 반환함
+// 이때, 다음과 같이 첫 번째 인자 뒤에 메소드의 파라미터 종류를 지정해 주면 지정된 타입의 파라미터들을 가진 메소드들 반환함
 Method setModel = clazz.getMethod("mulParameters", String.class, int.class);
-System.out.println("메소드 이름:" + mulParameters.getName());
+System.out.println("메소드 이름:" + mulParameters.getName());  
 // int처럼 primitive Type의 경우도 그냥 .class라고 뒤에 붙여주며 인자로 넣어주면 잘 동작함
 
 // 출력 결과
