@@ -43,7 +43,7 @@ commons - logging
 ### Layered Architecture(계층 구조) : 일반적인 software를 구현할 때 가장 널리 사용되는 프로그램 구조
 
 N -tier Architecture(일반적으로 사용되는 계층 수는 4)
-![](Pasted%20image%2020231014205852.png)
+![](../../README_resources/Pasted%20image%2020231014205852.png)
 각 layer(계층)를 나누는 기준
 Presentation Layer(가장 상위 계층) : 클라이언트와 직접 대면하는 역할을 하는 부분(클라이언트로부터 입력같은 것을 받고 결과를 보여주는 부분 --> 클라이언트의 이벤트(클릭, 엔터입력 등)를 처리)
 Business Logic Layer(3층) : 실제로 로직처리를 하는 계층
@@ -54,7 +54,7 @@ Database Layer(1층) : 실제 DBMS(데이터들이 저장되는 계층)
 
 이런 계층구조로 프로그래밍하는 패턴을 MVC 패턴 이름 붙임
 
-![](Pasted%20image%2020231014205941.png)
+![](../../README_resources/Pasted%20image%2020231014205941.png)
 MVC 패턴 : SE에서 사용되는 대표적인 software 디자인 패턴
 이것을 적용하는 것이 적절하지 않아 다른 패턴을 적용하는 경우도 있음(MVT, MVVM, MVD 등등)
 Model + View + Controller (+ DAO(Persistence Layer에 해당하는 컴포넌트)가 추가되야 함)

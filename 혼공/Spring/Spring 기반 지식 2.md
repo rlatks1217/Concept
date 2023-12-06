@@ -32,7 +32,7 @@ Bean의 scope이 prototype일 경우 프로그램 실행 시 설정정보는 읽
 
 
 ### Spring Web MVC
-![](Pasted%20image%2020231006004907.png)
+![](../../../README_resources/Pasted%20image%2020231006004907.png)
 - 요청이 들어오면 웬만한 건 DispatcherServlet이 받기 때문에 이 놈을 front-Controller라고 함
 **동작과정**
 1. web Client가 요청을 보내면 Tomcat 안의 Web Server가 요청을 받고 동적 리소스 요청의 경우 Server가 처리를 해줄 수 없기 때문에 Servlet Container로 요청을 넘기게 됨

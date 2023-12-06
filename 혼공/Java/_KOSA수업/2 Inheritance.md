@@ -1,4 +1,4 @@
-![](Pasted%20image%2020231014195417.png)
+![](../../README_resources/Pasted%20image%2020231014195417.png)
 - 기존의 class를 정의할 때 기존의 다른 class의 내용을 이어받아 확장해서 class를 정의하는 방법
 - class의 재활용성을 높일 수 있음(재활용성 - 클래스를 만들 때 새로 만드는 것이 아닌 기존에 있던 방식에서 이어서 만들 수가 있다는 것을 의미)
 
@@ -9,7 +9,7 @@ Person - super class, 상위 클래스, Parent class, 부모 클래스, upper cl
 Student - sub class, 하위 클래스, child class, 자식 클래스 
 
 ### IS - A relationship (IS - A 관계)
-![](Pasted%20image%2020231014195758.png)
+![](../../README_resources/Pasted%20image%2020231014195758.png)
 Sub class is a Super class : 역은 성립하지 않음  : 포함관계 SubClass 밖/ SuperClass 안
 --> ex) 포유류(super class) <-- 사람 고래 강아지 (sub class들) =>그림으로 그려보면 트리구조
 즉, 정의를 봤을 때 의미적으로 'SubClass는 SuperClass다' 니까 SuperClass를 SubClass 대신 변수타입으로 사용할 수 있음(매개변수를 포함)을 의미/하지만 역은 성립하지 않으므로 SubClass를 SuperClass 대신에 사용할 수는 없음
@@ -20,7 +20,7 @@ private(접근제어자)로 묶여 있으면 상속받을 수 없음
 상속이 사용된 경우 Method Area에 Person이라는 클래스의 정보부터 올라가게 됨(Student는 Person의 내용을 이어받아 만들어진 클래스니까 Person부터 알아야지)그 다음 Student가 올라가게 되는 것
 
 Java의 최상위 Class = Object Class --> 모든 자바의 클래스는 Object 클래스를 상속한다.
-![](Pasted%20image%2020231014195650.png)
+![](../../README_resources/Pasted%20image%2020231014195650.png)
 --> 자바의 모든 클래스는 상속관계에 있다
 --> ★그래서 사실 모든 인스턴스를 만들게 되면 Object 인스턴스(상속받는 인스턴스)를 먼저 만들고 만들게 됨★
 (자식instance를 만들려고 클래스를 찾아가 보니 부모 클래스의 내용이 있어서 부모instance를 먼저 만들고 그것을 포함하는 자식instance의 형태로 객체를 만드는 식 - 그래서 사실은 포함관계인 것)

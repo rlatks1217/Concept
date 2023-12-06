@@ -1,11 +1,11 @@
-![](Pasted%20image%2020231014200332.png)
+![](../../README_resources/Pasted%20image%2020231014200332.png)
 1. equals() - 객체를 비교하는 용도(기본적으로는 참조값 비교하는 메소드 - 하지만 override를 통해 내용물 비교하는 메소드로 바꿔씀 - > String 클래스 같은 경우 기본적으로 override된 메소드를 제공)
 2. toString() - 객체를 문자열로 표현할때 +사용
 
 자바에선 한 글자와 여러 글자는 완전히 다르다.(Char와 String으로 데이터타입이 구분됨)
 
 ### String Class - Reference Data Type
-![](Pasted%20image%2020231014200403.png)
+![](../../README_resources/Pasted%20image%2020231014200403.png)
 즉, 문자열은 객체임 -> 클래스가 있고 당연히 필드+메소드가 있음
 - String a  = new String("안녕"); 원래는 이런 식으로 객체를 만들어야 함(이렇게 만들었을 경우에는 String pool이 아니라 일반적인 Heap 안에 생성됨)
 - String b = "안녕"; 하지만 문자열은 너무나 많이 쓰기 때문에 이렇게 써도 객체 생성이 되도록 허용해줌 --> Heap 안에 String pool이 존재 : 이 안에는 문자열만 들어감(그래서 String b = "안녕"; 로 인스턴스 생성 시 String pool 안에 들어가게 됨)

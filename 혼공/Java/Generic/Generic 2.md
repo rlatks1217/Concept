@@ -21,7 +21,7 @@ Box.content = "String"; // String 객체를 내부 필드에 할당
 - 매개변수 타입이나 return타입에 `<super T>` 와 같은 제네릭이 올 경우 T자리의 오는 클래스의 부모 타입도 올 수 있다는 의미
 
 ### Generic의 또다른 기능
-![](Pasted%20image%2020231018172051.png)
+![](../../README_resources/Pasted%20image%2020231018172051.png)
 Generic이 있기 전에는 이처럼 아무 DataType이나 넣어도 에러가 안 남 
 => 잘못된 DataType이 들어가도 잡을 수 없음 
 => 하지만 Generic이 생긴 후부터는 원하는 데이터 타입만 집어넣을 수 있게 되었음

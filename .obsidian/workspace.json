@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a2f335709dd0d3db",
+        "id": "a33e3966476d257b",
         "type": "tabs",
         "children": [
           {
-            "id": "ea5645111222cdc9",
+            "id": "bc299469c93f0647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Image",
+                "query": "Pasted%20",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md"
+                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md"
               }
             }
           }
@@ -156,9 +155,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea5645111222cdc9",
+  "active": "bc299469c93f0647",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20231207055537.png",
+    "혼공/Java/_KOSA수업/1 Class.md",
+    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+    "우아한 테크코스/프리코스 3주차(로또 게임).md",
+    "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+    "혼공/Java/Interface/interface 2.md",
+    "혼공/Java/Interface/interface 1.md",
+    "혼공/Java/Generic/Generic 4.md",
+    "혼공/Java/Generic/Generic 3.md",
+    "혼공/Java/Generic/Generic 2.md",
+    "혼공/Java/Generic/Generic 1.md",
+    "혼공/Java/_KOSA수업/2 Inheritance.md",
+    "혼공/Java/_KOSA수업/4 String&Array.md",
+    "기본 사용법/마크다운 사용법.md",
+    "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
+    "기본 사용법/옵시디언 사용법.md",
+    "README_resources/Pasted image 20231207050125.png",
+    "README_resources/Pasted image 20231207050115.png",
+    "README_resources/Pasted image 20231207050038.png",
+    "README_resources/Pasted image 20231014195023.png",
+    "README_resources/Pasted image 20230327094452.png",
+    "Untitled",
     "혼공/Java/Stream/입출력 기본.md",
     "혼공/git/Merge & Cherry-pick.md",
     "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
@@ -167,43 +189,20 @@
     "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Stream/Stream 4.md",
     "혼공/Java/Enum.md",
-    "혼공/Java/Stream/Stream 5.md",
-    "혼공/Java/Reflection.md",
     "README_resources/Pasted image 20231206054518.png",
-    "혼공/Java/Interface/interface 2.md",
-    "혼공/Java/Interface/interface 1.md",
-    "혼공/Java/Generic/Generic 4.md",
-    "혼공/Java/Generic/Generic 3.md",
-    "혼공/Java/Generic/Generic 1.md",
-    "혼공/Java/Generic/Generic 2.md",
-    "혼공/Java/Reflection/Reflection 2.md",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
-    "혼공/Java/_KOSA수업/1 Class.md",
     "혼공/Java/_KOSA수업",
-    "혼공/Java/_KOSA수업/8 Thread 3&Java IO.md",
-    "혼공/Java/일급 컬렉션(First Class Collection).md",
-    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
-    "혼공/git/프리코스 git.md",
-    "우아한 테크코스/프리코스 3주차(로또 게임).md",
-    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "README_resources/Pasted image 20231122202801.png",
     "README_resources/Pasted image 20231113204138.png",
     "README_resources/Pasted image 20231110214626.png",
     "README_resources/Pasted image 20231110211658.png",
-    "README_resources/Pasted image 20231110201010.png",
-    "README_resources/Pasted image 20231110200747.png",
-    "README_resources/Pasted image 20231110200554.png",
-    "README_resources/Pasted image 20231106154628.png",
-    "README_resources/Pasted image 20231105225601.png",
     "혼공/코딩테스트/자료구조",
     "혼공/Java/Interface",
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
     "혼공/코딩테스트",
-    "혼공/프로젝트 정리",
     "Untitled.canvas"
   ]
 }
