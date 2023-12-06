@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
+                "file": "혼공/Java/Stream/입출력 기본.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
+                "file": "혼공/Java/Stream/입출력 기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
+                "file": "혼공/Java/Stream/입출력 기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md"
+                "file": "혼공/Java/Stream/입출력 기본.md"
               }
             }
           }
@@ -158,6 +159,8 @@
   "active": "ea5645111222cdc9",
   "lastOpenFiles": [
     "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+    "혼공/Java/Stream/입출력 기본.md",
+    "혼공/git/Merge & Cherry-pick.md",
     "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/Java/Stream/Stream 1.md",
     "혼공/Java/Stream/Stream 2.md",
@@ -185,7 +188,6 @@
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "혼공/git/Merge & Cherry-pick.md",
     "README_resources/Pasted image 20231122202801.png",
     "README_resources/Pasted image 20231113204138.png",
     "README_resources/Pasted image 20231110214626.png",
@@ -193,7 +195,6 @@
     "README_resources/Pasted image 20231110201010.png",
     "README_resources/Pasted image 20231110200747.png",
     "README_resources/Pasted image 20231110200554.png",
-    "혼공/Spring/테스트.md",
     "README_resources/Pasted image 20231106154628.png",
     "README_resources/Pasted image 20231105225601.png",
     "혼공/코딩테스트/자료구조",
