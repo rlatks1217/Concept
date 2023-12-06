@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Stream/Stream 1.md",
+                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream/Stream 1.md",
+                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream/Stream 1.md",
+                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream/Stream 1.md"
+                "file": "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md"
               }
             }
           }
@@ -157,7 +157,14 @@
   },
   "active": "ea5645111222cdc9",
   "lastOpenFiles": [
+    "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+    "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
+    "혼공/Java/Stream/Stream 1.md",
+    "혼공/Java/Stream/Stream 2.md",
+    "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Stream/Stream 4.md",
+    "혼공/Java/Enum.md",
+    "혼공/Java/Stream/Stream 5.md",
     "혼공/Java/Reflection.md",
     "README_resources/Pasted image 20231206054518.png",
     "혼공/Java/Interface/interface 2.md",
@@ -169,7 +176,6 @@
     "혼공/Java/Reflection/Reflection 2.md",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
-    "혼공/Java/Enum.md",
     "혼공/Java/_KOSA수업/1 Class.md",
     "혼공/Java/_KOSA수업",
     "혼공/Java/_KOSA수업/8 Thread 3&Java IO.md",
@@ -184,19 +190,14 @@
     "README_resources/Pasted image 20231113204138.png",
     "README_resources/Pasted image 20231110214626.png",
     "README_resources/Pasted image 20231110211658.png",
-    "혼공/Java/Stream/Stream 2.md",
-    "혼공/Java/Stream/Stream 1.md",
     "README_resources/Pasted image 20231110201010.png",
     "README_resources/Pasted image 20231110200747.png",
     "README_resources/Pasted image 20231110200554.png",
     "혼공/Spring/테스트.md",
-    "혼공/Java/Stream/Stream 3.md",
     "README_resources/Pasted image 20231106154628.png",
     "README_resources/Pasted image 20231105225601.png",
-    "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/코딩테스트/자료구조",
     "혼공/Java/Interface",
-    "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
