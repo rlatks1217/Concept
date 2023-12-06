@@ -38,7 +38,7 @@
 빌려온 메모리의 구조(JVM의 메모리구조) - 콜스택(call stack)/Heap
 
 ### Heap의 4가지 영역
-![](Pasted%20image%2020231014195023.png)
+![](README_resources/Pasted%20image%2020231014195023.png)
 - register : 프로그램에 실행 포인터를 관리(= 컴퓨터가 계산한 코드 실행 흐름에 관한 정보가 관리됨)
 - Runtime Contstant Pool : 프로그램 실행시 상수들(final)을 관리하기 위한 영역
 위에 두 개는 제어할 수 없는 영역/JVM이 알아서 관리하고 사용하는 영역
