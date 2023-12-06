@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Python/Python 기본개념1(03.27).md",
+                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Python/Python 기본개념1(03.27).md",
+                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Python/Python 기본개념1(03.27).md",
+                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Python/Python 기본개념1(03.27).md"
+                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "56ab3c042a102c9e",
   "lastOpenFiles": [
-    "혼공/Python/Pandas 실습(03.29).md",
     "혼공/Python/Python 기본개념1(03.27).md",
+    "혼공/Python/Pandas 실습(03.29).md",
     "혼공/Python/Numpy기본(03.28).md",
     "혼공/Python/파이썬 기초(생소한 것만 간단히 정리).md",
     "혼공/Python/지도 학습.md",
