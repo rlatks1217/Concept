@@ -8,9 +8,9 @@ git merge
 - master(종합본이 될 branch)이 가리키고 있던 commit(참조 개체 = 동그라미)에서 merge할 branch(dev1)가 가리키고 있던 commit(참조 개체)으로 가리키는 대상을 옮기는 것
 - 새로운 commit이 생기는 것이 아님(단순히 master branch가 가리키고 있던 commit에서 옮긴 것이기 때문)
 실행 전
-![](../../../README_resources/Pasted%20image%2020231028022628.png)
+![](../../README_resources/Pasted%20image%2020231028022628.png)
 실행 후
-![](../../../README_resources/Pasted%20image%2020231028022654.png)
+![](../../README_resources/Pasted%20image%2020231028022654.png)
 
 ### 3-way-merge
 ```bash
@@ -26,9 +26,9 @@ git merge
 Base(공통조상)을 기준으로 변화가 발생했다면 이를 merge할 내용으로 인정하여 merge함 하지만 master와 dev1이 동일한 부분을 수정했다면 이는 충돌로 인식하여 충돌을 해결한 후 merge해야 함
 
 실행 전
-![](../../../README_resources/Pasted%20image%2020231028023812.png)
+![](../../README_resources/Pasted%20image%2020231028023812.png)
 실행 후
-![](../../../README_resources/Pasted%20image%2020231028024425.png)
+![](../../README_resources/Pasted%20image%2020231028024425.png)
 
 `fetch` : 원격 저장소의 정보를 로컬 저장소로 가져오는 명령(merge는 아직 안 된 상태)
 -> pull은 fetch + merge가 한번에 이뤄지는 명령임
@@ -46,7 +46,7 @@ git merge --no-ff dev1
 ### Squash and merge
 - Create merge commit와 마찬가지로 새로운 merge commit을 생성하는 방식인데 이 방식의 경우 여러 commit을 하나의 commit으로 묶어서 merge하게 됨
 - 여러 명이 작업하는 환경에서 하나의 브랜치에 각자가 구현한 여러 기능을 merge할 경우 commit log가 난잡해짐 -> 이것을 사용하면 단순화하여 merge할 수 있기 때문에 가독성이 좋아짐
-![](../../../README_resources/Pasted%20image%2020231028033856.png)
+![](../../README_resources/Pasted%20image%2020231028033856.png)
 
 **실행 코드**
 ```bash
@@ -57,9 +57,9 @@ git commit -m "squash merge message"
 ### Rebase
 - rebase : 말 그대로 base를 옮긴다
 rebase 실행 전
-![](../../../README_resources/Pasted%20image%2020231028033038.png)
+![](../../README_resources/Pasted%20image%2020231028033038.png)
 rebase 실행 후
-![](../../../README_resources/Pasted%20image%2020231028033200.png)
+![](../../README_resources/Pasted%20image%2020231028033200.png)
 - 이렇게 issue2의 base를 issue1으로 옮겨 하나의 줄기로 만들었음
 - rebase 실행 시 base를 바꿀 branch(issue2)에서 실행해야 함
 

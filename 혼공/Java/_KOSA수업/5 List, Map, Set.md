@@ -3,11 +3,11 @@ Map 계열 - HashMap
 Set 계열 -HashSet (특별한 용도로 가끔)
 얘네들 다 인터페이스임
 
-![](../../../README_resources/Pasted%20image%2020231014200053.png)
+![](../../README_resources/Pasted%20image%2020231014200053.png)
 1. HashMap - (key, value) : 쌍으로 저장함 --> Key Value를 객체에 담아서 그 객체를 사용
 - HashMap.keySet(); : Map의 key값들을 모아서 주머니 모양의 객체를 만들어 거기에 순서없이 넣음
 2. List 계열은 데이터의 순서가 있음
-![](../../../README_resources/Pasted%20image%2020231014200138.png)
+![](../../README_resources/Pasted%20image%2020231014200138.png)
 3. set은 순서가 없음 value만 저장하며 객체만 저장이 가능(주머니에 데이터를 다 담는 느낌임)
 - 중복을 배제함(중복된 값은 저장 안됨 --> 오류가 나는 것은 아님 그냥 알아서 확인하고 이미 있으면 저장을 안하는 것)
 

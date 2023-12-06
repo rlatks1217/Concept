@@ -68,7 +68,7 @@ Bean을 등록하기 위한 방법(Application Context에 인식시키는 방법
 - return되는 인스턴스의 생성자명(클래스명이랑 똑같음)을 Bean이 될 Class의 이름으로 인식함
 - 이 메소드명이 Bean의 id가 됨 즉, 이 메소드의 이름은 유일해야 함(그래서 오버로딩 같은 거 하면 안 됨)
 - 
-![](../../../README_resources/Pasted%20image%2020230704074354.png)
+![](../../README_resources/Pasted%20image%2020230704074354.png)
 - 이런 식으로 정의해주고 나면 Spring Container(=Application Context)는 @Configuration이라는 어노테이션이 붙은 class를 Bean으로 등록시킴
 - 그리고 해당 클래스를 해석해서 @Bean이 붙은 메소드가 new 클래스명()해서 return하게 써준 구문에서 나온 클래스를 Bean으로 만듬
 - 결국 해당 클래스와 그 클래스 안에 있는 메소드들이 return하는 놈들을 모두 Bean으로 만든다는 얘기인 것이지.

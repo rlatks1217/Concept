@@ -2,7 +2,7 @@
 - 최종 처리를 위해 요소를 걸러내거나(필터링), 요소를 변환시키거나(매핑), 정렬하는 작업을 수행
 - Chaining을 이용하거나 변환한 스트림을 또다른 변수에 할당하지 않으면 여러 가지 중간 연산을 할 수 없음
 `정렬`
-![](../../../README_resources/Pasted%20image%2020231024143450.png)
+![](../../README_resources/Pasted%20image%2020231024143450.png)
 ### 최종 연산(처리)
 - 최종 연산에서는 주로 집계(SUM, AVG, COUNT) 작업을 함(출력도 최종 연산이긴 함)
 
@@ -12,6 +12,6 @@
 - mapToInt() -> 함수형 인터페이스의 메소드를 람다식으로 넣어줌(해당 메소드를 오버라이딩함과 인자로 넣어주는 과정을 동시에 진행하는 꼴임)
 - 람다식에서 매개 변수가 1개일 경우 괄호 생략 가능 / 내용이 한 줄일 때는 중괄호와 return 구문도 생략 가능
 3. 평균값을 구함(최종 연산)
-![](../../../README_resources/Pasted%20image%2020231024005311.png)
+![](../../README_resources/Pasted%20image%2020231024005311.png)
 - 아래와 같이 List를 만들어서 해도 상관없음 단, 이럴 경우 해당 List는 수정, 삭제가 불가능함(ImmutableCollection이라고 할 수 있음)
-![](../../../README_resources/Pasted%20image%2020231024010032.png)
+![](../../README_resources/Pasted%20image%2020231024010032.png)

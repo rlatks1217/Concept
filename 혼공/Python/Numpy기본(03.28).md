@@ -4,16 +4,16 @@
 ```
 
 ```
-![](../../../README_resources/Pasted%20image%2020230328123213.png)
-![](../../../README_resources/Pasted%20image%2020230328123245.png)
+![](../../README_resources/Pasted%20image%2020230328123213.png)
+![](../../README_resources/Pasted%20image%2020230328123245.png)
 - python의 range는 범위를 나타내는 개념이기 때문에 실제로 데이터가 만들어진 상태는 아닌 것임 반면, arrange는 개념이 아니라 실제 데이터를 가지고 있기 때문에 출력이 다르게 됨
-![](../../../README_resources/Pasted%20image%2020230328095909.png)
+![](../../README_resources/Pasted%20image%2020230328095909.png)
 
-![](../../../README_resources/Pasted%20image%2020230328100612.png)
+![](../../README_resources/Pasted%20image%2020230328100612.png)
 - 그래서 이것은 오류임
 
 - numpy array에서도 당연히 indexing과 slicing을 할 수 있음
-![](../../../README_resources/Pasted%20image%2020230328101316.png)
+![](../../README_resources/Pasted%20image%2020230328101316.png)
 
 행렬 (행과 열 즉, 2차원임)
 - 행렬 곱연산(Matrix Multiplication) : A의 열과 B의 행이 같아야 함
