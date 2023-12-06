@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/_KOSA수업/2 Inheritance.md",
+                "file": "혼공/Python/Python 기본개념1(03.27).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/_KOSA수업/2 Inheritance.md",
+                "file": "혼공/Python/Python 기본개념1(03.27).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/_KOSA수업/2 Inheritance.md",
+                "file": "혼공/Python/Python 기본개념1(03.27).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/_KOSA수업/2 Inheritance.md"
+                "file": "혼공/Python/Python 기본개념1(03.27).md"
               }
             }
           }
@@ -157,9 +157,32 @@
   },
   "active": "56ab3c042a102c9e",
   "lastOpenFiles": [
-    "혼공/Java/_KOSA수업/1 Class.md",
-    "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
-    "혼공/Java/_KOSA수업/2 Inheritance.md",
+    "혼공/Python/Pandas 실습(03.29).md",
+    "혼공/Python/Python 기본개념1(03.27).md",
+    "혼공/Python/Numpy기본(03.28).md",
+    "혼공/Python/파이썬 기초(생소한 것만 간단히 정리).md",
+    "혼공/Python/지도 학습.md",
+    "혼공/Python/자연어처리_기본.md",
+    "혼공/Python/인공신경망 기초_4.md",
+    "혼공/Python/인공신경망 기초_3.md",
+    "혼공/Python/인공신경망 기초_2.md",
+    "혼공/Python/인공신경망 기초_1.md",
+    "혼공/Python/인공신경망 기초_0(논리합).md",
+    "혼공/Python/비지도 학습.md",
+    "혼공/Python/머신러닝6일차(04.05).md",
+    "혼공/Python/머신러닝5일차(04.04).md",
+    "혼공/Python/머신러닝4일차(04.03).md",
+    "혼공/Python/머신러닝3일차 주말정리(04.02).md",
+    "혼공/Python/머신러닝2일차(03.31).md",
+    "혼공/Python/머신러닝1일차(03.30).md",
+    "혼공/Java/Reflection.md",
+    "혼공/Java/Enum.md",
+    "혼공/Java/일급 컬렉션(First Class Collection).md",
+    "혼공/Java/Stream/Stream 4.md",
+    "혼공/Java/Stream/Stream 3.md",
+    "혼공/Java/Stream/Stream 2.md",
+    "혼공/Java/Stream/Stream 1.md",
+    "혼공/Java/Stream/입출력 기본.md",
     "README_resources/Pasted image 20231014195023.png",
     "README_resources/Pasted image 20231014200053.png",
     "README_resources/Pasted image 20231014200138.png",
@@ -170,29 +193,7 @@
     "README_resources/Pasted image 20231014200922.png",
     "README_resources/Pasted image 20231014201313.png",
     "README_resources/Pasted image 20231014201357.png",
-    "혼공/Java/_KOSA수업/9 JDBC.md",
-    "혼공/Java/_KOSA수업/7 Thread 2.md",
-    "혼공/Java/_KOSA수업/6 Thread 1.md",
-    "혼공/Java/_KOSA수업/4 String&Array.md",
-    "혼공/Java/_KOSA수업/5 List, Map, Set.md",
-    "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
-    "혼공/Java/Enum.md",
-    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
-    "우아한 테크코스/프리코스 3주차(로또 게임).md",
-    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "기본 사용법/옵시디언 사용법.md",
-    "혼공/Java/Interface/interface 2.md",
-    "혼공/Java/Interface/interface 1.md",
-    "혼공/Java/Generic/Generic 4.md",
-    "혼공/Java/Generic/Generic 3.md",
-    "혼공/Java/Generic/Generic 2.md",
-    "혼공/Java/Generic/Generic 1.md",
-    "기본 사용법/마크다운 사용법.md",
     "Untitled",
-    "혼공/Java/Stream/입출력 기본.md",
-    "혼공/git/Merge & Cherry-pick.md",
-    "혼공/코딩테스트/자료구조/자료구조와 알고리즘.md",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
     "혼공/Java/_KOSA수업",

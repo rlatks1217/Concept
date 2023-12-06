@@ -1,7 +1,9 @@
 - resource : 데이터를 가지고 있는 객체 혹은 파일을 의미함(List를 Stream으로 만든다고 할 때 List가 resource라고 할 수 있음)
 - 컬렉션 안에 저장되는 데이터는 모두 객체임(해당 컬렉션 안에 넣는 경우 primitive Type도 AutoBoxing되어 객체로 저장됨)
 - 컬렉션 뿐만 아니라 다른 여러 resource를 가지고도 Stream을 만들 수 있음
+
 ![](../../../README_resources/Pasted%20image%2020231025144629.png)
+
 - `Primitive Type`으로 지정된 데이터들이 모여있는 상태라면 `IntStream`과 같은 형태로 사용함
 - `Reference Type`으로 지정된 데이터들이 모여있는 상태라면 `Stream<Integer>`와 같은 형태로 사용함
 ### 여러 Resource로 Stream 만들기
