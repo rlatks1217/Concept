@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
+                "file": "혼공/Java/_KOSA수업/1 Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
+                "file": "혼공/Java/_KOSA수업/1 Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
+                "file": "혼공/Java/_KOSA수업/1 Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md"
+                "file": "혼공/Java/_KOSA수업/1 Class.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "bc299469c93f0647",
   "lastOpenFiles": [
+    "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
     "README_resources/Pasted image 20231207055537.png",
     "혼공/Java/_KOSA수업/1 Class.md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
@@ -173,7 +174,6 @@
     "혼공/Java/_KOSA수업/2 Inheritance.md",
     "혼공/Java/_KOSA수업/4 String&Array.md",
     "기본 사용법/마크다운 사용법.md",
-    "혼공/Java/_KOSA수업/3 Class ~ Inheritance 복습.md",
     "기본 사용법/옵시디언 사용법.md",
     "README_resources/Pasted image 20231207050125.png",
     "README_resources/Pasted image 20231207050115.png",
@@ -196,7 +196,6 @@
     "README_resources/Pasted image 20231122202801.png",
     "README_resources/Pasted image 20231113204138.png",
     "README_resources/Pasted image 20231110214626.png",
-    "README_resources/Pasted image 20231110211658.png",
     "혼공/코딩테스트/자료구조",
     "혼공/Java/Interface",
     "혼공/git",
