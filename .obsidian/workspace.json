@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a33e3966476d257b",
+        "id": "80e71b125d2ac7a0",
         "type": "tabs",
         "children": [
           {
-            "id": "56ab3c042a102c9e",
+            "id": "3908908069e50159",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+                "file": "혼공/Java/_KOSA수업/6 Thread 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+                "file": "혼공/Java/_KOSA수업/6 Thread 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
+                "file": "혼공/Java/_KOSA수업/6 Thread 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/코딩테스트/코딩 테스트(모르는 개념).md"
+                "file": "혼공/Java/_KOSA수업/6 Thread 1.md"
               }
             }
           }
@@ -155,8 +155,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56ab3c042a102c9e",
+  "active": "3908908069e50159",
   "lastOpenFiles": [
+    "혼공/Java/_KOSA수업/2 Inheritance.md",
+    "혼공/Java/_KOSA수업/6 Thread 1.md",
+    "혼공/Java/_KOSA수업/7 Thread 2.md",
+    "README_resources/Pasted image 20231207102649.png",
+    "혼공/코딩테스트/코딩 테스트(모르는 개념).md",
     "혼공/Python/Python 기본개념1(03.27).md",
     "혼공/Python/Pandas 실습(03.29).md",
     "혼공/Python/Numpy기본(03.28).md",
@@ -179,10 +184,6 @@
     "혼공/Java/Enum.md",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
     "혼공/Java/Stream/Stream 4.md",
-    "혼공/Java/Stream/Stream 3.md",
-    "혼공/Java/Stream/Stream 2.md",
-    "혼공/Java/Stream/Stream 1.md",
-    "혼공/Java/Stream/입출력 기본.md",
     "README_resources/Pasted image 20231014195023.png",
     "README_resources/Pasted image 20231014200053.png",
     "README_resources/Pasted image 20231014200138.png",
@@ -192,7 +193,6 @@
     "README_resources/Pasted image 20231014200757.png",
     "README_resources/Pasted image 20231014200922.png",
     "README_resources/Pasted image 20231014201313.png",
-    "README_resources/Pasted image 20231014201357.png",
     "Untitled",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",

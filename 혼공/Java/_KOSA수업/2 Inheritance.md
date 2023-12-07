@@ -10,9 +10,14 @@ Student - sub class, 하위 클래스, child class, 자식 클래스
 
 ### IS - A relationship (IS - A 관계)
 ![](../../../README_resources/Pasted%20image%2020231014195758.png)
-Sub class is a Super class : 역은 성립하지 않음  : 포함관계 SubClass 밖/ SuperClass 안
---> ex) 포유류(super class) <-- 사람 고래 강아지 (sub class들) =>그림으로 그려보면 트리구조
-즉, 정의를 봤을 때 의미적으로 'SubClass는 SuperClass다' 니까 SuperClass를 SubClass 대신 변수타입으로 사용할 수 있음(매개변수를 포함)을 의미/하지만 역은 성립하지 않으므로 SubClass를 SuperClass 대신에 사용할 수는 없음
+- 한 객체가 다른 객체의 일종이라는 의미 (ex - 사람, 고래, 강아지는 포유류의 일종이다)
+-> Sub class is a Super class라고 할 수 있음. 역은 성립하지 않음
+즉, `호랑이`를 `포유류`로 대체할 수 있는 것처럼 SubClass타입 변수를 SuperClass 타입으로 사용할 수 있음을 의미함. 하지만 역은 성립하지 않으므로 SubClass를 SuperClass 대신에 사용할 수는 없음
+
+### 포함관계(Has - A 관계)
+SubClass가 SuperClass를 포함 -> Has - A 관계라고 부름
+- 실제로 객체가 생성될 때도 아래 그림처럼 SubClass객체 안의 SuperClass 객체가 존재하는 꼴로 생성됨
+- 당연히 SubClass가 SuperClass를 포함하므로 SuperClass의 내용을 막 갖다가 쓸 수 있음
 
 초기화하는 역할을 하는 constructor는 상속받을 수 없음 --> 단 자식 생성자에서 부모 생성자 호출은 가능(super();) - 자식 생성자 호출 시 제일 먼저 다른 내용보다 super();을 하게 됨
 private(접근제어자)로 묶여 있으면 상속받을 수 없음
