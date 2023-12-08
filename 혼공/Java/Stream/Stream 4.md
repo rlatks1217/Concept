@@ -12,6 +12,7 @@
 
 ![](../../../README_resources/Pasted%20image%2020231104211453.png)
 
+
 ### Mapping
 - Stream 안의 요소를 다른 요소로 변환하는 것을 말함
 
