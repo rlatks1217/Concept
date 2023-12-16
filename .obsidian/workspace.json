@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/LinkedList.md",
+                "file": "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/LinkedList.md",
+                "file": "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/LinkedList.md",
+                "file": "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/코딩테스트/자료구조/LinkedList.md"
+                "file": "혼공/코딩테스트/알고리즘/BFS와 DFS.md"
               }
             }
           }
@@ -157,10 +157,11 @@
   },
   "active": "63c6549bce8e6ced",
   "lastOpenFiles": [
-    "혼공/코딩테스트/자료구조.md",
+    "혼공/코딩테스트/자료구조/재귀 알고리즘.md",
+    "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
     "혼공/코딩테스트/자료구조/LinkedList.md",
+    "혼공/코딩테스트/알고리즘",
     "혼공/Java/Stream/Stream 5.md",
-    "혼공/코딩테스트/자료구조/자료구조와 재귀 알고리즘.md",
     "혼공/Java/Stream/Stream 6.md",
     "혼공/Java/Stream/Stream 4.md",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
@@ -183,7 +184,6 @@
     "혼공/Python/Numpy기본(03.28).md",
     "혼공/Python/파이썬 기초(생소한 것만 간단히 정리).md",
     "혼공/Python/지도 학습.md",
-    "혼공/Python/자연어처리_기본.md",
     "README_resources/Pasted image 20231014195023.png",
     "README_resources/Pasted image 20231014200053.png",
     "README_resources/Pasted image 20231014200138.png",
@@ -202,7 +202,6 @@
     "혼공/git",
     "혼공/Java/Generic",
     "혼공/Java/Stream",
-    "혼공/코딩테스트",
     "Untitled.canvas"
   ]
 }
