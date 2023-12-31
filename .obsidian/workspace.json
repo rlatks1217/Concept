@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/Stream/Stream 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/Stream/Stream 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md",
+                "file": "혼공/Java/Stream/Stream 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream/입출력 기본.md"
+                "file": "혼공/Java/Stream/Stream 9.md"
               }
             }
           }
@@ -157,13 +158,15 @@
   },
   "active": "f84a0d17ed09a042",
   "lastOpenFiles": [
+    "혼공/Java/Stream/Stream 8.md",
+    "혼공/Java/Stream/Stream 9.md",
     "혼공/Java/Stream/Stream 7.md",
+    "혼공/Java/Stream/입출력 기본.md",
     "혼공/Java/Interface/interface 2.md",
     "혼공/Java/Stream/Stream 4.md",
     "혼공/Java/Stream/Stream 3.md",
     "혼공/Java/Stream/Stream 2.md",
     "혼공/Java/Stream/Stream 1.md",
-    "혼공/Java/Stream/입출력 기본.md",
     "혼공/Java/Interface/interface 1.md",
     "혼공/Java/Generic/Generic 4.md",
     "혼공/Java/Generic/Generic 3.md",
@@ -181,9 +184,7 @@
     "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
     "혼공/Java/Stream/Stream.md",
     "혼공/코딩테스트/자료구조/재귀 알고리즘.md",
-    "혼공/코딩테스트/자료구조/LinkedList.md",
     "혼공/코딩테스트/알고리즘",
-    "최종 코테.md",
     "README_resources/Pasted image 20231207102649.png",
     "README_resources/Pasted image 20231014195023.png",
     "README_resources/Pasted image 20231014200053.png",
