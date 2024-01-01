@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Stream/Stream 9.md",
+                "file": "혼공/Java/Stream/Stream 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream/Stream 9.md",
+                "file": "혼공/Java/Stream/Stream 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream/Stream 9.md",
+                "file": "혼공/Java/Stream/Stream 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream/Stream 9.md"
+                "file": "혼공/Java/Stream/Stream 10.md"
               }
             }
           }
@@ -158,8 +158,10 @@
   },
   "active": "f84a0d17ed09a042",
   "lastOpenFiles": [
-    "혼공/Java/Stream/Stream 8.md",
+    "README_resources/Pasted image 20240102071528.png",
     "혼공/Java/Stream/Stream 9.md",
+    "혼공/Java/Stream/Stream 10.md",
+    "혼공/Java/Stream/Stream 8.md",
     "혼공/Java/Stream/Stream 7.md",
     "혼공/Java/Stream/입출력 기본.md",
     "혼공/Java/Interface/interface 2.md",
@@ -182,8 +184,6 @@
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
-    "혼공/Java/Stream/Stream.md",
-    "혼공/코딩테스트/자료구조/재귀 알고리즘.md",
     "혼공/코딩테스트/알고리즘",
     "README_resources/Pasted image 20231207102649.png",
     "README_resources/Pasted image 20231014195023.png",
