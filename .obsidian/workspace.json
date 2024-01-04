@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d1401603c8494a83",
+        "id": "ebb2f90d8e23a2e9",
         "type": "tabs",
         "children": [
           {
-            "id": "f84a0d17ed09a042",
+            "id": "53d293f1683f6a81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Java/Stream/입출력 Stream(byte Stream).md",
+                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Java/Stream/입출력 Stream(byte Stream).md",
+                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Java/Stream/입출력 Stream(byte Stream).md",
+                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Java/Stream/입출력 Stream(byte Stream).md"
+                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md"
               }
             }
           }
@@ -156,11 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f84a0d17ed09a042",
+  "active": "53d293f1683f6a81",
   "lastOpenFiles": [
-    "혼공/Java/Stream/Stream 10.md",
-    "혼공/Java/Stream/입출력 기본.md",
+    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
+    "우아한 테크코스/프리코스 3주차(로또 게임).md",
+    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
+    "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
+    "혼공/컴퓨터구조/1. 컴퓨터의 4가지 핵심 부품.md",
+    "README_resources/Pasted image 20240104232308.png",
     "혼공/Java/Stream/입출력 Stream(byte Stream).md",
+    "혼공/Java/Stream/Stream 10.md",
+    "혼공/컴퓨터구조",
+    "혼공/Untitled.md",
+    "혼공/Java/Stream/입출력 기본.md",
     "README_resources/Pasted image 20240102071528.png",
     "혼공/Java/Stream/Stream 9.md",
     "혼공/Java/Stream/Stream 8.md",
@@ -179,12 +186,6 @@
     "혼공/Java/Enum.md",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
     "혼공/Java/Stream/Stream 5.md",
-    "혼공/Java/Stream/Stream 6.md",
-    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "우아한 테크코스/프리코스 3주차(로또 게임).md",
-    "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
-    "혼공/코딩테스트/알고리즘/BFS와 DFS.md",
     "혼공/코딩테스트/알고리즘",
     "README_resources/Pasted image 20231207102649.png",
     "README_resources/Pasted image 20231014195023.png",
@@ -194,7 +195,6 @@
     "README_resources/Pasted image 20231014200403.png",
     "README_resources/Pasted image 20231014200709.png",
     "README_resources/Pasted image 20231014200757.png",
-    "README_resources/Pasted image 20231014200922.png",
     "Untitled",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
@@ -203,7 +203,6 @@
     "혼공/Java/Interface",
     "혼공/git",
     "혼공/Java/Generic",
-    "혼공/Java/Stream",
     "Untitled.canvas"
   ]
 }
