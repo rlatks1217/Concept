@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
+                "file": "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
+                "file": "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
+                "file": "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md"
+                "file": "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md"
               }
             }
           }
@@ -157,6 +158,16 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
+    "혼공/Spring/쿠키, 세션, 토큰.md",
+    "혼공/Spring/Spring Security.md",
+    "혼공/Java/Reflection.md",
+    "README_resources/Pasted image 20240117203019.png",
+    "README_resources/Pasted image 20240117202849.png",
+    "README_resources/스크린샷 2024-01-17 201342.png",
+    "README_resources/Pasted image 20240117195524.png",
+    "README_resources/Pasted image 20240117195350.png",
+    "README_resources/Pasted image 20240117195239.png",
+    "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
     "혼공/컴퓨터구조/3. 0과 1로 문자를 표현하는 방법.md",
     "혼공/컴퓨터구조/4. 소스코드와 명령어.md",
     "혼공/컴퓨터구조/6. C언어의 컴파일 과정.md",
@@ -165,10 +176,8 @@
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
     "혼공/컴퓨터구조/7. CPU의 내부 구성 - ALU와 제어장치.md",
-    "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
     "혼공/컴퓨터구조/1. 컴퓨터의 4가지 핵심 부품.md",
     "혼공/컴퓨터구조/5. 명령어의 구조와 주소 지정 방식.md",
-    "혼공/Spring/Spring Security.md",
     "혼공/Spring/테스트.md",
     "혼공/Spring/Spring 기반 지식 2.md",
     "혼공/Spring/Spring 기반 지식 1.md",
@@ -176,12 +185,6 @@
     "README_resources/Pasted image 20240116075951.png",
     "README_resources/Pasted image 20240116075914.png",
     "README_resources/Pasted image 20240116075742.png",
-    "README_resources/Pasted image 20240116075511.png",
-    "README_resources/Pasted image 20240116075441.png",
-    "README_resources/Pasted image 20240115204245.png",
-    "README_resources/Pasted image 20240115204204.png",
-    "README_resources/Pasted image 20240112103837.png",
-    "README_resources/Pasted image 20240112103801.png",
     "최종 코테.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
@@ -192,8 +195,6 @@
     "혼공/Untitled.md",
     "혼공/Java/Stream/입출력 기본.md",
     "혼공/Java/Stream/Stream 9.md",
-    "혼공/Java/Stream/Stream 8.md",
-    "혼공/Java/Stream/Stream 7.md",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
     "혼공/Java/R/Untitled",
