@@ -48,11 +48,11 @@
 - 해당 Filter는 AbstractAuthenticationFilter를 상속받음(AbstractAuthenticationFilter의 추상 메소드들을 오버라이딩하여 사용하게 됨)
 - AbstractAuthenticationFilter에는 doFilter()와 attemptAuthentication()이라는 추상 메소드가 존재하는데 doFilter() 안에 각 Filter들의 로직이 들어 있음(attemptAuthentication()도 UserNamePasswordAuthenticationFilter 안에 재정의되어 doFilter()내에서 사용하게 됨)
 
-### doFilter()
-1. 이 부분은 Form action의 url이 login인지 확인해서 맞으면 Authentication객체를 생성하고 아니면 다음 필터로 넘어가게 하는 로직임
+# doFilter()
+## 1. 이 부분은 Form action의 url이 login인지 확인해서 맞으면 Authentication객체를 생성하고 아니면 다음 필터로 넘어가게 하는 로직임
 ![](../../README_resources/Pasted%20image%2020240117195239.png)
 
-2. Username과 password를 가지고 Authentication객체를 생성하고 인증하는 attemptAuthentication() 실행
+## 2. Username과 password를 가지고 Authentication객체를 생성하고 인증하는 attemptAuthentication() 실행
 ![](../../README_resources/Pasted%20image%2020240117195350.png)
 
 **attemptAuthentication()의 정의 내용**
@@ -60,12 +60,27 @@
  - 인증 성공 시 AuthenticationManager는 Authentication 객체를 return하며 이 메소드의 return값도 해당 객체가 됨
 ![](../../README_resources/스크린샷%202024-01-17%20201342.png)
 
-3. successfulAuthentication() 실행
+### AuthenticationManager
+- AuthenticationManager는 List 형태로 AuthenticationProvider라는 인터페이스들을 가지고 있음
+- AuthenticationManager는 인증용 객체를 처리할 수 있는 AuthenticationProvider를 선택한 후 AuthenticationProvider에 인증처리를 넘기게 됨
+
+**구체적인 처리 과정**
+1. AuthenticationProvider 인터페이스는 인증용 객체와 비교할 DB에 있는 사용자 정보를 가져오기 위해 UserDetailsService 인터페이스를 사용함
+2.  로그인페이지에서 입력한 아이디(username)를 통해 loadUserByUsername()를 호출하여  DB에 있는 사용자 정보를 UserDetails 형태로 가져옴 이때, 사용자의 정보가 존재하지 않다면 예외를 던지게 됨(아래 사진 참고)
+	- loadUserByUsername()는 사용자가 재정의하여 사용하게 되는 메소드로 DB에 있는 정보를 가져오는 로직을 작성해주면 됨
+
+![](../../README_resources/Pasted%20image%2020240120191206.png)
+3. AuthenticationProvider 인터페이스에서는 authticate()를 재정의하여 인증용 객체(로그인페이지에서 입력한 사용자의 정보가 든 객체)를 파라미터로 받게 됨
+4. 인증 성공 시 인증용 객체(로그인페이지에서 입력한 사용자의 정보가 든 객체)를 AuthenticationProvider -> AuthenticationManager -> AuthenticationFilter 순으로 차례차례 return 하게 됨(즉, 결국 인증에 성공하면 attemptAuthentication()의 return값이 인증용 객체가 되는 것임)
+## 3. successfulAuthentication() 실행
 ![](../../README_resources/Pasted%20image%2020240117202849.png)
 
 **successfulAuthentication()의 정의 내용**
 - 새로운 SecurityContext를 생성한 후 인증 객체(Authentication)를 저장함
 ![](../../README_resources/Pasted%20image%2020240117203019.png)
+
+
+
 
 [출처]
 https://blog.pollra.com/odop-day-83/

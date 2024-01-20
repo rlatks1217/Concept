@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
+                "file": "혼공/Spring/Spring Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
+                "file": "혼공/Spring/Spring Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
+                "file": "혼공/Spring/Spring Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/쿠키, 세션, 토큰.md"
+                "file": "혼공/Spring/Spring Security.md"
               }
             }
           }
@@ -157,8 +158,9 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
-    "혼공/Spring/Spring Security.md",
+    "README_resources/Pasted image 20240120191206.png",
     "혼공/Spring/쿠키, 세션, 토큰.md",
+    "혼공/Spring/Spring Security.md",
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/Java/Reflection.md",
     "README_resources/Pasted image 20240117203019.png",
@@ -193,7 +195,6 @@
     "혼공/컴퓨터구조",
     "혼공/Untitled.md",
     "혼공/Java/Stream/입출력 기본.md",
-    "혼공/Java/Stream/Stream 9.md",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
     "혼공/Java/R/Untitled",
