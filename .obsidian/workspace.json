@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/Spring Security 구현.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/Spring Security 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/Spring Security 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/Spring Security.md"
+                "file": "혼공/Spring/Spring Security 구현.md"
               }
             }
           }
@@ -158,9 +158,10 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
+    "혼공/Spring/Spring Security.md",
+    "혼공/Spring/Spring Security 구현.md",
     "README_resources/Pasted image 20240120191206.png",
     "혼공/Spring/쿠키, 세션, 토큰.md",
-    "혼공/Spring/Spring Security.md",
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/Java/Reflection.md",
     "README_resources/Pasted image 20240117203019.png",
@@ -185,7 +186,6 @@
     "README_resources/Pasted image 20240116200526.png",
     "README_resources/Pasted image 20240116075951.png",
     "README_resources/Pasted image 20240116075914.png",
-    "README_resources/Pasted image 20240116075742.png",
     "최종 코테.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "우아한 테크코스/프리코스 3주차(로또 게임).md",
