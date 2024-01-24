@@ -5,3 +5,10 @@
 5. 프로젝트 이름 없이 localhost:8080만 치면 내 프로젝트 웹 페이지에 뜸
 6. 아이디는 'user', 비밀번호는 Console에 나와 있는 비밀번호를 입력하고 로그인하면 됨
 7. Config Class 생성(코드 참고)
+8. application.properties 작성
+
+### @Id
+### GeneratedValue
+
+[참고(출처)]
+https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
