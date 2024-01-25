@@ -12,3 +12,5 @@
 
 [참고(출처)]
 https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
+
+11:58부터
