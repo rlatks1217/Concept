@@ -8,9 +8,12 @@
 8. application.properties 작성
 
 ### @Id
+- @Id 애노테이션은 JPA 엔티티 객체의 식별자로 사용할 필드에 적용
+- 유니크한 DB의 컬럼(key값)과 mapping하는 것이 보통임
 ### GeneratedValue
+- 기본키 생성을 데이터베이스에게 위임하는 방식으로 id값을 따로 할당하지 않아도 데이터베이스가 자동으로 AUTO_INCREMENT을 하여 값을 생성해주는 방식
+
 
 [참고(출처)]
 https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
-
-11:58부터
+[https://dololak.tistory.com/425](https://dololak.tistory.com/425) [코끼리를 냉장고에 넣는 방법:티스토리]
