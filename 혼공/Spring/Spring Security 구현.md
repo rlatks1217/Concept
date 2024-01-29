@@ -13,7 +13,22 @@
 ### GeneratedValue
 - 기본키 생성을 데이터베이스에게 위임하는 방식으로 id값을 따로 할당하지 않아도 데이터베이스가 자동으로 AUTO_INCREMENT을 하여 값을 생성해주는 방식
 
+### Entity
+- 특성(속성)을 모아놓은 집합임
+- DB 테이블로 만들 객체라고 생각하면 됨
+
+```java
+@Autowired 
+private final JoinService joinService; 
+
+// 이 코드가 오류인 이유
+// 이 때 @Autowired의 경우 생성자를 통한 초기화 과정 이후에 실행이 되므로 변경이 불가능한 final 키워드가 붙은 경우 오류가 나는 것
+```
+
+### 생성자 주입 방식으로 해야 하는 이유
 
 [참고(출처)]
 https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
+https://substantial-park-a17.notion.site/27aecc31ca1f4e89bb424d3b4ee00875
+https://substantial-park-a17.notion.site/8-147df9c034ba495cad1c62869408be8f?pvs=4
 [https://dololak.tistory.com/425](https://dololak.tistory.com/425) [코끼리를 냉장고에 넣는 방법:티스토리]
