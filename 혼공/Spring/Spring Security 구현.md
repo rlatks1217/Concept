@@ -25,10 +25,14 @@ private final JoinService joinService;
 // 이 때 @Autowired의 경우 생성자를 통한 초기화 과정 이후에 실행이 되므로 변경이 불가능한 final 키워드가 붙은 경우 오류가 나는 것
 ```
 
+### 오류
+JpaRepository<UserEntity, Integer>를 사용하여 DB 테이블을 조작하기 위해선 UserEntity라는 클래스가 Entity로 등록되어야 함 -> 해당 클래스에 @Entity를 붙여줘야 함
+
 ### 생성자 주입 방식으로 해야 하는 이유
 
 [참고(출처)]
 https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
 https://substantial-park-a17.notion.site/27aecc31ca1f4e89bb424d3b4ee00875
 https://substantial-park-a17.notion.site/8-147df9c034ba495cad1c62869408be8f?pvs=4
+https://substantial-park-a17.notion.site/9-9f5d711ee983420f810165dcf19cbc4a
 [https://dololak.tistory.com/425](https://dololak.tistory.com/425) [코끼리를 냉장고에 넣는 방법:티스토리]
