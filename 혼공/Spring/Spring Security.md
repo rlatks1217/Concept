@@ -25,7 +25,7 @@
 3. Authorites : 인증된 사용자의 권한들
 4. details : 인증 부과 정보
 5. Authenicated : 인증 여부
-사실 Authentication은 인터페이스이므로 실제로 사용하게 되는 것은 해당 인터페이스의 구현체라고 할 수 있음
+사실 Authentication은 인터페이스이므로 실제로 사용하게 되는 것은 해당 인터페이스의 구현체라고 할 수 있음(해당 구현체가 될 클래스는 사용자가 직접 작성하게 됨)
 
 ### Security Context
 - Authentication 객체가 저장되는 보관소 역할을 하는 객체
@@ -67,7 +67,7 @@
 **구체적인 처리 과정**
 1. AuthenticationProvider 인터페이스는 인증용 객체와 비교할 DB에 있는 사용자 정보를 가져오기 위해 UserDetailsService 인터페이스를 사용함
 2.  로그인페이지에서 입력한 아이디(username)를 통해 loadUserByUsername()를 호출하여  DB에 있는 사용자 정보를 UserDetails 형태로 가져옴 이때, 사용자의 정보가 존재하지 않다면 예외를 던지게 됨(아래 사진 참고)
-	- loadUserByUsername()는 사용자가 재정의하여 사용하게 되는 메소드로 DB에 있는 정보를 가져오는 로직을 작성해주면 됨
+	- loadUserByUsername()는 사용자가 재정의하여 사용하게 되는 메소드로 DB에 있는 정보를 가져오는 로직을 작성해주면 됨(즉, 해당 메소드는 사용자가 직접 정의해줘야 함)
 
 ![](../../README_resources/Pasted%20image%2020240120191206.png)
 3. AuthenticationProvider 인터페이스에서는 authticate()를 재정의하여 인증용 객체(로그인페이지에서 입력한 사용자의 정보가 든 객체)를 파라미터로 받게 됨
