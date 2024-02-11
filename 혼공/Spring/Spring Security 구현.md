@@ -1,5 +1,5 @@
 1. 프로젝트 생성 시 Lombok, Spring Web, Mustache, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
-2. DB Driver와 JPA Dependency는 일단 안 쓸 거라서 주석처리한 후 gradle 로드해주기
+2. builde.gradle에 들어가서 DB Driver와 JPA Dependency는 일단 안 쓸 거라서 주석처리한 후 gradle 로드해주기
 3. MainController와 Main.mustache 파일 생성
 4. Spring Security는 모든 페이지가 인증 후 접근이 가능하도록 설정되어 있는 상태가 default임(나중에 특정 페이지만 인증 후 접근하도록 따로 설정해줘야 함)
 5. 프로젝트 이름 없이 localhost:8080만 치면 내 프로젝트 웹 페이지에 뜸
@@ -45,10 +45,10 @@ JpaRepository<UserEntity, Integer>를 사용하여 DB 테이블을 조작하기 
 - 일반적으로 사용자가 공격자로부터 링크를 받아 해당 링크에 연결된 페이지에서 로그인하면서 진행이 됨 
 - 이러한 과정을 통해 해커(공격자)는 사용자의 의도와는 상관없이 카드 결제, 계좌이체 등을 할 수 있게 됨 그렇기 때문에 세션ID는 고정되어 있을 경우 위험함
 
-
-[참고(출처)]
-https://substantial-park-a17.notion.site/7-3fbc0b42222841fc81ab94bd8c1dbdf6
-https://substantial-park-a17.notion.site/27aecc31ca1f4e89bb424d3b4ee00875
-https://substantial-park-a17.notion.site/8-147df9c034ba495cad1c62869408be8f?pvs=4
-https://substantial-park-a17.notion.site/9-9f5d711ee983420f810165dcf19cbc4a
-[https://dololak.tistory.com/425](https://dololak.tistory.com/425) [코끼리를 냉장고에 넣는 방법:티스토리]
+### InMemory 유저 저장
+- DB 대신 유저 정보를 저장할 수 있는 작은 공간
+- 소수의 유저 정보를 저장하기에 용이함
+- InMemoryManager를 bean으로 등록 시 DB 대신 InMemory를 사용하게 됨(즉, DB와 연결되어 있는 프로젝트에서는 못 씀(DB와 통합하는 경우 제외))
+- 이걸 사용하게 될 경우 csrf설정을 disable로 해줘야 함 그렇지 않으면 로그인 에러 남
+[출처]
+https://www.youtube.com/watch?v=GbTOoJ0Y5eA&list=PLJkjrxxiBSFCKD9TRKDYn7IE96K2u3C3U&index=14
