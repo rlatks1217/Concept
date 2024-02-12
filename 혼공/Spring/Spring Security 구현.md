@@ -1,11 +1,5 @@
-1. 프로젝트 생성 시 Lombok, Spring Web, Mustache, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
-2. builde.gradle에 들어가서 DB Driver와 JPA Dependency는 일단 안 쓸 거라서 주석처리한 후 gradle 로드해주기
-3. MainController와 Main.mustache 파일 생성
-4. Spring Security는 모든 페이지가 인증 후 접근이 가능하도록 설정되어 있는 상태가 default임(나중에 특정 페이지만 인증 후 접근하도록 따로 설정해줘야 함)
-5. 프로젝트 이름 없이 localhost:8080만 치면 내 프로젝트 웹 페이지에 뜸
-6. 아이디는 'user', 비밀번호는 Console에 나와 있는 비밀번호를 입력하고 로그인하면 됨
-7. Config Class 생성(코드 참고)
-8. application.properties 작성
+프로젝트 생성 시 Lombok, Spring Web, Mustache, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
+이후는 출처 강의 참고
 
 ### @Id
 - @Id 애노테이션은 JPA 엔티티 객체의 식별자로 사용할 필드에 적용
@@ -26,7 +20,8 @@ private final JoinService joinService;
 ```
 
 ### 오류
-JpaRepository<UserEntity, Integer>를 사용하여 DB 테이블을 조작하기 위해선 UserEntity라는 클래스가 Entity로 등록되어야 함 -> 해당 클래스에 @Entity를 붙여줘야 함
+- JpaRepository<UserEntity, Integer>를 사용하여 DB 테이블을 조작하기 위해선 UserEntity라는 클래스가 Entity로 등록되어야 함 -> 해당 클래스에 @Entity를 붙여줘야 함
+- Config클래스를 포함한 모든 클래스는 Java 밑에 Application 클래스가 있는 폴더(ex - com.example.inmemory)에서 생성해야 내 프로젝트에 적용이 됨
 
 ### CSRF 공격
 - 로그인한 사용자가 공격자가 임의로 작성한 악성스크립트가 포함된 페이지에 접속할 경우 사용자의 세션ID와 함께 사용자가 원래 로그인했던 서버로 공격자가 의도한 요청을 전송하게 됨
@@ -49,6 +44,7 @@ JpaRepository<UserEntity, Integer>를 사용하여 DB 테이블을 조작하기 
 - DB 대신 유저 정보를 저장할 수 있는 작은 공간
 - 소수의 유저 정보를 저장하기에 용이함
 - InMemoryManager를 bean으로 등록 시 DB 대신 InMemory를 사용하게 됨(즉, DB와 연결되어 있는 프로젝트에서는 못 씀(DB와 통합하는 경우 제외))
-- 이걸 사용하게 될 경우 csrf설정을 disable로 해줘야 함 그렇지 않으면 로그인 에러 남
+- 이걸 사용하게 될 경우 csrf설정을 disable로 해줘야 함 그렇지 않으면 로그인 요청 자체를 서버에서 받지 않을 것임 + 작성했던 csrf토큰 관련 meta설정이나 태그도 없어야 함
+- 코드는 InMemory프로젝트 참고
 [출처]
 https://www.youtube.com/watch?v=GbTOoJ0Y5eA&list=PLJkjrxxiBSFCKD9TRKDYn7IE96K2u3C3U&index=14
