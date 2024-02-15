@@ -1,6 +1,8 @@
-프로젝트 생성 시 Lombok, Spring Web, Mustache, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
-이후는 출처 강의 참고
 
+- Session 방식 : 프로젝트 생성 시 Lombok, Spring Web, Mustache, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
+- jwt 방식 : 프로젝트 생성 시 Lombok, Spring Web, Spring Security, Spring Data JPA, MySQL Driver 체크 후 생성
+
+이후는 각각 강의 참고
 ### @Id
 - @Id 애노테이션은 JPA 엔티티 객체의 식별자로 사용할 필드에 적용
 - 유니크한 DB의 컬럼(key값)과 mapping하는 것이 보통임
@@ -52,5 +54,17 @@ private final JoinService joinService;
 - Http Basic 인증 방식은 아이디와 비밀번호를 Base64 방식으로 인코딩한 뒤 HTTP 인증 헤더에 부착하여 서버측으로 요청을 보내는 방식
 - 인증이 필요한 페이지 접근 시 아이디, 비밀번호 입력을 위한 창이 아래처럼 등장
 ![](../../README_resources/Pasted%20image%2020240212191351.png)
+
+
+
+
+
+
+
+
+
+
 [출처]
 https://www.youtube.com/watch?v=GbTOoJ0Y5eA&list=PLJkjrxxiBSFCKD9TRKDYn7IE96K2u3C3U&index=14
+https://www.youtube.com/watch?v=ZTaZOCqTez4&list=PLJkjrxxiBSFCcOjy0AAVGNtIa08VLk1EJ&index=2
+
