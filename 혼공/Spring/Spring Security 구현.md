@@ -55,7 +55,7 @@ private final JoinService joinService;
 - 인증이 필요한 페이지 접근 시 아이디, 비밀번호 입력을 위한 창이 아래처럼 등장
 ![](../../README_resources/Pasted%20image%2020240212191351.png)
 
-
+- postman : 특정 url에 대하여 파라미터와 함께 요청을 보낼 수 있는 tool
 
 
 
