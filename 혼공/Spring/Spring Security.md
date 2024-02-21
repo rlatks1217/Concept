@@ -77,6 +77,7 @@
 
 **successfulAuthentication()의 정의 내용**
 - 새로운 SecurityContext를 생성한 후 인증 객체(Authentication)를 저장함
+- JWT 방식의 경우 해당 메소드를 Override해서 JWT를 발급하는 코드를 작성하게 됨
 ![](../../README_resources/Pasted%20image%2020240117203019.png)
 
 SecurityContext가 ThreadLocal에 담아 사용되도록 설계된 것은 세션 기반으로만 인증하는 게 아니라 토큰 기반 인증과 같은 다른 인증 방식도 적용할 수 있게 하기 위함임(효율성도 이유가 될 수 있음)
