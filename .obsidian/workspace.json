@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/Spring/쿠키, 세션, 토큰.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/Spring Security.md"
+                "file": "혼공/Spring/쿠키, 세션, 토큰.md"
               }
             }
           }
@@ -158,11 +159,11 @@
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
     "혼공/Spring/Spring Security 구현.md",
+    "혼공/Spring/Spring Security.md",
+    "혼공/Spring/쿠키, 세션, 토큰.md",
     "혼공/Spring/Spring 기반 지식 2.md",
     "혼공/Spring/Spring 기반 지식 1.md",
-    "혼공/Spring/Spring Security.md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
-    "혼공/Spring/쿠키, 세션, 토큰.md",
     "README_resources/Pasted image 20240214220020.png",
     "README_resources/Pasted image 20240212191351.png",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
