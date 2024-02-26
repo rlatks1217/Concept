@@ -41,9 +41,15 @@
 - MORE_GLOBAL : 응용 프로그램(= 현재 실행되고 있는 서버)에서 단 하나의 SecurityContext를 저장하는 전략
 <font style="font-size : 25px;">※</font> 하지만 어차피 SecurityContext 최초 인증 성공 시에 Session에 저장되기 때문에 Session에 직접 접근하여 인증정보를 담고 있는 인증객체를 꺼내도 되긴 함(물론 ThreadLocal을 사용하는 것이 더 효율적이기 때문에 실제로 그렇게 쓰지는 않음)
 
+### DelegatingFilterProxy
+- springSecurityFilterChain 이름으로 생성된 Bean을 ApplicationContext에서 찾아 요청을 위임하는 Servlet Filter임(Servlet 스펙의 Filter이기 때문에 Spring Container에는 당연히 없고 tomcat 내부에 Servlet Container 안에 있는 애임)
+- springSecurityFilterChain라는 이름의 Bean이 바로 Spring Container에서 제공하는 **FilterChainProxy**임
+-  SpringBoot의 기본 설정을 사용하는 경우, 인증에 사용되는 Filter들이 모여있는 springSecurityFilterChain을 자동으로 등록해줌(SecurityFilterChain의 구성 중 인증/인가에 대한 설정만 따로 해줄 SecurityConfig 클래스를 작성해서 사용하게 될 것임)
 ### SecurityContextPersistenceFilter
-- 인증 성공 시 Session에 SecurityContext를 저장하는 주체
-- 인증할 때 사용하기 위해 Session에 있는 SecurityContext를 꺼내어 SecurityContextHolder에 저장하는 주체이기도 함
+- loadContext() 메소드를 통해 인증 성공 시 Session에 SecurityContext를 저장함
+- 인증할 때 사용하기 위해 loadContext() 메소드로 Session에 있는 SecurityContext를 꺼내어 SecurityContextHolder에 저장함
+- 정확히는 이 필터 내부에 있는 **SecurityContextRepository**가 위에서 설명한 SecurityContext의 생성, 조회, 저장을 담당함
+- 자세한 내용은 https://wildeveloperetrain.tistory.com/163 참고
 ### UserNamePasswordAuthenticationFilter
 - 해당 Filter는 AbstractAuthenticationFilter를 상속받음(AbstractAuthenticationFilter의 추상 메소드들을 오버라이딩하여 사용하게 됨)
 - AbstractAuthenticationFilter에는 doFilter()와 attemptAuthentication()이라는 추상 메소드가 존재하는데 doFilter() 안에 각 Filter들의 로직이 들어 있음(attemptAuthentication()도 UserNamePasswordAuthenticationFilter 안에 재정의되어 doFilter()내에서 사용하게 됨)
@@ -87,3 +93,4 @@ SecurityContext가 ThreadLocal에 담아 사용되도록 설계된 것은 세션
 https://blog.pollra.com/odop-day-83/
 https://gong-story.tistory.com/m/34
 https://mangkyu.tistory.com/76
+https://wildeveloperetrain.tistory.com/163
