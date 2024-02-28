@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/Spring/Spring Security.md",
+                "file": "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/Spring/Spring Security.md"
+                "file": "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md"
               }
             }
           }
@@ -157,11 +158,17 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
-    "혼공/Spring/Spring Security 구현.md",
-    "혼공/Spring/Spring 기반 지식 2.md",
-    "혼공/Spring/Spring Security.md",
-    "혼공/Spring/Spring 기반 지식 1.md",
+    "README_resources/Pasted image 20240229053710.png",
+    "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
+    "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
+    "혼공/컴퓨터구조/9. 명령어 사이클과 인터럽트.md",
+    "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
     "혼공/Spring/쿠키, 세션, 토큰.md",
+    "혼공/Spring/Spring 기반 지식 2.md",
+    "혼공/Spring/Spring 기반 지식 1.md",
+    "혼공/Spring/테스트.md",
+    "혼공/Spring/Spring Security.md",
+    "혼공/Spring/Spring Security 구현.md",
     "README_resources/Pasted image 20240223072100.png",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "README_resources/Pasted image 20240214220020.png",
@@ -176,7 +183,6 @@
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "혼공/Java/ThreadLocal.md",
     "README_resources/Pasted image 20240120191206.png",
-    "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/Java/Reflection.md",
     "README_resources/Pasted image 20240117203019.png",
     "README_resources/Pasted image 20240117202849.png",
@@ -186,12 +192,8 @@
     "README_resources/Pasted image 20240117195239.png",
     "혼공/컴퓨터구조/2. 0과 1로 숫자를 표현하는 방법.md",
     "혼공/컴퓨터구조/3. 0과 1로 문자를 표현하는 방법.md",
-    "혼공/컴퓨터구조/9. 명령어 사이클과 인터럽트.md",
-    "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
     "혼공/컴퓨터구조/1. 컴퓨터의 4가지 핵심 부품.md",
-    "혼공/Spring/테스트.md",
     "최종 코테.md",
-    "우아한 테크코스/프리코스 3주차(로또 게임).md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
