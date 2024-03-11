@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/컴퓨터구조/15. 캐시 메모리.md",
+                "file": "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/컴퓨터구조/15. 캐시 메모리.md",
+                "file": "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/컴퓨터구조/15. 캐시 메모리.md",
+                "file": "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/컴퓨터구조/15. 캐시 메모리.md"
+                "file": "혼공/컴퓨터구조/17. RAID의 정의와 종류.md"
               }
             }
           }
@@ -158,20 +158,26 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
-    "README_resources/Pasted image 20240310000334.png",
-    "README_resources/Pasted image 20240310000239.png",
-    "README_resources/Pasted image 20240309235318.png",
-    "README_resources/Pasted image 20240309235227.png",
-    "README_resources/Pasted image 20240309233635.png",
-    "README_resources/Pasted image 20240309233508.png",
+    "README_resources/Pasted image 20240311210552.png",
+    "README_resources/Pasted image 20240311210154.png",
+    "README_resources/Pasted image 20240311205524.png",
+    "README_resources/Pasted image 20240311205046.png",
+    "README_resources/Pasted image 20240311204155.png",
+    "혼공/컴퓨터구조/16. 다양한 보조기억장치.md",
+    "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
+    "혼공/Spring/Spring 기반 지식 2.md",
+    "혼공/Spring/Spring 기반 지식 1.md",
+    "혼공/Spring/테스트.md",
+    "혼공/Spring/쿠키, 세션, 토큰.md",
+    "README_resources/Pasted image 20240310155548.png",
+    "README_resources/Pasted image 20240310154644.png",
+    "README_resources/Pasted image 20240310154508.png",
+    "README_resources/Pasted image 20240310151213.png",
+    "README_resources/Pasted image 20240310151059.png",
+    "README_resources/Pasted image 20240310132953.png",
     "혼공/컴퓨터구조/15. 캐시 메모리.md",
     "혼공/컴퓨터구조/13. RAM의 특성과 종류.md",
-    "README_resources/Pasted image 20240309232637.png",
     "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
-    "README_resources/Pasted image 20240305070758.png",
-    "README_resources/Pasted image 20240305070205.png",
-    "README_resources/Pasted image 20240304223033.png",
-    "README_resources/Pasted image 20240304214742.png",
     "혼공/컴퓨터구조/01. 컴퓨터의 4가지 핵심 부품.md",
     "혼공/컴퓨터구조/09. 명령어 사이클과 인터럽트.md",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
@@ -184,16 +190,10 @@
     "혼공/컴퓨터구조/03. 0과 1로 문자를 표현하는 방법.md",
     "혼공/컴퓨터구조/02. 0과 1로 숫자를 표현하는 방법.md",
     "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
-    "혼공/Spring/쿠키, 세션, 토큰.md",
-    "혼공/Spring/Spring 기반 지식 2.md",
-    "혼공/Spring/Spring 기반 지식 1.md",
-    "혼공/Spring/테스트.md",
     "혼공/Spring/Spring Security.md",
     "혼공/Spring/Spring Security 구현.md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "혼공/Java/일급 컬렉션(First Class Collection).md",
-    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
-    "우아한 테크코스/프리코스 1주차(야구 게임).md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
