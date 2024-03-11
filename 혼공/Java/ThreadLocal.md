@@ -64,5 +64,14 @@ private T setInitialValue() {
 }
 
 ```
+
+- ThreadLocal.withlnitial(0-> 원하는 value값) : ThreadLocalMap에 처음 들어갈 entry의 value값을 초기화(key값은 해당 threadLocal임) + 동시에 value의 Type도 지정하는 꼴이 됨
+- ThreadLocal 변수.set(value값): 해당 ThreadLocal이 key인 entry의 value를 원하는 값으로 수정할 수 있음
+- 하나의 Thread에서 여러 ThreadLocal을 만들어서 사용할 수 있음(이때는 해당 Thread의 ThreaddocalMap에 두 개의 entry가 들어가게 됨)
+- 실행되고 있는 thread(A) 내부에서 새로운 thread(B)를 생성하면 A는 B의 부모가 됨
+- 부모 thread에서 childValue()를 override하게 되면 해당 메소드가 return하는 값이 자식 thread의 threadLocal의 value로 나오게 됨
+
+생성자에서 super(이름)으로 해당 thread의 이름을 정해줄 수 있음
+
 ### 주의 사항
 Thread pool 환경에서 ThreadLocal을 사용하는 경우 ThreadLocal에 보관된 데이터는 사용이 끝나면 반드시 해당 데이터를 삭제 해주어야 함. 그렇지 않을 경우 Thread pool로 반납되었다가 재사용되는 Thread에 여전히 데이터가 남게 되어 오류의 원인이 될 수있음.
