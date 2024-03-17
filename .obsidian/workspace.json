@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9628b42624f60c6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -89,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -170,42 +157,42 @@
   },
   "active": "53d293f1683f6a81",
   "lastOpenFiles": [
-    "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
-    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+    "README_resources/Pasted image 20240317184536.png",
+    "README_resources/Pasted image 20240317184137.png",
     "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
+    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+    "README_resources/Pasted image 20240317183648.png",
+    "README_resources/Pasted image 20240317180049.png",
+    "README_resources/Pasted image 20240317180003.png",
     "혼공/컴퓨터구조/09. 명령어 사이클과 인터럽트.md",
+    "README_resources/Pasted image 20240317175235.png",
+    "README_resources/Pasted image 20240317175138.png",
+    "README_resources/Pasted image 20240317143426.png",
+    "README_resources/Pasted image 20240317143353.png",
+    "README_resources/Pasted image 20240317143316.png",
+    "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
+    "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
+    "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
+    "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
+    "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
     "README_resources/Pasted image 20240313200807.png",
-    "README_resources/Pasted image 20240313200712.png",
-    "README_resources/Pasted image 20240313200633.png",
     "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
     "혼공/Java/ThreadLocal.md",
     "혼공/컴퓨터구조/04. 소스코드와 명령어.md",
     "혼공/컴퓨터구조/05. 명령어의 구조와 주소 지정 방식.md",
     "혼공/컴퓨터구조/06. C언어의 컴파일 과정.md",
-    "README_resources/Pasted image 20240311210552.png",
-    "README_resources/Pasted image 20240311210154.png",
-    "README_resources/Pasted image 20240311205524.png",
-    "README_resources/Pasted image 20240311205046.png",
-    "README_resources/Pasted image 20240311204155.png",
     "혼공/컴퓨터구조/16. 다양한 보조기억장치.md",
     "혼공/Spring/Spring 기반 지식 2.md",
     "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/Spring/테스트.md",
     "혼공/Spring/쿠키, 세션, 토큰.md",
-    "README_resources/Pasted image 20240310155548.png",
-    "README_resources/Pasted image 20240310154644.png",
     "혼공/컴퓨터구조/15. 캐시 메모리.md",
     "혼공/컴퓨터구조/13. RAM의 특성과 종류.md",
     "혼공/컴퓨터구조/01. 컴퓨터의 4가지 핵심 부품.md",
-    "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
-    "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
-    "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
     "혼공/컴퓨터구조/03. 0과 1로 문자를 표현하는 방법.md",
     "혼공/컴퓨터구조/02. 0과 1로 숫자를 표현하는 방법.md",
-    "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
     "혼공/Spring/Spring Security.md",
-    "혼공/Spring/Spring Security 구현.md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
