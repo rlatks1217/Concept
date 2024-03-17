@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ebb2f90d8e23a2e9",
+        "id": "2f8c009bbb47159d",
         "type": "tabs",
         "children": [
           {
-            "id": "53d293f1683f6a81",
+            "id": "51ca5d81ff4e42d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+                "file": "혼공/운영체제/01. 운영체제의 큰 그림.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+                "file": "혼공/운영체제/01. 운영체제의 큰 그림.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+                "file": "혼공/운영체제/01. 운영체제의 큰 그림.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/컴퓨터구조/19. 다양한 입출력 방법.md"
+                "file": "혼공/운영체제/01. 운영체제의 큰 그림.md"
               }
             }
           }
@@ -155,27 +156,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53d293f1683f6a81",
+  "active": "51ca5d81ff4e42d5",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20240317230109.png",
+    "README_resources/Pasted image 20240317225144.png",
+    "README_resources/Pasted image 20240317224924.png",
+    "README_resources/Pasted image 20240317224307.png",
+    "혼공/운영체제",
+    "혼공/운영체제/01. 운영체제의 큰 그림.md",
+    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
     "README_resources/Pasted image 20240317184536.png",
     "README_resources/Pasted image 20240317184137.png",
     "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
-    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
     "README_resources/Pasted image 20240317183648.png",
     "README_resources/Pasted image 20240317180049.png",
     "README_resources/Pasted image 20240317180003.png",
     "혼공/컴퓨터구조/09. 명령어 사이클과 인터럽트.md",
     "README_resources/Pasted image 20240317175235.png",
     "README_resources/Pasted image 20240317175138.png",
-    "README_resources/Pasted image 20240317143426.png",
-    "README_resources/Pasted image 20240317143353.png",
-    "README_resources/Pasted image 20240317143316.png",
     "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
     "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
     "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
-    "README_resources/Pasted image 20240313200807.png",
     "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
     "혼공/Java/ThreadLocal.md",
     "혼공/컴퓨터구조/04. 소스코드와 명령어.md",
@@ -192,7 +195,6 @@
     "혼공/컴퓨터구조/12. 명령어 집합 구조, CISC와 RISC.md",
     "혼공/컴퓨터구조/03. 0과 1로 문자를 표현하는 방법.md",
     "혼공/컴퓨터구조/02. 0과 1로 숫자를 표현하는 방법.md",
-    "혼공/Spring/Spring Security.md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
@@ -202,7 +204,6 @@
     "혼공/코딩테스트/자료구조",
     "혼공/Java/Interface",
     "혼공/git",
-    "혼공/Java/Generic",
     "Untitled.canvas"
   ]
 }
