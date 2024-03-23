@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "혼공/운영체제/02. 프로세스 개요.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e464e44b6a2ddddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -155,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51ca5d81ff4e42d5",
+  "active": "e464e44b6a2ddddd",
   "lastOpenFiles": [
     "혼공/운영체제/02. 프로세스 개요.md",
     "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
