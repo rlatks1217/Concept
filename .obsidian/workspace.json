@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -157,8 +158,15 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
-    "혼공/운영체제/02. 프로세스 개요.md",
+    "README_resources/Pasted image 20240326214557.png",
+    "README_resources/Pasted image 20240326214427.png",
     "혼공/운영체제/05. CPU 스케줄링 개요.md",
+    "README_resources/Pasted image 20240326213654.png",
+    "README_resources/Pasted image 20240326213625.png",
+    "README_resources/Pasted image 20240326213558.png",
+    "README_resources/Pasted image 20240326213524.png",
+    "README_resources/Pasted image 20240326213455.png",
+    "혼공/운영체제/02. 프로세스 개요.md",
     "혼공/운영체제/04. 쓰레드(소프트웨어적).md",
     "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
     "README_resources/Pasted image 20240324173945.png",
@@ -168,13 +176,6 @@
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "혼공/컴퓨터구조/16. 다양한 보조기억장치.md",
     "README_resources/Pasted image 20240324105422.png",
-    "README_resources/Pasted image 20240324105345.png",
-    "README_resources/Pasted image 20240324105312.png",
-    "README_resources/Pasted image 20240324105236.png",
-    "README_resources/Pasted image 20240324105144.png",
-    "README_resources/Pasted image 20240324105114.png",
-    "README_resources/Pasted image 20240324105038.png",
-    "README_resources/Pasted image 20240324105005.png",
     "혼공/운영체제/00. 운영체제 시작.md",
     "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
     "혼공/컴퓨터구조/15. 캐시 메모리.md",
@@ -193,7 +194,6 @@
     "혼공/Spring/Spring 기반 지식 2.md",
     "혼공/Spring/Spring 기반 지식 1.md",
     "혼공/Spring/테스트.md",
-    "혼공/Spring/쿠키, 세션, 토큰.md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
