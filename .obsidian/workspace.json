@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
+                "file": "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
+                "file": "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
+                "file": "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/06. CPU 스케줄링 알고리즘.md"
+                "file": "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md"
               }
             }
           }
@@ -157,19 +157,19 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
+    "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
     "README_resources/Pasted image 20240330161518.png",
     "README_resources/Pasted image 20240330161309.png",
     "README_resources/Pasted image 20240330161231.png",
     "README_resources/Pasted image 20240330161149.png",
     "README_resources/Pasted image 20240330161102.png",
     "혼공/운영체제/05. CPU 스케줄링 개요.md",
-    "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
     "README_resources/Pasted image 20240326214557.png",
     "README_resources/Pasted image 20240326214427.png",
     "README_resources/Pasted image 20240326213654.png",
     "README_resources/Pasted image 20240326213625.png",
     "README_resources/Pasted image 20240326213558.png",
-    "README_resources/Pasted image 20240326213524.png",
     "혼공/운영체제/02. 프로세스 개요.md",
     "혼공/운영체제/04. 쓰레드(소프트웨어적).md",
     "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
@@ -183,7 +183,6 @@
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "혼공/컴퓨터구조/11. 명령어 병렬처리 기법.md",
     "혼공/운영체제",
-    "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
     "혼공/컴퓨터구조/18. 장치 컨트롤러와 장치 드라이버.md",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
     "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
