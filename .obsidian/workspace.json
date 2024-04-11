@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/09. 교착 상태.md",
+                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/09. 교착 상태.md",
+                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/09. 교착 상태.md",
+                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/09. 교착 상태.md"
+                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md"
               }
             }
           }
@@ -158,9 +158,10 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "혼공/운영체제/09. 교착 상태.md",
+    "혼공/운영체제/10. 교착 상태 해결 방법.md",
     "혼공/운영체제/07. 동기화란.md",
     "혼공/운영체제/08. 동기화 기법.md",
-    "혼공/운영체제/09. 교착 상태.md",
     "README_resources/Pasted image 20240409071619.png",
     "README_resources/Pasted image 20240409070701.png",
     "README_resources/Pasted image 20240409070527.png",
@@ -194,7 +195,6 @@
     "혼공/Java/ThreadLocal.md",
     "혼공/컴퓨터구조/04. 소스코드와 명령어.md",
     "혼공/컴퓨터구조/05. 명령어의 구조와 주소 지정 방식.md",
-    "혼공/컴퓨터구조/06. C언어의 컴파일 과정.md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
