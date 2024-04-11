@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/08. 동기화 기법.md",
+                "file": "혼공/운영체제/09. 교착 상태.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/08. 동기화 기법.md",
+                "file": "혼공/운영체제/09. 교착 상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/08. 동기화 기법.md",
+                "file": "혼공/운영체제/09. 교착 상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/08. 동기화 기법.md"
+                "file": "혼공/운영체제/09. 교착 상태.md"
               }
             }
           }
@@ -158,6 +158,9 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "혼공/운영체제/07. 동기화란.md",
+    "혼공/운영체제/08. 동기화 기법.md",
+    "혼공/운영체제/09. 교착 상태.md",
     "README_resources/Pasted image 20240409071619.png",
     "README_resources/Pasted image 20240409070701.png",
     "README_resources/Pasted image 20240409070527.png",
@@ -168,9 +171,6 @@
     "README_resources/Pasted image 20240409065232.png",
     "README_resources/Pasted image 20240409065203.png",
     "README_resources/Pasted image 20240409064617.png",
-    "README_resources/Pasted image 20240409064513.png",
-    "혼공/운영체제/07. 동기화란.md",
-    "혼공/운영체제/08. 동기화 기법.md",
     "혼공/운영체제/06. CPU 스케줄링 알고리즘.md",
     "혼공/운영체제/05. CPU 스케줄링 개요.md",
     "혼공/운영체제/04. 쓰레드(소프트웨어적).md",
