@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
+                "file": "혼공/운영체제/02. 프로세스 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
+                "file": "혼공/운영체제/02. 프로세스 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md",
+                "file": "혼공/운영체제/02. 프로세스 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/10. 교착 상태 해결 방법.md"
+                "file": "혼공/운영체제/02. 프로세스 개요.md"
               }
             }
           }
@@ -158,8 +158,8 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
-    "혼공/운영체제/09. 교착 상태.md",
     "혼공/운영체제/10. 교착 상태 해결 방법.md",
+    "혼공/운영체제/09. 교착 상태.md",
     "혼공/운영체제/07. 동기화란.md",
     "혼공/운영체제/08. 동기화 기법.md",
     "README_resources/Pasted image 20240409071619.png",
