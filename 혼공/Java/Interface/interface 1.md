@@ -12,8 +12,7 @@ Ex)쉽게 말해서 Tv 채널을 돌릴 때 Tv를 직접 분해해서 채널이 
 (public static final 이 3가지 키워드 중 하나라도 빠져 있다면 생략되었다고 생각하면 됨)
 --> getter & setter 안 나옴 왜냐? public이면서 final이라 바꿀 수도 없으니까
 
-인터페이스는 무조건 Abstract 메소드만 나오기 때문에 추상 메소드로만 이뤄져있다고 할 수 있음
---> 그렇기 때문에 public abstract도 생략 가능(public abstract 이 2가지 키워드 중 하나라도 빠져 있다면 생략되었다고 생각하면 됨)
+public abstract도 생략 가능(public abstract 이 2가지 키워드 중 하나라도 빠져 있다면 생략되었다고 생각하면 됨)
 }
 ```
 - 클래스는 인터페이스를 상속 대신 구현할 수 있음
