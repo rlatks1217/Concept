@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
-    "collapsed": true
+    "width": 275.5
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -158,6 +157,10 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
+    "우아한 테크코스/프리코스 1주차(야구 게임).md",
+    "혼공/git/Merge & Cherry-pick.md",
+    "혼공/운영체제/10. 교착 상태 해결 방법.md",
     "README_resources/Pasted image 20240423071202.png",
     "README_resources/Pasted image 20240423071055.png",
     "README_resources/Pasted image 20240423071012.png",
@@ -183,18 +186,14 @@
     "혼공/운영체제/02. 프로세스 개요.md",
     "혼공/운영체제/01. 운영체제의 큰 그림.md",
     "혼공/운영체제/00. 운영체제 시작.md",
-    "혼공/운영체제/10. 교착 상태 해결 방법.md",
     "README_resources/Pasted image 20240409071619.png",
     "README_resources/Pasted image 20240409070701.png",
     "README_resources/Pasted image 20240409070527.png",
-    "README_resources/Pasted image 20240409065814.png",
     "혼공/컴퓨터구조/19. 다양한 입출력 방법.md",
     "혼공/컴퓨터구조/09. 명령어 사이클과 인터럽트.md",
     "혼공/컴퓨터구조/10. 빠른 CPU를 위한 설계기법.md",
     "우아한 테크코스/프리코스 4주차(크리스마스 프로모션).md",
     "혼공/운영체제",
-    "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
-    "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
     "Untitled",
