@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
+                "file": "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
+                "file": "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
+                "file": "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md"
+                "file": "혼공/운영체제/13. 페이지 교체와 프레임 할당.md"
               }
             }
           }
@@ -156,14 +156,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84cfbb6783c18e43",
+  "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20240507074048.png",
+    "README_resources/Pasted image 20240507073718.png",
+    "README_resources/Pasted image 20240503065658.png",
+    "README_resources/Pasted image 20240503065656.png",
+    "README_resources/Pasted image 20240503063624.png",
+    "혼공/Java/Generic/Generic 4.md",
+    "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
+    "README_resources/Pasted image 20240502225052.png",
+    "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
     "README_resources/Pasted image 20240501221918.png",
     "README_resources/Pasted image 20240501221709.png",
     "README_resources/Pasted image 20240501221513.png",
     "README_resources/스크린샷 2024-05-01 220613.png",
     "README_resources/Pasted image 20240501220144.png",
-    "README_resources/Pasted image 20240501214754.png",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
     "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
     "혼공/컴퓨터구조/04. 소스코드와 명령어.md",
@@ -171,12 +179,6 @@
     "혼공/컴퓨터구조/09. 명령어 사이클과 인터럽트.md",
     "혼공/컴퓨터구조/06. C언어의 컴파일 과정.md",
     "혼공/컴퓨터구조/05. 명령어의 구조와 주소 지정 방식.md",
-    "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
-    "README_resources/Pasted image 20240501183952.png",
-    "README_resources/Pasted image 20240501180927.png",
-    "README_resources/Pasted image 20240501175101.png",
-    "README_resources/Pasted image 20240501173055.png",
-    "README_resources/Pasted image 20240501171152.png",
     "혼공/운영체제/11. 메모리 연속 할당.md",
     "혼공/운영체제/10. 교착 상태 해결 방법.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
@@ -192,8 +194,6 @@
     "혼공/컴퓨터구조/13. RAM의 특성과 종류.md",
     "혼공/컴퓨터구조/14. 메모리의 주소 공간-물리 주소와 논리 주소.md",
     "혼공/컴퓨터구조/15. 캐시 메모리.md",
-    "혼공/컴퓨터구조/16. 다양한 보조기억장치.md",
-    "혼공/컴퓨터구조/17. RAID의 정의와 종류.md",
     "혼공/운영체제",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
