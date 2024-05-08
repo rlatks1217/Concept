@@ -156,11 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2bec127705d879c5",
+  "active": "84cfbb6783c18e43",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20240508222521.png",
+    "혼공/운영체제/14. 페이징의 이점과 계층적 페이징.md",
+    "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
     "README_resources/스크린샷 2024-05-08 073808.png",
     "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
-    "혼공/운영체제/14. 페이징의 이점과 계층적 페이징.md",
     "README_resources/Pasted image 20240508071337.png",
     "README_resources/Pasted image 20240508071254.png",
     "README_resources/Pasted image 20240508070919.png",
@@ -169,10 +171,7 @@
     "README_resources/Pasted image 20240507073718.png",
     "README_resources/Pasted image 20240503065658.png",
     "README_resources/Pasted image 20240503065656.png",
-    "README_resources/Pasted image 20240503063624.png",
     "혼공/Java/Generic/Generic 4.md",
-    "README_resources/Pasted image 20240502225052.png",
-    "혼공/운영체제/12. 페이징을 통한 가상 메모리 관리.md",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
     "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
     "혼공/컴퓨터구조/04. 소스코드와 명령어.md",
