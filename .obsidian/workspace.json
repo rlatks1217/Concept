@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/15. 파일과 디렉토리.md",
+                "file": "혼공/운영체제/16. 파일 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/15. 파일과 디렉토리.md",
+                "file": "혼공/운영체제/16. 파일 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/15. 파일과 디렉토리.md",
+                "file": "혼공/운영체제/16. 파일 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/15. 파일과 디렉토리.md"
+                "file": "혼공/운영체제/16. 파일 시스템.md"
               }
             }
           }
@@ -158,11 +158,12 @@
   },
   "active": "2bec127705d879c5",
   "lastOpenFiles": [
+    "혼공/운영체제/15. 파일과 디렉토리.md",
+    "혼공/운영체제/16. 파일 시스템.md",
     "README_resources/Pasted image 20240510070529.png",
     "README_resources/Pasted image 20240510070503.png",
     "README_resources/Pasted image 20240510070425.png",
     "혼공/운영체제/14. 페이징의 이점과 계층적 페이징.md",
-    "혼공/운영체제/15. 파일과 디렉토리.md",
     "README_resources/Pasted image 20240510063730.png",
     "README_resources/Pasted image 20240510063700.png",
     "README_resources/Pasted image 20240509074016.png",
@@ -172,7 +173,6 @@
     "혼공/운영체제/13. 페이지 교체와 프레임 할당.md",
     "README_resources/Pasted image 20240508071337.png",
     "README_resources/Pasted image 20240508071254.png",
-    "README_resources/Pasted image 20240508070919.png",
     "혼공/Java/Generic/Generic 4.md",
     "혼공/컴퓨터구조/08. CPU의 내부 구성 - 레지스터.md",
     "혼공/컴퓨터구조/07. CPU의 내부 구성 - ALU와 제어장치.md",
