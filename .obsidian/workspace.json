@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b91c4669017c8013",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2bec127705d879c5",
+  "active": "b91c4669017c8013",
   "lastOpenFiles": [
     "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
     "혼공/운영체제/02. 프로세스 개요.md",
