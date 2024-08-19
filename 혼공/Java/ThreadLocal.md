@@ -65,7 +65,7 @@ private T setInitialValue() {
 
 ```
 
-- ThreadLocal.withlnitial(0-> 원하는 value값) : ThreadLocalMap에 처음 들어갈 entry의 value값을 초기화(key값은 해당 threadLocal임) + 동시에 value의 Type도 지정하는 꼴이 됨
+- ThreadLocal.withlnitial(()-> 원하는 value값) : ThreadLocalMap에 처음 들어갈 entry의 value값을 초기화(key값은 해당 threadLocal 객체임) + 동시에 value의 Type도 지정하는 꼴이 됨
 - ThreadLocal 변수.set(value값): 해당 ThreadLocal이 key인 entry의 value를 원하는 값으로 수정할 수 있음
 - 하나의 Thread에서 여러 ThreadLocal을 만들어서 사용할 수 있음(이때는 해당 Thread의 ThreaddocalMap에 두 개의 entry가 들어가게 됨)
 - 실행되고 있는 thread(A) 내부에서 새로운 thread(B)를 생성하면 A는 B의 부모가 됨
