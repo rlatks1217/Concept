@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8c009bbb47159d",
+        "id": "448147101e29f5c3",
         "type": "tabs",
         "children": [
           {
-            "id": "2bec127705d879c5",
+            "id": "a1eeb2f0b7e9603d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/운영체제/02. 프로세스 개요.md",
+                "file": "혼공/Java/ThreadLocal.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b91c4669017c8013",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "혼공/운영체제/02. 프로세스 개요.md",
+                "file": "혼공/Java/ThreadLocal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "혼공/운영체제/02. 프로세스 개요.md",
+                "file": "혼공/Java/ThreadLocal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "혼공/운영체제/02. 프로세스 개요.md"
+                "file": "혼공/Java/ThreadLocal.md"
               }
             }
           }
@@ -166,10 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b91c4669017c8013",
+  "active": "a1eeb2f0b7e9603d",
   "lastOpenFiles": [
-    "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
+    "혼공/네트워크/인터넷이란.md",
     "혼공/운영체제/02. 프로세스 개요.md",
+    "혼공/네트워크",
+    "혼공/운영체제/03. 프로세스 상태와 계층구조.md",
     "혼공/운영체제/01. 운영체제의 큰 그림.md",
     "혼공/운영체제/00. 운영체제 시작.md",
     "혼공/운영체제/04. 쓰레드(소프트웨어적).md",
@@ -203,11 +194,9 @@
     "혼공/운영체제/10. 교착 상태 해결 방법.md",
     "우아한 테크코스/프리코스 2주차(자동차 경주 게임).md",
     "우아한 테크코스/프리코스 1주차(야구 게임).md",
-    "혼공/git/Merge & Cherry-pick.md",
     "혼공/운영체제",
     "혼공/컴퓨터구조",
     "혼공/코딩테스트/알고리즘",
-    "Untitled",
     "혼공/Java/R/Untitled",
     "혼공/Java/Reflection",
     "혼공/Java/_KOSA수업",
