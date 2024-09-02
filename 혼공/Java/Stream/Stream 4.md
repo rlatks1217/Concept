@@ -33,7 +33,7 @@ Ex) 람다식을 통한 mapToInt 활용
 
 ![](../../../README_resources/Pasted%20image%2020231110211658.png)
 
-4. flatMap() : 다차원 구조의 스트림을 평면화시키는 메소드임
+4. flatMap() : 다차원 구조의 스트림을 평면화시키는 메소드임(primitive Type의 스트림은 return할 수 없음)
 - 쉽게 말해 스트림의 각 요소를 이루고 있는 작은 요소들을 모두 꺼내 늘어 놓는다고 생각하면 됨
 
 Ex)
