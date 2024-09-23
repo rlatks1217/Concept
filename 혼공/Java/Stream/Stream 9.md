@@ -66,7 +66,7 @@ List<Student> maleList = totalList.stream()
 								  .toList(); // 바뀐 부분
 ```
 
-와 같이 더 단순하게 작성할 수 있음(jdk 17버전부터 사용 가능)
+와 같이 더 단순하게 작성할 수 있음
 
 - 스트림을 남, 여와 같은 카테고리로 그룹핑할 수도 있음
 ```java
