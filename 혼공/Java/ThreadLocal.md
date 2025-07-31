@@ -6,10 +6,9 @@ a라는 ThreadLocal Type의 변수를 선언했을 때, a라는 변수가 Thread
 즉, 이름만 같은 변수 2개가 각 Thread 내부에서 사용된다고 생각하면 됨
 
 ### ThreadLocalMap
-- ThreadLocal이 Thread의 갯수만큼 있는 것처럼 마찬가지로 ThreadLocalMap도 Thread의 갯수만큼 있음
-- ThreadLocal 변수를 통해 실제로 저장공간인 ThreadLocalMap에 접근하여 사용하게 됨
-- 해당 Map은 key가 ThreadLocal이고 Value는 Thread마다 저장하려는 값임
-- ThreadLocalMap를 참조하게 되는 threadLocals라는 변수는 해당 Thread의 필드이기 때문에 t.threadLocals와 같이 작성하여 ThreadLocalMap에 접근할 수 있음
+- 생성된 Thread마다 가지고 있는 Map
+- ThreadLocal을 통해 값을 저장하게 되면 해당 값은 ThreadLocal이 key, 값이 value인 형태로 ThreadLocalMap에 저장됨 
+- 아래와 같이 ThreadLocalMap를 참조하게 되는 threadLocals라는 변수는 해당 Thread의 필드이기 때문에 t.threadLocals와 같이 작성하여 ThreadLocalMap에 접근할 수 있음
 
 ### ThreadLocal 클래스의 주요 메소드들
 - this는 당연히 해당 ThreadLocal을 의미함
