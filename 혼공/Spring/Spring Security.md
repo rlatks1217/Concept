@@ -38,8 +38,9 @@
 ##### 객체 저장 방식(전략)
 - MORE_THREADLOCAL : Thread당 하나의 ThreadLocal을 사용하여 저장하는 전략
 - MORE_INHERITABLETHREADLOCAL : main Thread와 그 자식 Thread에 대하여 동일한 SecurityContext를 유지하는 전략
-- MORE_GLOBAL : 응용 프로그램(= 현재 실행되고 있는 서버)에서 단 하나의 SecurityContext를 저장하는 전략
-<font style="font-size : 25px;">※</font> 하지만 어차피 SecurityContext 최초 인증 성공 시에 Session에 저장되기 때문에 Session에 직접 접근하여 인증정보를 담고 있는 인증객체를 꺼내도 되긴 함(물론 ThreadLocal을 사용하는 것이 더 효율적이기 때문에 실제로 그렇게 쓰지는 않음)
+- MORE_GLOBAL : 모든 Thread가 단 하나의 SecurityContext를 공유하는 전략
+
+<font style="font-size : 25px;">※</font> SecurityContext는 인증 직후에는 ThreadLocal에 저장(요청 응답 전까지 언제든지 효율적으로 꺼내쓰기 위함)했다가 이후Session에 저장됨(세션에 저장하지 않는 방식(JWT)도 있음)
 
 ### DelegatingFilterProxy
 - springSecurityFilterChain 이름으로 생성된 Bean을 ApplicationContext에서 찾아 요청을 위임하는 Servlet Filter임(Servlet 스펙의 Filter이기 때문에 Spring Container에는 당연히 없고 tomcat 내부에 Servlet Container 안에 있는 애임)
