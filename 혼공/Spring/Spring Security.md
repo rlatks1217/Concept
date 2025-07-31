@@ -43,8 +43,8 @@
 <font style="font-size : 25px;">※</font> SecurityContext는 인증 직후에는 ThreadLocal에 저장(요청 응답 전까지 언제든지 효율적으로 꺼내쓰기 위함)했다가 이후Session에 저장됨(세션에 저장하지 않는 방식(JWT)도 있음)
 
 ### DelegatingFilterProxy
-- springSecurityFilterChain 이름으로 생성된 Bean을 ApplicationContext에서 찾아 요청을 위임하는 Servlet Filter임(Servlet 스펙의 Filter이기 때문에 Spring Container에는 당연히 없고 tomcat 내부에 Servlet Container 안에 있는 애임)
-- springSecurityFilterChain라는 이름의 Bean이 바로 Spring Container에서 제공하는 **FilterChainProxy**임
+- springSecurityFilterChain 이름으로 생성된 Bean을 ApplicationContext에서 찾아 Servlet Container에 들어온 클라이언트의 요청을 위임하는 Servlet Filter임(Servlet 스펙의 Filter이기 때문에 Spring Container에는 당연히 없고 tomcat 내부에 Servlet Container 안에 있는 애임)
+- springSecurityFilterChain라는 이름의 Bean이 바로 Spring Container에서 제공하는 **FilterChainProxy**(얘가 Spring security 필터들을 실행하는 핵심 컴포넌트임)
 -  SpringBoot의 기본 설정을 사용하는 경우, 인증에 사용되는 Filter들이 모여있는 springSecurityFilterChain을 자동으로 등록해줌(SecurityFilterChain의 구성 중 인증/인가에 대한 설정만 따로 해줄 SecurityConfig 클래스를 작성해서 사용하게 될 것임)
 ### SecurityContextPersistenceFilter
 - loadContext() 메소드를 통해 인증 성공 시 Session에 SecurityContext를 저장함
