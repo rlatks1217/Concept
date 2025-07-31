@@ -68,7 +68,8 @@ private T setInitialValue() {
 - ThreadLocal 변수.set(value값): 해당 ThreadLocal이 key인 entry의 value를 원하는 값으로 수정할 수 있음
 - 하나의 Thread에서 여러 ThreadLocal을 만들어서 사용할 수 있음(이때는 해당 Thread의 ThreaddocalMap에 여러 entry가 들어가게 됨)
 - 실행되고 있는 thread(A) 내부에서 새로운 thread(B)를 생성하면 A는 B의 부모가 됨
-- 부모 thread에서 childValue()를 override하게 되면 해당 메소드가 return하는 값이 자식 thread의 threadLocal의 value로 나오게 됨
+- 기본적으로 자식 Thread(B)는 생성 당시에 부모 Thread(B)의 ThreadLocal들을 복사해 오게 됨
+- InheritableThreadLocal을 통해 childValue()를 override하게 되면 해당 메소드가 return하는 값이 자식 thread의 threadLocal의 value로 나오게 됨. 즉, 해당 메소드 내부에서 부모 Thread(A)로부터 복사해온 값을 가공할 수 있음
 
 생성자에서 super(이름)으로 해당 thread의 이름을 정해줄 수 있음
 
