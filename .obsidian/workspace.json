@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "혼공/네트워크 - 혼공/20. 127.0.0.1과 0.0.0.0.md",
+                "file": "혼공/네트워크 - 혼공/21. 라우팅 테이블.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20. 127.0.0.1과 0.0.0.0"
+              "title": "21. 라우팅 테이블"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "afae4eede49021b6",
@@ -178,17 +179,21 @@
   },
   "active": "d1a1f38570385650",
   "lastOpenFiles": [
+    "README_resources/Pasted image 20251012181511.png",
+    "README_resources/Pasted image 20251012181152.png",
+    "README_resources/Pasted image 20251012175957.png",
+    "README_resources/Pasted image 20251012175555.png",
+    "README_resources/Pasted image 20251012172959.png",
+    "README_resources/Pasted image 20251012171914.png",
+    "README_resources/Pasted image 20251012171032.png",
+    "README_resources/Pasted image 20251012170525.png",
+    "README_resources/Pasted image 20251012165400.png",
+    "혼공/네트워크 - 혼공/20. 127.0.0.1과 0.0.0.0.md",
+    "혼공/네트워크 - 혼공/21. 라우팅 테이블.md",
     "혼공/네트워크 - 혼공/18. IP 주소의 분류.md",
     "README_resources/Pasted image 20251012164139.png",
     "README_resources/Pasted image 20251012164108.png",
-    "README_resources/Pasted image 20251012164002.png",
     "혼공/네트워크 - 혼공/19. 정적 IP주소와 동적 IP주소.md",
-    "혼공/네트워크 - 혼공/20. 127.0.0.1과 0.0.0.0.md",
-    "README_resources/Pasted image 20251006205828.png",
-    "README_resources/Pasted image 20251006203417.png",
-    "README_resources/Pasted image 20251006193707.png",
-    "README_resources/Pasted image 20251006193436.png",
-    "README_resources/Pasted image 20251006191833.png",
     "혼공/네트워크 - 혼공/13. IP(인터넷 프로토콜의 약자).md",
     "혼공/네트워크 - 혼공/14. ARP 프로토콜.md",
     "혼공/네트워크 - 혼공/15. IP 단편화를 피하는 방법.md",
@@ -205,15 +210,12 @@
     "혼공/네트워크 - 혼공/10. 허브.md",
     "혼공/네트워크 - 혼공/11. 스위치.md",
     "혼공/네트워크 - 혼공/12. 네트워크 계층의 기능.md",
-    "README_resources/Pasted image 20250927204732.png",
-    "README_resources/Pasted image 20250927204709.png",
     "혼공/네트워크 - 혼공/09. NIC와 케이블.md",
     "Untitled.md",
     "혼공/네트워크 - 혼공/14. ARP 프로토콜",
     "혼공/운영체제 - 혼공/11. 메모리 연속 할당.md",
     "혼공/운영체제 - 혼공/15. 파일과 디렉토리.md",
     "혼공/운영체제 - 혼공/02. 프로세스 개요.md",
-    "혼공/운영체제 - 혼공/00. 운영체제 시작.md",
     "혼공/네트워크 - 혼공",
     "혼공/운영체제 - 혼공",
     "혼공/컴퓨터구조 - 혼공",
